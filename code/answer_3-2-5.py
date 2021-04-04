@@ -1,6 +1,7 @@
 N, K = map(int, input().split())
-digits = 0
-while(N > 0):
-    N = N//K
-    digits = digits+1
-print(digits)
+H = list(map(int, input().split()))
+count = 0
+for h in H:
+    if h >= K:
+        count = count+1
+print(count)

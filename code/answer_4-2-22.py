@@ -1,2 +1,2 @@
-s = input()
-print(s.count("1"))
+N = input()
+print("Yes" if N == N[::-1] else "No")

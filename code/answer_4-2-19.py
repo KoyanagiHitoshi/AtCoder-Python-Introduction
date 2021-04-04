@@ -1,2 +1,2 @@
-S = input()
-print("Heisei" if S <= "2019/04/30" else "TBD")
+X, Y = input().split()
+print("<" if X < Y else "=" if X == Y else ">")

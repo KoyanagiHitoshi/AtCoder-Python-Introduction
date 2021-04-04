@@ -1,2 +1,3 @@
+N = int(input())
 S = input()
-print("2018"+S[4:])
+print(S.count("ABC"))

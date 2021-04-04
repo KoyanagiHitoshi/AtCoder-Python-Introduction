@@ -1,2 +1,2 @@
-r = int(input())
-print(3*r**2)
+A, B = map(int, input().split())
+print(2*A+100-B)

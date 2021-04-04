@@ -1,3 +1,2 @@
-A, B, C = map(int, input().split())
-water = C-(A-B)
-print(water if water > 0 else 0)
+X, A = map(int, input().split())
+print("0" if X < A else "10")

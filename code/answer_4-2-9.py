@@ -1,2 +1,3 @@
 s = input()
-print("A"+s[8]+"C")
+i = int(input())
+print(s[i-1])

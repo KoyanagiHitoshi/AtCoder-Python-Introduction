@@ -1,3 +1,2 @@
-N = input()
-a = list(map(int, input().split()))
-print(max(a)-min(a))
+A = list(map(int, input().split()))
+print(min(A))

@@ -1,3 +1,2 @@
-K = int(input())
-S = input()
-print(S[:K]+"..." if len(S) > K else S)
+s = input()
+print(s[::2])

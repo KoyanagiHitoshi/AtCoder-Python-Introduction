@@ -1,2 +1,2 @@
-N = int(input())
-print("ABC" if N < 1000 else "ABD")
+A, B, X = map(int, input().split())
+print("YES" if A <= X and X <= A+B else "NO")

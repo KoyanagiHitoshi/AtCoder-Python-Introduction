@@ -1,3 +1,2 @@
-import math
 A, B = map(int, input().split())
-print(math.ceil(B/A))
+print(100*(A-B)/A)

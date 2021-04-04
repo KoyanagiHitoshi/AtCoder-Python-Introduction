@@ -1,2 +1,2 @@
-N = input()
-print("YES" if N in "369" else "NO")
+X = int(input())
+print("Yes" if X >= 30 else "No")

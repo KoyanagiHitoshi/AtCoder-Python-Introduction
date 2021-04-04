@@ -1,3 +1,2 @@
-N = int(input())
-A = int(input())
-print(N**2-A)
+a = int(input())
+print(a+a*a+a*a*a)

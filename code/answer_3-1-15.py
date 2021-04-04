@@ -1,2 +1,2 @@
-x, y = map(int, input().split())
-print("Better" if x < y else "Worse")
+Q = int(input())
+print("ABC" if Q == 1 else "chokudai")

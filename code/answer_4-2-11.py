@@ -1,10 +1,4 @@
-S = input()
-T = input()
-count = 0
-if S[0] == T[0]:
-    count = count+1
-if S[1] == T[1]:
-    count = count+1
-if S[2] == T[2]:
-    count = count+1
-print(count)
+c1 = input()[0]
+c2 = input()[1]
+c3 = input()[2]
+print(c1+c2+c3)

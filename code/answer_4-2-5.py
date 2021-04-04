@@ -1,2 +1,2 @@
-D = int(input())
-print("Christmas"+" Eve"*(25-D))
+S = input()
+print(S+"s" if S[-1] != "s" else S+"es")

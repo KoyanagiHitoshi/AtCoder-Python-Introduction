@@ -1,5 +1,5 @@
-X = input()
-if X in "753":
-    print("YES")
+c = input()
+if c in "aiueo":
+    print("vowel")
 else:
-    print("NO")
+    print("consonant")
