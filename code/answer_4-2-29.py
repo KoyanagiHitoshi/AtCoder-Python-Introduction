@@ -1,2 +1,3 @@
-n = input()
-print(n.replace("1", "x").replace("9", "1").replace("x", "9"))
+S = input()
+print(S.count("A"), S.count("B"), S.count("C"),
+      S.count("D"), S.count("E"), S.count("F"))

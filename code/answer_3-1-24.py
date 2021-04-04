@@ -1,2 +1,2 @@
-b = input()
-print("A" if b == "T" else "T" if b == "A" else "G" if b == "C" else "C")
+N = int(input())
+print("ABC" if N < 1000 else "ABD")

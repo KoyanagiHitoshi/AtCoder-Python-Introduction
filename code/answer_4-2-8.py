@@ -1,3 +1,2 @@
-s = input()
-i = int(input())
-print(s[i-1])
+S = input()
+print("x"*len(S))

@@ -1,2 +1,2 @@
-A, B, X = map(int, input().split())
-print("YES" if A <= X and X <= A+B else "NO")
+A, B, C, D = map(int, input().split())
+print("Left" if A+B > C+D else "Balanced" if A+B == C+D else "Right")

@@ -1,7 +1,6 @@
-N, K = map(int, input().split())
-H = list(map(int, input().split()))
-count = 0
-for h in H:
-    if h >= K:
-        count = count+1
-print(count)
+N = int(input())
+total = 0
+for i in range(N):
+    A, B = map(int, input().split())
+    total = total+(A+B)*(B-A+1)//2
+print(total)

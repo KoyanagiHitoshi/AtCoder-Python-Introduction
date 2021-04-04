@@ -1,2 +1,2 @@
-N = int(input())
-print(N//3)
+r = int(input())
+print(r**2)

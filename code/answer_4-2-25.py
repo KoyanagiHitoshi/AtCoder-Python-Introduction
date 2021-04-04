@@ -1,2 +1,2 @@
-N = input()
-print("Yes" if N.count("7") > 0 else "No")
+S = input()
+print(700+100*S.count("o"))

@@ -1,2 +1,2 @@
-R = int(input())
-print("ABC" if R < 1200 else "ARC" if R < 2800 else "AGC")
+a, b = map(int, input().split())
+print(a-1 if a > b else a)

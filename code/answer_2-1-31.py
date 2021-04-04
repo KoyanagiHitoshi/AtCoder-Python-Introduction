@@ -1,2 +1,3 @@
-X = int(input())
-print((X//500*1000)+(X % 500)//5*5)
+import math
+A, B = map(int, input().split())
+print(1+math.ceil((B-A)/(A-1)))

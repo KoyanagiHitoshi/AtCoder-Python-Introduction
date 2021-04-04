@@ -1,2 +1,5 @@
-Q = int(input())
-print("ABC" if Q == 1 else "chokudai")
+X = input()
+if X in "753":
+    print("YES")
+else:
+    print("NO")

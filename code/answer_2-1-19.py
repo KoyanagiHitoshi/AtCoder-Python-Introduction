@@ -1,2 +1,2 @@
-X, Y = map(int, input().split())
-print(X+Y//2)
+a = int(input())
+print(a+a**2+a**3)

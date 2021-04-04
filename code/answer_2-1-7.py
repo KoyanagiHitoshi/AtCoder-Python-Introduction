@@ -1,2 +1,2 @@
-R = int(input())
-print(R*2*3.14)
+A, B = map(int, input().split())
+print(A*B-(A+B-1))

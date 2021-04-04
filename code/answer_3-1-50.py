@@ -1,2 +1,2 @@
-a, b, c, d = input()
-print("Good" if a != b != c != d else "Bad")
+X = input()
+print("YES" if X in "753" else "NO")

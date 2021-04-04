@@ -1,2 +1,2 @@
-N = int(input())
-print(2*N)
+N, A, B = map(int, input().split())
+print(N-A+B)

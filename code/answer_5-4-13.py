@@ -1,2 +1,4 @@
-A, B, C, K = map(int, input().split())
-print(min(K, A)-max(0, K-A-B))
+N, A, B = map(int, input().split())
+div = N//(A+B)
+mod = N % (A+B)
+print(div*A+min(mod, A))

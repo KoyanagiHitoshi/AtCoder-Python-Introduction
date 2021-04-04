@@ -1,2 +1,2 @@
-c = input()
-print("vowel" if c in "aiueo" else "consonant")
+D, T, S = map(int, input().split())
+print("Yes" if D <= S*T else "No")

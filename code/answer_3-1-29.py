@@ -1,2 +1,3 @@
-N = int(input())
-print("0.5" if N % 2 == 0 else ((N//2)+1)/N)
+A, B, C = map(int, input().split())
+water = C-(A-B)
+print(water if water > 0 else 0)

@@ -1,2 +1,4 @@
-S, W = map(int, input().split())
-print("unsafe" if W >= S else "safe")
+S, T = input().split()
+A, B = map(int, input().split())
+U = input()
+print(A-1, B) if S == U else print(A, B-1)
