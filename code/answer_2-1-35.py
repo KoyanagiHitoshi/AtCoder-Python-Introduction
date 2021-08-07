@@ -1,2 +1,3 @@
-X, A, B = [int(input()) for i in range(3)]
-print((X-A) % B)
+import math
+N = int(input())
+print(math.ceil(N/2))

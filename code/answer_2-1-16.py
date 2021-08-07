@@ -1,2 +1,3 @@
-r = int(input())
-print(3*r**2)
+import math
+N = int(input())
+print(math.factorial(N) % (10**9+7))

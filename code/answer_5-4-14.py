@@ -1,2 +1,2 @@
-A, B, C, K = map(int, input().split())
-print(min(K, A)-max(0, K-A-B))
+a, b = input().split()
+print(min(a*int(b), b*int(a)))

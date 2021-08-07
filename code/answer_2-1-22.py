@@ -1,2 +1,2 @@
-x, y = map(int, input().split())
-print(y//x)
+T, X = map(int, input().split())
+print(T/X)

@@ -1,3 +1,2 @@
-import math
-N, D = map(int, input().split())
-print(math.ceil(N/(D*2+1)))
+N, W = map(int, input().split())
+print(N//W)

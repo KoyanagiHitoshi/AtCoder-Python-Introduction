@@ -1,2 +1,3 @@
-ABC = list(map(int, input().split()))
-print("YES" if ABC.count(5) == 2 and ABC.count(7) == 1 else "NO")
+N = int(input())
+S = input()
+print("Takahashi" if S.index("1") % 2 == 0 else "Aoki")

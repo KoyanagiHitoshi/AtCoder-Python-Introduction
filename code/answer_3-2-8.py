@@ -1,7 +1,7 @@
-X = int(input())
-year = 0
-deposit = 100
-while deposit < X:
-    deposit = deposit*101//100
-    year = year+1
-print(year)
+A, B = map(int, input().split())
+count, outlet = 0, 1
+while outlet < B:
+    outlet = outlet-1
+    outlet = outlet+A
+    count = count+1
+print(count)

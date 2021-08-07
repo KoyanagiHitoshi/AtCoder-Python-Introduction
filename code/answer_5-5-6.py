@@ -1,3 +1,3 @@
-N, M = map(int, input().split())
-A = list(map(int, input().split()))
-print(N-sum(A) if N-sum(A) >= 0 else -1)
+N = int(input())
+L = list(map(int, input().split()))
+print("Yes" if sum(L) > 2*max(L) else "No")

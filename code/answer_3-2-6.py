@@ -1,7 +1,7 @@
-A, B = map(int, input().split())
-count, outlet = 0, 1
-while outlet < B:
-    outlet = outlet-1
-    outlet = outlet+A
-    count = count+1
+N, K = map(int, input().split())
+H = list(map(int, input().split()))
+count = 0
+for h in H:
+    if h >= K:
+        count = count+1
 print(count)

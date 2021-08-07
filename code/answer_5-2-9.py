@@ -1,3 +1,3 @@
-s = sorted(input())
-t = sorted(input())[::-1]
-print("Yes" if s < t else "No")
+N = int(input())
+A = sorted(map(int, input().split()))
+print(A[-1]-A[0])

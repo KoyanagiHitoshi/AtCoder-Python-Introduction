@@ -1,3 +1,3 @@
-N = int(input())
-A = int(input())
-print(N**2-A)
+a, b = map(int, input().split())
+c, d = map(int, input().split())
+print(a*d-b*c)

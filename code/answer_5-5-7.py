@@ -1,3 +1,3 @@
-N, K = map(int, input().split())
-p = list(map(int, input().split()))
-print(sum(sorted(p)[:K]))
+H, N = map(int, input().split())
+A = sum(map(int, input().split()))
+print("Yes" if H <= A else "No")

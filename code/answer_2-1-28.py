@@ -1,3 +1,2 @@
-import math
-a, b = map(int, input().split())
-print(math.ceil((a+b)/2))
+X, Y = map(int, input().split())
+print(X+Y//2)

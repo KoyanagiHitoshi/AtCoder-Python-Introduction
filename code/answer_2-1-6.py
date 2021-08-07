@@ -1,2 +1,2 @@
-n, m = map(int, input().split())
-print((n-1)*(m-1))
+a, b, c = map(int, input().split())
+print(21-(a+b+c))

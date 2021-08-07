@@ -1,2 +1,2 @@
-A, B, C = map(int, input().split())
-print("Yes" if A <= C <= B else "No")
+c = input()
+print("vowel" if c in "aiueo" else "consonant")

@@ -1,2 +1,3 @@
-N = int(input())
-print("White" if N % 2 == 0 else "Black")
+import math
+A, B = map(int, input().split())
+print(1+math.ceil((B-A)/(A-1)))
