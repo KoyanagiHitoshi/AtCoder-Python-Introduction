@@ -1,3 +1,2 @@
-N = int(input())
-A = sorted(map(int, input().split()))
-print(A[-1]-A[0])
+x, y, z = sorted(map(int, input().split()))
+print(y+z)

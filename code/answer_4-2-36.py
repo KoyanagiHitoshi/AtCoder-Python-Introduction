@@ -1,2 +1,3 @@
 S = input()
-print(S[1:]+S[0])
+T = input()
+print("Yes" if S == T[:-1] else "No")

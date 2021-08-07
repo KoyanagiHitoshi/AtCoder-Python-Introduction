@@ -1,3 +1,2 @@
-import math
-A, B = map(int, input().split())
-print(1+math.ceil((B-A)/(A-1)))
+N = int(input())
+print((N-1)//100+1)

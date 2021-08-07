@@ -1,2 +1,2 @@
 a, b, c, d = input()
-print("Good" if a != b != c != d else "Bad")
+print("Yes" if a == b == c or b == c == d else "No")

@@ -1,2 +1,2 @@
-s = input()
-print(s[::2])
+S = input()
+print(S[1:]+S[0])

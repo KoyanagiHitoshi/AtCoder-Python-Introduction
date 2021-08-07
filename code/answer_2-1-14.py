@@ -1,3 +1,2 @@
-import math
-N = int(input())
-print(math.factorial(N) % (10**9+7))
+A, B = map(int, input().split())
+print(2*A+100-B)

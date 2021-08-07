@@ -1,7 +1,7 @@
 N, K = map(int, input().split())
-H = list(map(int, input().split()))
-count = 0
-for h in H:
-    if h >= K:
-        count = count+1
-print(count)
+for i in range(K):
+    if N % 200 == 0:
+        N = N//200
+    else:
+        N = 1000*N+200
+print(N)

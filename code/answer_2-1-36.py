@@ -1,2 +1,3 @@
-N, X, T = map(int, input().split())
-print(T*(N//X) if N % X == 0 else T*(N//X+1))
+import math
+N, D = map(int, input().split())
+print(math.ceil(N/(D*2+1)))

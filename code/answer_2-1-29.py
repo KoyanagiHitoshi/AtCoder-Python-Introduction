@@ -1,3 +1,2 @@
-import math
-N = int(input())
-print(math.ceil(N/2))
+AB, BC, CA = map(int, input().split())
+print(AB*BC//2)

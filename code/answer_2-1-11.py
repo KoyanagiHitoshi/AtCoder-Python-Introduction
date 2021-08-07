@@ -1,2 +1,2 @@
-a = int(input())
-print(a+a*a+a*a*a)
+R = int(input())
+print(R*2*3.14)

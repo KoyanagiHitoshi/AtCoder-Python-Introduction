@@ -1,2 +1,2 @@
-T, X = map(int, input().split())
-print(T/X)
+r = int(input())
+print(r**2)

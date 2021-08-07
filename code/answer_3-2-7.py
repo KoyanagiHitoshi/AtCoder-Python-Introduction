@@ -1,6 +1,7 @@
-N, K = map(int, input().split())
-digits = 0
-while(N > 0):
-    N = N//K
-    digits = digits+1
-print(digits)
+N = int(input())
+A = list(map(int, input().split()))
+total = 0
+for a in A:
+    if a > 10:
+        total = total+(a-10)
+print(total)
