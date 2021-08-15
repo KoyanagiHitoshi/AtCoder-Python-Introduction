@@ -1,7 +1,7 @@
-A, B, K = map(int, input().split())
-if K <= A:
-    print(A-K, B)
-elif K <= A+B:
-    print(0, B-(K-A))
+N = int(input())
+if N <= 125:
+    print(4)
+elif N <= 211:
+    print(6)
 else:
-    print(0, 0)
+    print(8)

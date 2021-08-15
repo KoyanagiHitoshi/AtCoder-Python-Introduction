@@ -1,2 +1,2 @@
-A, B, C = map(int, input().split())
-print("Yes" if A <= C <= B else "No")
+N = input()
+print("Yes" if "7" in N else "No")

@@ -1,7 +1,7 @@
-R = int(input())
-if R < 1200:
-    print("ABC")
-elif R < 2800:
-    print("ARC")
-else:
-    print("AGC")
+A, B, C = map(int, input().split())
+if A == B:
+    print(C)
+elif B == C:
+    print(A)
+elif C == A:
+    print(B)

@@ -1,2 +1,2 @@
-V, T, S, D = map(int, input().split())
-print("No" if V*T <= D <= V*S else "Yes")
+A, B = map(int, input().split())
+print(A*B if 1 <= A <= 9 and 1 <= B <= 9 else "-1")

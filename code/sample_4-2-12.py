@@ -1,3 +1,3 @@
-x = "b"
-y = "a"
-print("x < y" if x < y else "x > y")
+x = "Hello"
+y = "Hello"
+print("True" if x == y else "False")

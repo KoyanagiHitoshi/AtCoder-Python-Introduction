@@ -1,2 +1,2 @@
-x = int(input())
-print("ABC" if x < 1200 else "ARC")
+x, y = map(int, input().split())
+print("Better" if x < y else "Worse")

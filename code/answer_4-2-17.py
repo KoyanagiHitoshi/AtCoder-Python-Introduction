@@ -1,2 +1,3 @@
-A, B, C = input().split()
-print("YES" if A[-1] == B[0] and B[-1] == C[0] else "NO")
+N = int(input())
+S = input()
+print("Takahashi" if S.index("1") % 2 == 0 else "Aoki")

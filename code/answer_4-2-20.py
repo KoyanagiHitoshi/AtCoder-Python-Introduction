@@ -1,2 +1,2 @@
-N = input()
-print("Yes" if N[0] == N[1] == N[2] or N[1] == N[2] == N[3] else "No")
+A, B, C = input().split()
+print("YES" if A[-1] == B[0] and B[-1] == C[0] else "NO")

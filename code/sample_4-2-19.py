@@ -1,2 +1,2 @@
-x = "abcde"
-print(x[1:4:2])
+x = "123435"
+print(x.count("3"))

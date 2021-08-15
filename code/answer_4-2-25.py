@@ -1,2 +1,2 @@
-S = input()
-print(700+100*S.count("o"))
+N = input()
+print("Yes" if N == N[::-1] else "No")

@@ -1,2 +1,2 @@
 x = "abcde"
-print(x[:3])
+print(x.replace("bc", "xy"))

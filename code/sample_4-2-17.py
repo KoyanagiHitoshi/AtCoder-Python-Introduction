@@ -1,2 +1,2 @@
-x = "abcde"
-print(x.replace("bc", "xy"))
+x = "abbccc"
+print(x.count("c"))

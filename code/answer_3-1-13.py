@@ -1,5 +1,5 @@
-X = input()
-if X in "753":
-    print("YES")
+N = input()
+if "9" in N:
+    print("Yes")
 else:
-    print("NO")
+    print("No")

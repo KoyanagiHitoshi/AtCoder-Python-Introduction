@@ -1,3 +1,2 @@
-x = "a"
-y = "b"
-print("x < y" if x < y else "x > y")
+x = "12345"
+print(x.index("3"))

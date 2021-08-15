@@ -1,3 +1,2 @@
-K = int(input())
 S = input()
-print(S[:K]+"..." if len(S) > K else S)
+print("No" if "L" in S[::2] or "R" in S[1::2] else "Yes")

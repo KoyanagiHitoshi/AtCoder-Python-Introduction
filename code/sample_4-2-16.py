@@ -1,2 +1,2 @@
-x = "123435"
-print(x.count("3"))
+x = "Hello World"
+print(x[::-1])

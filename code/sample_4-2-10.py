@@ -1,3 +1,2 @@
-x = "Hello"
-y = "Good"
-print("True" if x == y else "False")
+x = "abcdcc"
+print(x.index("c"))

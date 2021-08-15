@@ -1,2 +1,2 @@
-S = input()
-print("Heisei" if S <= "2019/04/30" else "TBD")
+N = input()
+print("Yes" if N[0] == N[2] else "No")

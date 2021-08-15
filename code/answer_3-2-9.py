@@ -1,6 +1,7 @@
-N, K = map(int, input().split())
-digits = 0
-while(N > 0):
-    N = N//K
-    digits = digits+1
-print(digits)
+A, B = map(int, input().split())
+count, outlet = 0, 1
+while outlet < B:
+    outlet = outlet-1
+    outlet = outlet+A
+    count = count+1
+print(count)

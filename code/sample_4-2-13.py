@@ -1,2 +1,3 @@
-x = "Hello World"
-print(x[::-1])
+x = "Hello"
+y = "Good"
+print("True" if x == y else "False")

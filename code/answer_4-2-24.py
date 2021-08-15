@@ -1,2 +1,2 @@
-s = input()
-print(s.count("1"))
+S = input()
+print("Heisei" if S <= "2019/04/30" else "TBD")

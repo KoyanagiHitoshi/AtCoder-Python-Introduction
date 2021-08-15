@@ -1,2 +1,2 @@
-A, B = map(int, input().split())
-print("Yes" if A <= B <= 6*A else "No")
+V, T, S, D = map(int, input().split())
+print("No" if V*T <= D <= V*S else "Yes")

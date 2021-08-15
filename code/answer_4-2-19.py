@@ -1,2 +1,2 @@
-X, Y = input().split()
-print("<" if X < Y else "=" if X == Y else ">")
+a, b = input().split()
+print("H" if a == b else "D")

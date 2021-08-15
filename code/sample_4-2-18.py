@@ -1,2 +1,2 @@
-x = "abcde"
-print(x[1:3])
+x = "abbccc"
+print(x.count("d"))

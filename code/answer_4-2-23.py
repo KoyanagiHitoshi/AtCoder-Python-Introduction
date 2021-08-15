@@ -1,3 +1,2 @@
-c1 = input()
-c2 = input()
-print("YES" if c1 == c2[::-1] else "NO")
+N = input()
+print("Yes" if N[0] == N[1] == N[2] or N[1] == N[2] == N[3] else "No")

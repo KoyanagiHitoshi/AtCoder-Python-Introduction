@@ -1,2 +1,2 @@
-S = input()
-print("YES" if S[-1] == "T" else "NO")
+X = input()
+print("ABCDE".index(X)+1)

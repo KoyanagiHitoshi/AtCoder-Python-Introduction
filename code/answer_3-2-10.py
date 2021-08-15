@@ -1,7 +1,6 @@
-X = int(input())
-year = 0
-deposit = 100
-while deposit < X:
-    deposit = deposit*101//100
-    year = year+1
-print(year)
+N, K = map(int, input().split())
+digits = 0
+while(N > 0):
+    N = N//K
+    digits = digits+1
+print(digits)

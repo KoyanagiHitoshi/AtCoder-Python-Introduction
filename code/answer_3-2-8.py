@@ -1,7 +1,7 @@
-A, B = map(int, input().split())
-count, outlet = 0, 1
-while outlet < B:
-    outlet = outlet-1
-    outlet = outlet+A
-    count = count+1
-print(count)
+N = int(input())
+A = list(map(int, input().split()))
+total = 0
+for a in A:
+    if a > 10:
+        total = total+(a-10)
+print(total)

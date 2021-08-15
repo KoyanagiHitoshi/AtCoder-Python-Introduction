@@ -1,7 +1,7 @@
-N = int(input())
-money = 0
-day = 0
-while money < N:
-    money = money+day
-    day = day+1
-print(day-1)
+X = int(input())
+year = 0
+deposit = 100
+while deposit < X:
+    deposit = deposit*101//100
+    year = year+1
+print(year)
