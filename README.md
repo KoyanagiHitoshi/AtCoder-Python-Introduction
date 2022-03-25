@@ -1,5 +1,5 @@
 ![](https://img.shields.io/badge/Python-3.8.2-informational.svg)
-![](https://img.shields.io/badge/pycodestyle-2.7.0-informational.svg)
+![](https://img.shields.io/badge/pycodestyle-2.8.0-informational.svg)
 
 # AtCoder Python Introduction
 
