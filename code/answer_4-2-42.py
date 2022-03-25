@@ -1,2 +1,2 @@
-S = input()
-print("No" if "L" in S[::2] or "R" in S[1::2] else "Yes")
+n = input()
+print(n.replace("1", "x").replace("9", "1").replace("x", "9"))

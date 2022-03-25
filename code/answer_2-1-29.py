@@ -1,2 +1,2 @@
-AB, BC, CA = map(int, input().split())
-print(AB*BC//2)
+x, y = map(int, input().split())
+print(y//x)

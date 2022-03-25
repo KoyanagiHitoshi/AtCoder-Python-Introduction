@@ -1,2 +1,4 @@
-S = input()
-print("Yes" if S[2] == S[3] and S[4] == S[5] else "No")
+c1 = input()[0]
+c2 = input()[1]
+c3 = input()[2]
+print(c1+c2+c3)

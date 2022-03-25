@@ -1,2 +1,2 @@
-S = input()
-print(S[::-1].replace("6", "x").replace("9", "6").replace("x", "9"))
+N = input()
+print("Yes" if N.count("7") > 0 else "No")

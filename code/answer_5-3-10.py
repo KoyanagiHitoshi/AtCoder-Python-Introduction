@@ -1,2 +1,2 @@
-a, b, c, d = map(int, input().split())
-print(max(b*d, a*c, a*d, b*c))
+A, B, K = map(int, input().split())
+print(max(0, A-K), max(0, B-max(0, K-A)))

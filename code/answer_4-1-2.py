@@ -1,2 +1,2 @@
-X = int(input())
-print(int(X**(1/4)))
+a, x, b = input()
+print(int(a)*int(b))

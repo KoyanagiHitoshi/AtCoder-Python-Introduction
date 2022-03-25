@@ -1,2 +1,2 @@
 S = input()
-print(S.count("+")-S.count("-"))
+print("AC" if S == "Hello,World!" else "WA")

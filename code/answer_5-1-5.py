@@ -1,2 +1,2 @@
-S = input()
-print("yes" if len(S) == len(set(S)) else "no")
+N = input()
+print("0"*(4-len(N))+N)

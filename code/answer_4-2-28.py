@@ -1,2 +1,2 @@
 S = input()
-print(700+100*S.count("o"))
+print("Heisei" if S <= "2019/04/30" else "TBD")

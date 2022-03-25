@@ -1,2 +1,1 @@
-import math
-print(math.ceil(1.1))
+print(-5//3)

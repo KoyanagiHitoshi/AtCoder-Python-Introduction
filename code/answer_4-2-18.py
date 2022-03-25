@@ -1,2 +1,3 @@
+N = int(input())
 S = input()
-print("YES" if S[-1] == "T" else "NO")
+print(S[-1])

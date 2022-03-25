@@ -1,2 +1,3 @@
-S = [input() for i in range(4)]
-print("Yes" if len(set(S)) == 4 else "No")
+N = int(input())
+A = list(map(int, input().split()))
+print("Yes" if len(set(A)) == N else "No")

@@ -1,2 +1,2 @@
-N = int(input())
-print(int(N**(1/2))**2)
+X = int(input())
+print(int(X**(1/4)))

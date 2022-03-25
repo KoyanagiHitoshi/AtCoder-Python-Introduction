@@ -1,2 +1,2 @@
-x, y = map(int, input().split())
-print((6-x-y) % 3)
+X, A, B = [int(input()) for i in range(3)]
+print((X-A) % B)

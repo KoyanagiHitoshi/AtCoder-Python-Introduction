@@ -1,2 +1,2 @@
-S = input()
-print("Heisei" if S <= "2019/04/30" else "TBD")
+A, B, C = input().split()
+print("YES" if A[-1] == B[0] and B[-1] == C[0] else "NO")

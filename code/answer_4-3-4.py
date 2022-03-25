@@ -1,3 +1,3 @@
+weather = ["Sunny", "Cloudy", "Rainy"]
 S = input()
-week = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"]
-print(7-week.index(S))
+print(weather[(weather.index(S)+1) % 3])

@@ -1,2 +1,5 @@
-a, b = input().split()
-print(a*int(b) if a < b else b*int(a))
+a, b, c = input()
+abc = a+b+c
+bca = b+c+a
+cab = c+a+b
+print(int(abc)+int(bca)+int(cab))

@@ -1,2 +1,3 @@
-a, b, c, d = input()
-print("Yes" if a == b == c or b == c == d else "No")
+A = int(input())
+B = int(input())
+print("GREATER" if A > B else "LESS" if A < B else "EQUAL")
