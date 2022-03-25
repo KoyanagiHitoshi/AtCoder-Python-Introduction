@@ -1,3 +1,2 @@
-weather = ["Sunny", "Cloudy", "Rainy"]
-S = input()
-print(weather[(weather.index(S)+1) % 3])
+X = input()
+print(["A", "B", "C", "D", "E"].index(X)+1)

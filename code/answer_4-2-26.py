@@ -1,3 +1,2 @@
-c1 = input()
-c2 = input()
-print("YES" if c1 == c2[::-1] else "NO")
+X, Y = input().split()
+print("<" if X < Y else "=" if X == Y else ">")

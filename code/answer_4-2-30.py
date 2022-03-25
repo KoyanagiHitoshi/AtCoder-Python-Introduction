@@ -1,2 +1,2 @@
-N = input()
-print("Yes" if N.count("7") > 0 else "No")
+S, T = input().split()
+print("Yes" if S < T else "No")

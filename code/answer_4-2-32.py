@@ -1,3 +1,2 @@
-S = input()
-print(S.count("A"), S.count("B"), S.count("C"),
-      S.count("D"), S.count("E"), S.count("F"))
+N = input()
+print("Yes" if N == N[::-1] else "No")

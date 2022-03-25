@@ -1,3 +1,2 @@
-N = int(input())
-S = input()
-print(S.count("ABC"))
+s = input()
+print(s.count("1"))

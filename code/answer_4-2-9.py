@@ -1,3 +1,2 @@
-s = input()
-i = int(input())
-print(s[i-1])
+a, b = input().split()
+print(a*int(b) if a < b else b*int(a))

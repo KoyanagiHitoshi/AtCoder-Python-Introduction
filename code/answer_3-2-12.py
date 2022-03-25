@@ -1,7 +1,6 @@
-N = int(input())
-money = 0
-day = 0
-while money < N:
-    money = money+day
-    day = day+1
-print(day-1)
+N, K = map(int, input().split())
+digits = 0
+while(N > 0):
+    N = N//K
+    digits = digits+1
+print(digits)

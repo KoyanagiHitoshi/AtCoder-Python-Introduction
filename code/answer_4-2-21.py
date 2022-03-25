@@ -1,2 +1,3 @@
-N = input()
-print("Yes" if N[0] == N[2] else "No")
+N = int(input())
+S = input()
+print("Takahashi" if S.index("1") % 2 == 0 else "Aoki")

@@ -1,2 +1,2 @@
-X = int(input())
-print((X//500*1000)+(X % 500)//5*5)
+N = int(input())
+print("White" if N % 2 == 0 else "Black")

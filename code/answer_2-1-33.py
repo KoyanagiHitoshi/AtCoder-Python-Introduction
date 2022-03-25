@@ -1,3 +1,2 @@
-import math
-A, B = map(int, input().split())
-print(math.ceil(B/A))
+N, W = map(int, input().split())
+print(N//W)

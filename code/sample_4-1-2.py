@@ -1,2 +1,1 @@
-x = 3.1
-print(int(x))
+print(int(3.0))

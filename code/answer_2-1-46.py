@@ -1,2 +1,2 @@
-A, B, C = map(int, input().split())
-print((A*B*C) % (10**9+7))
+N, X, T = map(int, input().split())
+print(T*(N//X) if N % X == 0 else T*(N//X+1))

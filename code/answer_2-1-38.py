@@ -1,3 +1,3 @@
 import math
-A, B, C, D = map(int, input().split())
-print("Yes" if math.ceil(A/D) >= math.ceil(C/B) else "No")
+a, b = map(int, input().split())
+print(math.ceil((a+b)/2))

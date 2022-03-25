@@ -1,2 +1,2 @@
-X, Y = input().split()
-print("<" if X < Y else "=" if X == Y else ">")
+S = input()
+print("YES" if S[-1] == "T" else "NO")

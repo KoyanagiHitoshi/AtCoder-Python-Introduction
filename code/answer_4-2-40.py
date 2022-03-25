@@ -1,2 +1,3 @@
+A, B = map(int, input().split())
 S = input()
-print(S[1:]+S[0])
+print("Yes" if S[A] == "-" and S.count("-") == 1 else "No")

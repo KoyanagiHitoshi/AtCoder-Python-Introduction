@@ -1,2 +1,2 @@
-T, X = map(int, input().split())
-print(T/X)
+A, B = map(int, input().split())
+print(32**(A-B))

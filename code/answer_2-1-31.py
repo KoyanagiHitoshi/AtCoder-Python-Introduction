@@ -1,2 +1,2 @@
-N = int(input())
-print((N-1)//100+1)
+X, Y = map(int, input().split())
+print(X+Y//2)

@@ -1,2 +1,2 @@
-a, b = input().split()
-print("H" if a == b else "D")
+X = input()
+print("ABCDE".index(X)+1)

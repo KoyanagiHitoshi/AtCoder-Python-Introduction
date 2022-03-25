@@ -1,2 +1,1 @@
-import math
-print(math.ceil(7/3))
+print(-6//3)

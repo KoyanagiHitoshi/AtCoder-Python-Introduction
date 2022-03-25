@@ -1,3 +1,2 @@
-N = int(input())
 S = input()
-print("Takahashi" if S.index("1") % 2 == 0 else "Aoki")
+print(int(S[0])*int(S[2]))

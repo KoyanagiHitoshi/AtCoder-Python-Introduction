@@ -1,2 +1,3 @@
-s = input()
-print(s[::2])
+N = int(input())
+S = input()
+print(S.count("ABC"))

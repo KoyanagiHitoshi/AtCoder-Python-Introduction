@@ -1,2 +1,2 @@
-N = input()
-print("YES" if N in "369" else "NO")
+n = int(input())
+print("No" if n == 2 or n == 3 or n == 4 else "Yes")
