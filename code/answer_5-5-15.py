@@ -1,2 +1,2 @@
 N = input()
-print("Yes" if sum(map(int, N)) % 9 == 0 else "No")
+print("No" if int(N) % sum(map(int, N)) else "Yes")

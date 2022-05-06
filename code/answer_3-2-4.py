@@ -1,8 +1,6 @@
-N, X = map(int, input().split())
-S = input()
+N = int(input())
+total = 0
 for i in range(N):
-    if S[i] == "o":
-        X = X+1
-    elif S[i] == "x" and X != 0:
-        X = X-1
-print(X)
+    A, B = map(int, input().split())
+    total = total+(A+B)*(B-A+1)//2
+print(total)

@@ -1,2 +1,2 @@
-N = input()
-print("No" if int(N) % sum(map(int, N)) else "Yes")
+S = input()
+print(45-sum(map(int, S)))

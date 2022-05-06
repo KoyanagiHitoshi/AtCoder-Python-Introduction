@@ -1,3 +1,3 @@
-L, R = map(int, input().split())
+K = int(input())
 S = input()
-print(S[:L-1]+S[L-1:R][::-1]+S[R:])
+print(S[:K]+"..." if len(S) > K else S)

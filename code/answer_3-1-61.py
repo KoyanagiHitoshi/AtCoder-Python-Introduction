@@ -1,2 +1,2 @@
-c = input()
-print("vowel" if c in "aiueo" else "consonant")
+N = input()
+print("YES" if N in "369" else "NO")

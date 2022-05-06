@@ -1,5 +1,2 @@
-S, T, X = map(int, input().split())
-if S < T:
-    print("Yes" if S <= X < T else "No")
-else:
-    print("Yes" if X < T or S <= X else "No")
+X = int(input())
+print(40-X if X < 40 else 70-X if X < 70 else 90-X if X < 90 else "expert")

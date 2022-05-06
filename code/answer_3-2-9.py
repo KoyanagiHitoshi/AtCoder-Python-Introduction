@@ -1,9 +1,7 @@
-N = int(input())
+N, K = map(int, input().split())
 H = list(map(int, input().split()))
-ans = 0
+count = 0
 for h in H:
-    if h > ans:
-        ans = h
-    else:
-        break
-print(ans)
+    if h >= K:
+        count = count+1
+print(count)

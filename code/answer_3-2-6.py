@@ -1,8 +1,7 @@
-S, T = map(int, input().split())
-ans = 0
-for a in range(101):
-    for b in range(101):
-        for c in range(101):
-            if a+b+c <= S and a*b*c <= T:
-                ans += 1
-print(ans)
+N, K = map(int, input().split())
+for i in range(K):
+    if N % 200 == 0:
+        N = N//200
+    else:
+        N = 1000*N+200
+print(N)

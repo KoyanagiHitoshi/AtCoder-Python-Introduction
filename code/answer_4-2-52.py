@@ -1,3 +1,2 @@
-N = int(input())
 S = input()
-print("Yes" if S[:N//2] == S[N//2:] else "No")
+print("No" if "L" in S[::2] or "R" in S[1::2] else "Yes")

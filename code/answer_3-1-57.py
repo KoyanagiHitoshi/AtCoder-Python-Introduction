@@ -1,3 +1,3 @@
-H1, W1 = map(int, input().split())
-H2, W2 = map(int, input().split())
-print("YES" if H1 == H2 or H1 == W2 or W1 == H2 or W1 == W2 else "NO")
+A, B, C, D = map(int, input().split())
+print("Takahashi" if A < C else "Aoki" if A >
+      C else "Takahashi" if B <= D else "Aoki")

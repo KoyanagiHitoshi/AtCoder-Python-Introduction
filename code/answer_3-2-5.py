@@ -1,7 +1,8 @@
-N, K = map(int, input().split())
-for i in range(K):
-    if N % 200 == 0:
-        N = N//200
-    else:
-        N = 1000*N+200
-print(N)
+N, X = map(int, input().split())
+S = input()
+for i in range(N):
+    if S[i] == "o":
+        X = X+1
+    elif S[i] == "x" and X != 0:
+        X = X-1
+print(X)

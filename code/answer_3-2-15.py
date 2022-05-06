@@ -1,5 +1,7 @@
-N = int(input())
-k = 0
-while 2**k <= N:
-    k = k+1
-print(k-1)
+X = int(input())
+year = 0
+deposit = 100
+while deposit < X:
+    deposit = deposit*101//100
+    year = year+1
+print(year)
