@@ -1,2 +1,2 @@
-s = input()
-print(s[::2])
+S = input()
+print((S*6)[:6])
