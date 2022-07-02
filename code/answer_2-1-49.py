@@ -1,2 +1,2 @@
-x, y = map(int, input().split())
-print((6-x-y) % 3)
+X = int(input())
+print(100-(X % 100))

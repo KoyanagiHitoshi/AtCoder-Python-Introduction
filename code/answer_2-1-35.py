@@ -1,2 +1,2 @@
-N, K = map(int, input().split())
-print(100*N*(N+1)//2*K+K*(K+1)//2*N)
+N = int(input())
+print((N-1)//100+1)

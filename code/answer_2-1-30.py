@@ -1,2 +1,2 @@
-N = int(input())
-print(N//3)
+x, y = map(int, input().split())
+print(y//x)

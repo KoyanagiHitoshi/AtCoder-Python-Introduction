@@ -1,2 +1,2 @@
-X = int(input())
-print((X//500*1000)+(X % 500)//5*5)
+A, B, C = map(int, input().split())
+print((A*B*C) % (10**9+7))

@@ -1,2 +1,2 @@
-N, X, T = map(int, input().split())
-print(T*(N//X) if N % X == 0 else T*(N//X+1))
+X, A, B = [int(input()) for i in range(3)]
+print((X-A) % B)

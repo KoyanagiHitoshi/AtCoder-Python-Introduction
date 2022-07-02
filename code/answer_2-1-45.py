@@ -1,2 +1,2 @@
-X, A, B = [int(input()) for i in range(3)]
-print((X-A) % B)
+A, B = map(int, input().split())
+print((A+B) % 24)

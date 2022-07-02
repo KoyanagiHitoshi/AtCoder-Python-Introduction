@@ -1,2 +1,2 @@
-N, W = map(int, input().split())
-print(N//W)
+AB, BC, CA = map(int, input().split())
+print(AB*BC//2)

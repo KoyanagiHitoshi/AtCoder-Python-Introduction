@@ -1,3 +1,3 @@
 import math
-A, B = map(int, input().split())
-print(1+math.ceil((B-A)/(A-1)))
+N, D = map(int, input().split())
+print(math.ceil(N/(D*2+1)))

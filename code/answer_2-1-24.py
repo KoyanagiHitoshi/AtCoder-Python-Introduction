@@ -1,2 +1,2 @@
-T, X = map(int, input().split())
-print(T/X)
+H = int(input())
+print((H*(12800000+H))**0.5)

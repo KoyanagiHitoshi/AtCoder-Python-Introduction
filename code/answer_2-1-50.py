@@ -1,2 +1,2 @@
-N, K, A = map(int, input().split())
-print((A+K-2) % N+1)
+x, y = map(int, input().split())
+print((6-x-y) % 3)
