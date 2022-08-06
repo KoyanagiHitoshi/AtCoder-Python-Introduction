@@ -1,4 +1,2 @@
-S, T = input().split()
-A, B = map(int, input().split())
-U = input()
-print(A-1, B) if S == U else print(A, B-1)
+H, A = map(int, input().split())
+print(H//A if H % A == 0 else H//A+1)

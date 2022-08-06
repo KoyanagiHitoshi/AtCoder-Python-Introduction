@@ -1,1 +1,2 @@
-print(7 % 3)
+import math
+print(math.ceil(-5/3))

@@ -1,2 +1,4 @@
-N, R = map(int, input().split())
-print(R if N >= 10 else R+100*(10-N))
+S, T = input().split()
+A, B = map(int, input().split())
+U = input()
+print(A-1, B) if S == U else print(A, B-1)

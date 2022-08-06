@@ -1,2 +1,2 @@
-X = input()
-print("YES" if X in "753" else "NO")
+c = input()
+print("vowel" if c in "aiueo" else "consonant")

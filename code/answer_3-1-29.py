@@ -1,3 +1,2 @@
-A, B, C = map(int, input().split())
-water = C-(A-B)
-print(water if water > 0 else 0)
+A, B = map(int, input().split())
+print((A+B)//2 if (A+B) % 2 == 0 else "IMPOSSIBLE")

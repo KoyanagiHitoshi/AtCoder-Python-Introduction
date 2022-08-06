@@ -1,3 +1,3 @@
-a = int(input())
-s = input()
-print(s if a >= 3200 else "red")
+A, B, C = map(int, input().split())
+water = C-(A-B)
+print(water if water > 0 else 0)

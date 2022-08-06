@@ -1,2 +1,2 @@
-S = input()
-print("ABC" if S == "ARC" else "ARC")
+S, W = map(int, input().split())
+print("unsafe" if W >= S else "safe")

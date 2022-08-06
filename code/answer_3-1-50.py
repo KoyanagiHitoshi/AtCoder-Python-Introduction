@@ -1,3 +1,2 @@
-S = input()
-N = len(set(S))
-print(1 if N == 1 else 3 if N == 2 else 6)
+X = int(input())
+print("Yes" if X % 100 == 0 and X != 0 else "No")

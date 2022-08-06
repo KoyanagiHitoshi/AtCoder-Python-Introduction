@@ -1,2 +1,2 @@
-x = int(input())
-print(1 if x == 0 else 0)
+D, T, S = map(int, input().split())
+print("Yes" if D <= S*T else "No")

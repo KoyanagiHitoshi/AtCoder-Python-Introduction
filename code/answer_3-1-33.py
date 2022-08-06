@@ -1,2 +1,2 @@
-N, M = input().split()
-print("Yes" if N == M else "No")
+K, X = map(int, input().split())
+print("Yes" if 500*K >= X else "No")

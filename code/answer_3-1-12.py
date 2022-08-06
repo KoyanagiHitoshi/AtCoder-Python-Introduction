@@ -1,5 +1,5 @@
-c = input()
-if c in "aiueo":
-    print("vowel")
+N = input()
+if N in "369":
+    print("YES")
 else:
-    print("consonant")
+    print("NO")

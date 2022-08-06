@@ -1,2 +1,2 @@
-A, B = map(int, input().split())
-print((A+B)//2 if (A+B) % 2 == 0 else "IMPOSSIBLE")
+X, A = map(int, input().split())
+print("0" if X < A else "10")

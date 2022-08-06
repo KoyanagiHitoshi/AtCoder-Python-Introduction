@@ -1,2 +1,2 @@
-a, b, c, d = input()
-print("Good" if a != b != c != d else "Bad")
+A, B, X = map(int, input().split())
+print("YES" if 0 <= X-A <= B else "NO")

@@ -1,2 +1,3 @@
-N = int(input())
-print("0.5" if N % 2 == 0 else ((N//2)+1)/N)
+a = int(input())
+s = input()
+print(s if a >= 3200 else "red")

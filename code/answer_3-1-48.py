@@ -1,2 +1,2 @@
-N = int(input())
-print(4 if N <= 125 else 6 if N <= 211 else 8)
+A, B = map(int, input().split())
+print("Gold" if B == 0 else "Silver" if A == 0 else "Alloy")

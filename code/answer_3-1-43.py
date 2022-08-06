@@ -1,2 +1,2 @@
 x = int(input())
-print(x if x > 0 else 0)
+print(1 if x == 0 else 0)

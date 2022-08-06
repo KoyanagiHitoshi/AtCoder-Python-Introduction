@@ -1,2 +1,2 @@
-A, B = map(int, input().split())
-print("Gold" if B == 0 else "Silver" if A == 0 else "Alloy")
+x, y = map(int, input().split())
+print(3-(x+y) if x != y else x)

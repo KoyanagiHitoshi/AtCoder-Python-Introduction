@@ -1,2 +1,2 @@
 N = input()
-print("Yes" if "9" in N else "No")
+print("YES" if N in "369" else "NO")

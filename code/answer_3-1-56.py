@@ -1,3 +1,2 @@
-V, A, B, C = map(int, input().split())
-V = V % (A+B+C)
-print("F" if V-A < 0 else "M" if V-(A+B) < 0 else "T")
+A, B, C, X = map(int, input().split())
+print(1 if X <= A else 0 if X > B else C/(B-A))

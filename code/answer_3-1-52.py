@@ -1,2 +1,4 @@
-n = int(input())
-print("No" if n == 2 or n == 3 or n == 4 else "Yes")
+S1 = input()
+S2 = input()
+print("No" if (S1 == "#." and S2 == ".#") or (
+    S1 == ".#" and S2 == "#.") else "Yes")

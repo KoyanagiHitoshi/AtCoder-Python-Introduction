@@ -1,2 +1,2 @@
-A, B, C, X = map(int, input().split())
-print(1 if X <= A else 0 if X > B else C/(B-A))
+a, b = map(int, input().split())
+print("Yes" if b-a == 1 or b-a == 9 else "No")

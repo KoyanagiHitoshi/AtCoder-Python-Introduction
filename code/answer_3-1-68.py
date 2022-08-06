@@ -1,2 +1,2 @@
-A, B, X = map(int, input().split())
-print("YES" if A <= X <= A+B else "NO")
+A, B, C = map(int, input().split())
+print("Yes" if A <= C <= B else "No")

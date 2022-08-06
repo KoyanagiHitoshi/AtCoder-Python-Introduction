@@ -1,2 +1,2 @@
 a, b = map(int, input().split())
-print("Yes" if b-a == 1 or b-a == 9 else "No")
+print("Yes" if a == b-1 or (a == 1 and b == 10) else "No")

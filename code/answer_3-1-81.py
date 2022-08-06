@@ -1,2 +1,2 @@
-a, b, c = map(int, input().split())
-print("Yes" if a <= b <= c or c <= b <= a else "No")
+N = int(input())
+print("Yes" if -2**31 <= N < 2**31 else "No")

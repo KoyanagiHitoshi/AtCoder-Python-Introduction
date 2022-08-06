@@ -1,4 +1,3 @@
-S1 = input()
-S2 = input()
-print("No" if (S1 == "#." and S2 == ".#") or (
-    S1 == ".#" and S2 == "#.") else "Yes")
+S = input()
+N = len(set(S))
+print(1 if N == 1 else 3 if N == 2 else 6)

@@ -1,2 +1,2 @@
-x, y = map(int, input().split())
-print(3-(x+y) if x != y else x)
+a, b, c = map(int, input().split())
+print(a if b == c else b if a == c else c if a == b else 0)

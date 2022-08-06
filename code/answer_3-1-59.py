@@ -1,3 +1,2 @@
-A = int(input())
-B = int(input())
-print("GREATER" if A > B else "LESS" if A < B else "EQUAL")
+N, M, X, T, D = map(int, input().split())
+print(T if M >= X else T-(X-M)*D)

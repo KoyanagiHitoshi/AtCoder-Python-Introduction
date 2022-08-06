@@ -1,2 +1,3 @@
-N = input()
-print("YES" if N in "369" else "NO")
+A = int(input())
+B = int(input())
+print("GREATER" if A > B else "LESS" if A < B else "EQUAL")

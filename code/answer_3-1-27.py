@@ -1,2 +1,2 @@
-X, A = map(int, input().split())
-print("0" if X < A else "10")
+b = input()
+print("A" if b == "T" else "T" if b == "A" else "G" if b == "C" else "C")

@@ -1,5 +1,7 @@
-N = input()
-if N in "369":
-    print("YES")
+A, B, K = map(int, input().split())
+if K <= A:
+    print(A-K, B)
+elif K <= A+B:
+    print(0, B-(K-A))
 else:
-    print("NO")
+    print(0, 0)

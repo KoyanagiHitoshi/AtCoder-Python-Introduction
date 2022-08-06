@@ -1,2 +1,2 @@
-H, A = map(int, input().split())
-print(H//A if H % A == 0 else H//A+1)
+N, M = input().split()
+print("Yes" if N == M else "No")

@@ -1,2 +1,2 @@
-A, B, C = map(int, input().split())
-print(A if B == C else B if A == C else C)
+x = int(input())
+print("ABC" if x < 1200 else "ARC")

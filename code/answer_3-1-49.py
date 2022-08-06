@@ -1,2 +1,2 @@
-X = int(input())
-print("Yes" if X % 100 == 0 and X != 0 else "No")
+N = int(input())
+print(4 if N <= 125 else 6 if N <= 211 else 8)
