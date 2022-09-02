@@ -1,2 +1,5 @@
-x = 1
-print("x is 1" if x == 1 else "x is not 1")
+x = {"a", "b", "c"}
+if "a" in x:
+    print("a include")
+else:
+    print("a don't include")

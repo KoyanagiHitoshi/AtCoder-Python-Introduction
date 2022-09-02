@@ -1,3 +1,3 @@
 N = int(input())
-a = list(map(int, input().split()))
-print(len(set(a)))
+ST = [input() for i in range(N)]
+print("Yes" if len(set(ST)) < N else "No")

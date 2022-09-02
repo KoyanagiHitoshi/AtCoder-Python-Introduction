@@ -1,2 +1,2 @@
-N = input()
-print("0"*(4-len(N))+N)
+C = input()
+print("Won" if len(set(C)) == 1 else "Lost")

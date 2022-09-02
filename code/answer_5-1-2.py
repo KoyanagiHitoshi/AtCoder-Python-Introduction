@@ -1,2 +1,2 @@
-S = input()
-print("Yes" if len(set(S)) == 3 else "No")
+N = input()
+print("DIFFERENT" if len(set(N)) != 1 else "SAME")

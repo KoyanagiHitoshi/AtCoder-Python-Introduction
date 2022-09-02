@@ -1,2 +1,3 @@
-N = input()
-print("DIFFERENT" if len(set(N)) != 1 else "SAME")
+A = input()
+B = input()
+print(A if len(A) > len(B) else B)

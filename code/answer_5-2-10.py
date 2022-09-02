@@ -1,3 +1,2 @@
-N = int(input())
-A = sorted(map(int, input().split()))
-print(A[-1]-A[0])
+A, B, C, D, E = sorted(map(int, input().split()))
+print("Yes" if A == B == C and D == E or A == B and C == D == E else "No")

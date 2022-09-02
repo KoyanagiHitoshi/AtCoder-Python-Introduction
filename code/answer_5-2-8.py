@@ -1,2 +1,2 @@
-A, B, C, D, E = sorted(input().split())
-print("Yes" if A == B == C and D == E or A == B and C == D == E else "No")
+a, b, c = sorted(input())
+print(a if a != b else c if b != c else -1)

@@ -1,3 +1,3 @@
 N = int(input())
-a = [input() for i in range(N)]
+a = list(map(int, input().split()))
 print(len(set(a)))

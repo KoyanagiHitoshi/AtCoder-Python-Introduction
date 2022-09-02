@@ -1,3 +1,3 @@
-N = int(input())
-A = list(map(int, input().split()))
-print("Yes" if len(set(A)) == N else "No")
+S = input()
+c = list(set(S))
+print("Yes" if len(c) == 2 and S.count(c[0]) == S.count(c[1]) == 2 else "No")

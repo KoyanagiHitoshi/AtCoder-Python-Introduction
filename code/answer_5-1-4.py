@@ -1,2 +1,2 @@
-C = input()
-print("Won" if len(set(C)) == 1 else "Lost")
+S = input()
+print("Yes" if len(set(S)) != 1 else "No")

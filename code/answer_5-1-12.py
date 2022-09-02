@@ -1,2 +1,2 @@
-S = [input() for i in range(4)]
-print("Yes" if len(set(S)) == 4 else "No")
+ABC = input().split()
+print("Yes" if len(set(ABC)) == 2 else "No")

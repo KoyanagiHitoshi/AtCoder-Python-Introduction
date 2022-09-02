@@ -1,2 +1,2 @@
-ABC = input().split()
-print("Yes" if len(set(ABC)) == 2 else "No")
+abc = list(input().split())
+print(len(set(abc)))

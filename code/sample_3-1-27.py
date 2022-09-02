@@ -1,4 +1,2 @@
-x = 1
-y = 1
-z = 1
-print("True" if x == y == z else "False")
+x = ["a", "b", "c"]
+print("ab include" if "ab" in x else "ab don't include")

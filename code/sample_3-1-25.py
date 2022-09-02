@@ -1,2 +1,2 @@
-x = ["a", "b", "c"]
-print("ab include" if "ab" in x else "ab don't include")
+x = "Hello world!"
+print("Good don't include" if "Good" not in x else "Good include")
