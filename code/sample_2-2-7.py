@@ -1,1 +1,1 @@
-print(not True)
+print(2*3)

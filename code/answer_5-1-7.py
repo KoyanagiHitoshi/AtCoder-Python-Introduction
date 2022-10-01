@@ -1,2 +1,5 @@
 S = input()
-print(S[len(S)//2])
+if len(set(S)) != 1:
+    print("Yes")
+else:
+    print("No")

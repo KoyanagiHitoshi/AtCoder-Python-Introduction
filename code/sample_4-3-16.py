@@ -1,2 +1,2 @@
-x = ["a", "b", "b", "c", "c", "c"]
-print(x.count("c"))
+x = "012345"
+print(x[1:4])

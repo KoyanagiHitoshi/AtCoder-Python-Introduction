@@ -1,2 +1,5 @@
-N = input()
-print("Yes" if "7" in N else "No")
+N, X, T = map(int, input().split())
+if N % X == 0:
+    print(T*(N//X))
+else:
+    print(T*(N//X+1))

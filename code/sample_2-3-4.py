@@ -1,1 +1,1 @@
-print(1 != 1)
+print(True or True)

@@ -1,3 +1,7 @@
-A, B, C = map(int, input().split())
-water = C-(A-B)
-print(water if water > 0 else 0)
+A, B, C, D = map(int, input().split())
+if A+B > C+D:
+    print("Left")
+elif A+B == C+D:
+    print("Balanced")
+else:
+    print("Right")

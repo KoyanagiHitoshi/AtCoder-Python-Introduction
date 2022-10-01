@@ -1,5 +1,5 @@
-N = int(input())
-print("Bad" if N < 60
-      else "Good" if N < 90
-      else "Great" if N < 100
-      else "Perfect")
+A, B, C = map(int, input().split())
+if A**2+B**2 < C**2:
+    print("Yes")
+else:
+    print("No")

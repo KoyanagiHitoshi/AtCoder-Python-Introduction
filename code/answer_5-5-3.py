@@ -1,2 +1,2 @@
-dice = list(map(int, input().split()))
-print(21-sum(dice))
+abc = list(map(int, input().split()))
+print(sum(sorted(abc)[:2]))

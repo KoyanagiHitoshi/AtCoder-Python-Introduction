@@ -1,2 +1,6 @@
-S = input()
-print("Good" if S[0] != S[1] and S[1] != S[2] and S[2] != S[3] else "Bad")
+A, B, C = map(int, input().split())
+mod = B-(B % C)
+if A <= mod:
+    print(mod)
+else:
+    print(-1)

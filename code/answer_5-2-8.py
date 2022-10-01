@@ -1,2 +1,5 @@
-a, b, c = sorted(input())
-print(a if a != b else c if b != c else -1)
+A = sorted(map(int, input().split()))
+if A[2]-A[1] == A[1]-A[0]:
+    print("Yes")
+else:
+    print("No")

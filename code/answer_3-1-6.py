@@ -1,7 +1,5 @@
-S, T = input().split()
-A, B = map(int, input().split())
-U = input()
-if S == U:
-    print(A-1, B)
+N = int(input())
+if N < 1000:
+    print("ABC")
 else:
-    print(A, B-1)
+    print("ABD")

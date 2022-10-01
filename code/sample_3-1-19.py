@@ -1,2 +1,5 @@
-x = 1
-print("x is 1" if x == 1 else "x is not 1")
+x = "Hello world!"
+if "Good" in x:
+    print("Good include")
+else:
+    print("Good don't include")

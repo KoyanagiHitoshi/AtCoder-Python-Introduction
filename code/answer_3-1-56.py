@@ -1,2 +1,5 @@
-A, B, C, X = map(int, input().split())
-print(1 if X <= A else 0 if X > B else C/(B-A))
+N = int(input())
+if N % 2 == 0:
+    print(N)
+else:
+    print(N*2)

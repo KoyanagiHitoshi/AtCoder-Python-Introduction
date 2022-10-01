@@ -1,5 +1,8 @@
-x = ["a", "b", "c"]
-if "ab" in x:
-    print("ab include")
+x = "b"
+y = "a"
+if x < y:
+    print("x < y")
+elif x == y:
+    print("x == y")
 else:
-    print("ab don't include")
+    print("x > y")

@@ -1,3 +1,2 @@
-x = ["a", "b", "c", "d", "e", "f"]
-del x[:]
-print(x)
+x = "123435"
+print(x.count("3"))

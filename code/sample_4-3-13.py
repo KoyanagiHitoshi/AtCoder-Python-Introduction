@@ -1,3 +1,2 @@
-x = ["a", "b", "c", "d", "e", "f"]
-del x[1]
-print(x)
+x = "abbccc"
+print(x.count("c"))

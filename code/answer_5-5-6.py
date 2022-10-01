@@ -1,3 +1,2 @@
-N = int(input())
-L = list(map(int, input().split()))
-print("Yes" if sum(L) > 2*max(L) else "No")
+S = input()
+print(45-sum(map(int, S)))

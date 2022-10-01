@@ -1,2 +1,3 @@
 print("x", end="")
-print("y")
+print("y", end="")
+print("z", end="")

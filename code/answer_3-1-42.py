@@ -1,2 +1,6 @@
-D, T, S = map(int, input().split())
-print("Yes" if D <= S*T else "No")
+A, B, C = map(int, input().split())
+water = C-(A-B)
+if water > 0:
+    print(water)
+else:
+    print(0)

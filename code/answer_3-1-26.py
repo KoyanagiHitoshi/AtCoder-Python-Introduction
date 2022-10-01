@@ -1,2 +1,9 @@
-R = int(input())
-print("ABC" if R < 1200 else "ARC" if R < 2800 else "AGC")
+X = int(input())
+if X < 40:
+    print(40-X)
+elif X < 70:
+    print(70-X)
+elif X < 90:
+    print(90-X)
+else:
+    print("expert")

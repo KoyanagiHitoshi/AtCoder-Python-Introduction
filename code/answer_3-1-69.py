@@ -1,2 +1,9 @@
-a, b, c, d = input()
-print("Yes" if a == b == c or b == c == d else "No")
+Y = int(input())
+if Y % 4 == 0:
+    print(Y+2)
+elif Y % 4 == 1:
+    print(Y+1)
+elif Y % 4 == 2:
+    print(Y)
+else:
+    print(Y+3)

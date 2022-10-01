@@ -1,3 +1,5 @@
-S = input()
-N = len(set(S))
-print(1 if N == 1 else 3 if N == 2 else 6)
+n = int(input())
+if n == 2 or n == 3 or n == 4:
+    print("No")
+else:
+    print("Yes")

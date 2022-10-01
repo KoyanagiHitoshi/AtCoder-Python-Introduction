@@ -1,2 +1,6 @@
-S = [input() for i in range(4)]
-print("Yes" if len(set(S)) == 4 else "No")
+S = input()
+c = list(set(S))
+if len(c) == 2 and S.count(c[0]) == S.count(c[1]) == 2:
+    print("Yes")
+else:
+    print("No")

@@ -1,7 +1,7 @@
 N = int(input())
-if N <= 125:
-    print(4)
-elif N <= 211:
-    print(6)
-else:
-    print(8)
+if N == 1:
+    print("Hello World")
+if N == 2:
+    A = int(input())
+    B = int(input())
+    print(A+B)

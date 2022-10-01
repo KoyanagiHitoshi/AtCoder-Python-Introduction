@@ -1,2 +1,2 @@
-X = input()
-print(["A", "B", "C", "D", "E"].index(X)+1)
+W = input()
+print(W+"s")

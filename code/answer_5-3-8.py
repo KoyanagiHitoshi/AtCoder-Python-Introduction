@@ -1,2 +1,2 @@
-N, A, X, Y = map(int, input().split())
-print(N*X-max(N-A, 0)*(X-Y))
+A, D = map(int, input().split())
+print(max((A+1)*D, A*(D+1)))

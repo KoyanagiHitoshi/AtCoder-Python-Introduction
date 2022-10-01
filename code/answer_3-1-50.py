@@ -1,2 +1,5 @@
-X = int(input())
-print("Yes" if X % 100 == 0 and X != 0 else "No")
+a, b = map(int, input().split())
+if b-a == 1 or b-a == 9:
+    print("Yes")
+else:
+    print("No")

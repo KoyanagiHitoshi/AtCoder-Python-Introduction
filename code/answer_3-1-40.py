@@ -1,2 +1,5 @@
-N = int(input())
-print(0 if N % 1000 == 0 else 1000-(N % 1000))
+X, t = map(int, input().split())
+if X-t > 0:
+    print(X-t)
+else:
+    print(0)

@@ -1,5 +1,5 @@
-x = {"a", "b", "c"}
-if "a" in x:
-    print("a include")
+x = "Hello world!"
+if "e" in x:
+    print("e include")
 else:
-    print("a don't include")
+    print("e don't include")

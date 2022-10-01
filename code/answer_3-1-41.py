@@ -1,2 +1,5 @@
-X = int(input())
-print("Yes" if X >= 30 else "No")
+A, B = map(int, input().split())
+if A-2*B > 0:
+    print(A-2*B)
+else:
+    print(0)

@@ -1,2 +1,5 @@
-X, Y = map(int, input().split())
-print("Yes" if abs(X-Y) < 3 else "No")
+a, b, c, d, e, k = [int(input()) for i in range(6)]
+if abs(a-e) <= k:
+    print("Yay!")
+else:
+    print(":(")

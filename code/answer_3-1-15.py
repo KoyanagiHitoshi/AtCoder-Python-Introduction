@@ -1,5 +1,5 @@
-X = input()
-if X in "753":
-    print("YES")
+A, B, C = map(int, input().split())
+if A+B >= C:
+    print("Yes")
 else:
-    print("NO")
+    print("No")

@@ -1,2 +1,2 @@
-A, B, C = sorted(map(int, input().split()))
-print(10*C+B+A)
+A = sorted(map(int, input().split()))
+print(A[-1]-A[0])

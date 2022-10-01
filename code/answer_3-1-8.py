@@ -1,9 +1,6 @@
-A, B = map(int, input().split())
-if A+B >= 15 and B >= 8:
-    print(1)
-elif A+B >= 10 and B >= 3:
-    print(2)
-elif A+B >= 3:
-    print(3)
+a = int(input())
+s = input()
+if a >= 3200:
+    print(s)
 else:
-    print(4)
+    print("red")

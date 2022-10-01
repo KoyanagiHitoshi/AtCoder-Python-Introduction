@@ -1,3 +1,5 @@
-A = int(input())
-B = int(input())
-print("GREATER" if A > B else "LESS" if A < B else "EQUAL")
+M, D = map(int, input().split())
+if M % D == 0:
+    print("YES")
+else:
+    print("NO")

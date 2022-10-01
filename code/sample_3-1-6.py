@@ -1,7 +1,8 @@
-x = 2
-if x == 1:
-    print("x is 1")
-elif x == 2:
-    print("x is 2")
+x = 10
+y = 20
+if x < y:
+    print("x < y")
+elif x == y:
+    print("x == y")
 else:
-    print("x is not 1 and 2")
+    print("x > y")

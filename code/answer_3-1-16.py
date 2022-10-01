@@ -1,5 +1,5 @@
-a = input()
-if a in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
-    print("A")
+a, b, c = map(int, input().split())
+if b-a == c-b:
+    print("YES")
 else:
-    print("a")
+    print("NO")

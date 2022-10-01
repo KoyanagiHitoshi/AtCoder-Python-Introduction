@@ -1,1 +1,2 @@
-print(True or False)
+x = 4-2
+print(x)

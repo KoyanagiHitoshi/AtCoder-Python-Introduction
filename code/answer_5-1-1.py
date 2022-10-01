@@ -1,3 +1,6 @@
 A = input()
 B = input()
-print(A if len(A) > len(B) else B)
+if len(A) > len(B):
+    print(A)
+else:
+    print(B)

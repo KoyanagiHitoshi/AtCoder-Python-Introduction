@@ -1,6 +1,5 @@
 N = int(input())
-total = 0
+salary = 0
 for i in range(1, N+1):
-    if (i % 3) != 0 and (i % 5) != 0:
-        total = total+i
-print(total)
+    salary = salary+i*10000*(1/N)
+print(salary)

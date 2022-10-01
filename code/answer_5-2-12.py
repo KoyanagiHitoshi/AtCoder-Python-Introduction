@@ -1,3 +1,7 @@
-N = int(input())
-A = sorted(map(int, input().split()))
-print(A[-1]-A[0])
+a, b, c = sorted(input())
+if a != b:
+    print(a)
+elif b != c:
+    print(c)
+else:
+    print(-1)

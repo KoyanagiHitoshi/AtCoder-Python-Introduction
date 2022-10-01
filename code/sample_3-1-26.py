@@ -1,2 +1,7 @@
-x = ["a", "b", "c"]
-print("a include" if "a" in x else "a don't include")
+a = 1
+b = 2
+c = 3
+if a < b < c:
+    print(True)
+else:
+    print(False)

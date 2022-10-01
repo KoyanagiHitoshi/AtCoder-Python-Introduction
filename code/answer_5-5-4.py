@@ -1,2 +1,2 @@
-cards = sorted(map(int, input().split()))
-print(sum(cards)-min(cards))
+X = input()
+print(sum(map(int, X)))

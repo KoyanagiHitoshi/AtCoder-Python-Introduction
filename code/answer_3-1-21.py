@@ -1,2 +1,5 @@
-A, B, C = map(int, input().split())
-print(A if B == C else B if A == C else C)
+A, B = map(int, input().split())
+if A <= 8 and B <= 8:
+    print("Yay!")
+else:
+    print(":(")

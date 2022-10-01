@@ -1,2 +1,12 @@
-n = int(input())
-print("No" if n == 2 or n == 3 or n == 4 else "Yes")
+H, W = map(int, input().split())
+R, C = map(int, input().split())
+ans = 4
+if C == 1:
+    ans = ans-1
+if C == W:
+    ans = ans-1
+if R == 1:
+    ans = ans-1
+if R == H:
+    ans = ans-1
+print(ans)

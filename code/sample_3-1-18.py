@@ -1,5 +1,5 @@
-x = {0, 1, 2}
-if 1 in x:
-    print("1 include")
+x = "Hello world!"
+if "Hello" in x:
+    print("Hello include")
 else:
-    print("1 don't include")
+    print("Hello don't include")

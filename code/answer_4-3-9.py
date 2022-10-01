@@ -1,2 +1,5 @@
-ABC = list(map(int, input().split()))
-print("YES" if ABC.count(5) == 2 and ABC.count(7) == 1 else "NO")
+a, b, c = input()
+abc = a+b+c
+bca = b+c+a
+cab = c+a+b
+print(int(abc)+int(bca)+int(cab))

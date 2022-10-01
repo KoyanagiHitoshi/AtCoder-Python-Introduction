@@ -1,2 +1,5 @@
-x = "Hello world!"
-print("e include" if "e" in x else "e don't include")
+x = {"a", "b", "c"}
+if "a" in x:
+    print("a include")
+else:
+    print("a don't include")

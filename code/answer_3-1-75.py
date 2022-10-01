@@ -1,2 +1,8 @@
-A, B = map(int, input().split())
-print(A*B if 1 <= A <= 9 and 1 <= B <= 9 else "-1")
+V, A, B, C = map(int, input().split())
+V = V % (A+B+C)
+if V-A < 0:
+    print("F")
+elif V-(A+B) < 0:
+    print("M")
+else:
+    print("T")

@@ -1,2 +1,2 @@
-x = [list(map(int, input().split())) for i in range(3)]
+x = [input().split() for i in range(3)]
 print(x)

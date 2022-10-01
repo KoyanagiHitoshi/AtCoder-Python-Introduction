@@ -1,2 +1,6 @@
-x = int(input())
-print(1 if x == 0 else 0)
+import math
+X, Y = map(int, input().split())
+if Y-X > 0:
+    print(math.ceil((Y-X)/10))
+else:
+    print(0)

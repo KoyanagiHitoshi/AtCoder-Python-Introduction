@@ -1,2 +1,3 @@
-x = [input() for i in range(5)]
+N = int(input())
+x = [input() for i in range(N)]
 print(x)

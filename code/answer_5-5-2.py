@@ -1,2 +1,2 @@
-A = list(map(int, input().split()))
-print("bust" if sum(A) >= 22 else "win")
+abc = list(map(int, input().split()))
+print(21-sum(abc))

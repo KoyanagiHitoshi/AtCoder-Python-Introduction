@@ -1,2 +1,3 @@
-x = ["a", "b", "c", "d", "e", "f"]
-print(x.index("c"))
+x = "Hello"
+y = "World"
+print(x+y)

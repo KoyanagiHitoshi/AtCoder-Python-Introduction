@@ -1,3 +1,2 @@
-rows = int(input())
-x = [int(input()) for i in range(rows)]
+x = [list(map(int, input().split())) for i in range(3)]
 print(x)

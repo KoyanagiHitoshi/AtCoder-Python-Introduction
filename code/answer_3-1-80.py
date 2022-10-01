@@ -1,5 +1,9 @@
-S, T, X = map(int, input().split())
-if S < T:
-    print("Yes" if S <= X < T else "No")
+b = input()
+if b == "A":
+    print("T")
+elif b == "T":
+    print("A")
+elif b == "C":
+    print("G")
 else:
-    print("Yes" if X < T or S <= X else "No")
+    print("C")

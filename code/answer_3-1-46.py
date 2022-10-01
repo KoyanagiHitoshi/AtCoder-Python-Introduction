@@ -1,2 +1,5 @@
-a, b, c = map(int, input().split())
-print(a if b == c else b if a == c else c if a == b else 0)
+N, K, X, Y = [int(input()) for i in range(4)]
+if N <= K:
+    print(N*X)
+else:
+    print(K*X+(N-K)*Y)

@@ -1,5 +1,8 @@
-x = [0, 1, 2]
-if 1 in x:
-    print("1 include")
+x = "a"
+y = "a"
+if x < y:
+    print("x < y")
+elif x == y:
+    print("x == y")
 else:
-    print("1 don't include")
+    print("x > y")

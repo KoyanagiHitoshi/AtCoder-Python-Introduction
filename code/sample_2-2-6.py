@@ -1,1 +1,3 @@
-print(False or False)
+x = 3
+y = 6
+print(x-y)

@@ -1,2 +1,5 @@
-R, C = map(int, input().split())
-print("black" if max(abs(R-8), abs(C-8)) % 2 == 1 else "white")
+a, b, c, d = map(int, input().split())
+if abs(a-c) <= d or (abs(a-b) <= d and abs(b-c) <= d):
+    print("Yes")
+else:
+    print("No")

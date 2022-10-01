@@ -1,3 +1,2 @@
-x = [1, 2, 3, 4, 5]
-print(x.pop(3))
-print(x)
+x = "abc"
+print(x[-1], x[-2], x[-3])

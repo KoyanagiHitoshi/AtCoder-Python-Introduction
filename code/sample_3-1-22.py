@@ -1,5 +1,5 @@
-x = 4
-print("x is 1" if x == 1
-      else "x is 2" if x == 2
-      else "x is 3" if x == 3
-      else "other")
+x = [10, 20, 30]
+if 10 in x:
+    print("10 include")
+else:
+    print("10 don't include")

@@ -1,2 +1,2 @@
-x = [i for i in input().split()]
-print(x)
+x, y = [int(input()) for i in range(2)]
+print(x, y)

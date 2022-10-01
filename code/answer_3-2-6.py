@@ -1,7 +1,8 @@
-N, K = map(int, input().split())
-for i in range(K):
-    if N % 200 == 0:
-        N = N//200
-    else:
-        N = 1000*N+200
-print(N)
+K = int(input())
+A, B = map(int, input().split())
+for i in range(A, B+1):
+    if i % K == 0:
+        print("OK")
+        break
+else:
+    print("NG")

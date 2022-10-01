@@ -1,2 +1,3 @@
-x, y = [int(input()) for i in range(2)]
-print(x, y)
+N = int(input())
+x = [int(input()) for i in range(N)]
+print(x)

@@ -1,2 +1,6 @@
-A, B, C = map(int, input().split())
-print("Yes" if A**2+B**2 < C**2 else "No")
+A, B, C, K = map(int, input().split())
+S, T = map(int, input().split())
+if S+T < K:
+    print(A*S+B*T)
+else:
+    print(A*S+B*T-(S+T)*C)

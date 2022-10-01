@@ -1,3 +1,5 @@
-A, B, C, D = map(int, input().split())
-print("Takahashi" if A < C else "Aoki" if A >
-      C else "Takahashi" if B <= D else "Aoki")
+N = int(input())
+if N % 2 == 0:
+    print("White")
+else:
+    print("Black")

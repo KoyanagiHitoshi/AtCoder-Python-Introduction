@@ -1,7 +1,5 @@
-A, B, C = map(int, input().split())
-if A == B:
-    print(C)
-elif B == C:
-    print(A)
-elif C == A:
-    print(B)
+x = int(input())
+if x == 0:
+    print(1)
+if x == 1:
+    print(0)

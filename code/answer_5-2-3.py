@@ -1,2 +1,2 @@
-A1, A2, A3 = sorted(map(int, input().split()))
-print(A3-A1)
+x, y, z = sorted(map(int, input().split()))
+print(y+z)

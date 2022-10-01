@@ -1,9 +1,7 @@
-Y = int(input())
-if Y % 4 == 0:
-    print(Y+2)
-elif Y % 4 == 1:
-    print(Y+1)
-elif Y % 4 == 2:
-    print(Y)
+N = int(input())
+if N == 1:
+    print("Hello World")
 else:
-    print(Y+3)
+    A = int(input())
+    B = int(input())
+    print(A+B)

@@ -1,8 +1,11 @@
-N, X = map(int, input().split())
-S = input()
-for i in range(N):
-    if S[i] == "o":
-        X = X+1
-    elif S[i] == "x" and X != 0:
-        X = X-1
-print(X)
+N, S, T = map(int, input().split())
+W = int(input())
+day = 0
+if S <= W <= T:
+    day = day+1
+for i in range(N-1):
+    A = int(input())
+    W = W+A
+    if S <= W <= T:
+        day = day+1
+print(day)

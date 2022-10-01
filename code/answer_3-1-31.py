@@ -1,3 +1,7 @@
-a = int(input())
-s = input()
-print(s if a >= 3200 else "red")
+X, A, B = map(int, input().split())
+if X < B-A:
+    print("dangerous")
+elif A < B:
+    print("safe")
+else:
+    print("delicious")

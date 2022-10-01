@@ -1,2 +1,7 @@
-N = int(input())
-print("Yes" if -2**31 <= N < 2**31 else "No")
+X, Y = input().split()
+if X < Y:
+    print("<")
+if X == Y:
+    print("=")
+if X > Y:
+    print(">")

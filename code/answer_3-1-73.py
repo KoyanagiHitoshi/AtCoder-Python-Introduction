@@ -1,2 +1,5 @@
-a, b, c, d = input()
-print("Good" if a != b != c != d else "Bad")
+X, Y, N = map(int, input().split())
+if X < Y/3:
+    print(X*N)
+else:
+    print(Y*(N//3)+X*(N % 3))

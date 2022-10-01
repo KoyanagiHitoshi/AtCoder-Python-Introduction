@@ -1,2 +1,2 @@
-x = ["b", "a", "c", "a", "b"]
-print(list(set(x)))
+x = "012345"
+print(x[1::2])

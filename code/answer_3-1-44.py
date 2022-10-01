@@ -1,2 +1,5 @@
-x = int(input())
-print(x if x > 0 else 0)
+N, R = map(int, input().split())
+if N >= 10:
+    print(R)
+else:
+    print(R+100*(10-N))

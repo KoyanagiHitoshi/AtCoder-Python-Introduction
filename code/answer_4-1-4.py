@@ -1,2 +1,2 @@
-N = int(input())
-print(int(N**(1/2))**2)
+A, B, T = map(int, input().split())
+print(int(B*((T+0.5)//A)))

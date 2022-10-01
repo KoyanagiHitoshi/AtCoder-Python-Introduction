@@ -1,2 +1,7 @@
-n = int(input())
-print("No" if 2 <= n <= 4 else "Yes")
+X, Y = input().split()
+if X < Y:
+    print("<")
+elif X == Y:
+    print("=")
+else:
+    print(">")

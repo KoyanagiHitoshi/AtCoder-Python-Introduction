@@ -1,5 +1,5 @@
 Q = int(input())
 if Q == 1:
     print("ABC")
-else:
+if Q == 2:
     print("chokudai")

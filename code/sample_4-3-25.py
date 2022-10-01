@@ -1,2 +1,2 @@
-x = ["a", "b", "c", "d", "e"]
-print(x[1:4:2])
+x = "abcabcabc"
+print(x.replace("b", "p"))

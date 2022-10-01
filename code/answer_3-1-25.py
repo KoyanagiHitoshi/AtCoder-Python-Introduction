@@ -1,2 +1,7 @@
 N = int(input())
-print("ABC" if N < 1000 else "ABD")
+if N <= 125:
+    print(4)
+elif N <= 211:
+    print(6)
+else:
+    print(8)

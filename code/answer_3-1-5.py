@@ -1,9 +1,5 @@
-b = input()
-if b == "A":
-    print("T")
-elif b == "T":
-    print("A")
-elif b == "C":
-    print("G")
-elif b == "G":
-    print("C")
+x = int(input())
+if x < 1200:
+    print("ABC")
+else:
+    print("ARC")

@@ -1,2 +1,2 @@
-x = "Hello World!"
-print(x)
+x = "10"
+print(float(x))

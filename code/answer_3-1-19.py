@@ -1,2 +1,5 @@
-x, y = map(int, input().split())
-print("Better" if x < y else "Worse")
+D, T, S = map(int, input().split())
+if D <= S*T:
+    print("Yes")
+else:
+    print("No")

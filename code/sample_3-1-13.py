@@ -1,5 +1,7 @@
-x = "Hello world!"
-if "Good" in x:
-    print("Good include")
+x = "c"
+if x == "a":
+    print("x is a")
+elif x == "b":
+    print("x is b")
 else:
-    print("Good don't include")
+    print("x is not a and b")

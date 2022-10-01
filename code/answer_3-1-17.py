@@ -1,2 +1,5 @@
-Q = int(input())
-print("ABC" if Q == 1 else "chokudai")
+K, X = map(int, input().split())
+if 500*K >= X:
+    print("Yes")
+else:
+    print("No")

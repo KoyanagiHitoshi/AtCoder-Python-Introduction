@@ -1,2 +1,7 @@
-A, B = map(int, input().split())
-print((A+B)//2 if (A+B) % 2 == 0 else "IMPOSSIBLE")
+A, B, C, D = map(int, input().split())
+if B/A > D/C:
+    print("TAKAHASHI")
+elif B/A < D/C:
+    print("AOKI")
+else:
+    print("DRAW")

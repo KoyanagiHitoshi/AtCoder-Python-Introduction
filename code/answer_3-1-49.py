@@ -1,2 +1,5 @@
-N = int(input())
-print(4 if N <= 125 else 6 if N <= 211 else 8)
+a, b = map(int, input().split())
+if a == b-1 or (a == 1 and b == 10):
+    print("Yes")
+else:
+    print("No")
