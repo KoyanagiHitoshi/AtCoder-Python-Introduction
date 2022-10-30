@@ -1,2 +1,2 @@
-x = "abcdef"
-print(x.index("c"))
+x = "abc"
+print(x[3])

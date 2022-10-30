@@ -1,7 +1,7 @@
-a = 1
-b = 2
-c = 3
-if a < b < c:
+x = 10
+y = 20
+z = 30
+if x < y < z:
     print(True)
 else:
     print(False)

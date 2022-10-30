@@ -1,8 +1,5 @@
-K = int(input())
-A, B = map(int, input().split())
-for i in range(A, B+1):
-    if i % K == 0:
-        print("OK")
-        break
-else:
-    print("NG")
+N = int(input())
+salary = 0
+for i in range(1, N+1):
+    salary = salary+i*10000*(1/N)
+print(salary)

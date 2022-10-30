@@ -1,2 +1,2 @@
-x = "012345"
-print(x[1:4])
+x = "abbccc"
+print(x.count("d"))

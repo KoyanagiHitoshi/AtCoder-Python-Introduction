@@ -1,2 +1,2 @@
-x = "Hello World"
-print(x[::-1])
+x = "012345"
+print(x[::2])

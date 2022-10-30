@@ -1,2 +1,2 @@
-x = "Hello World!"
-print(x.upper())
+x = "Hello World"
+print(x[::-1])

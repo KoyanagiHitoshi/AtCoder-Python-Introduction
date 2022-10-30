@@ -1,4 +1,5 @@
-N = int(input())
-print(N)
-for i in range(N):
-    print(1)
+S, T = map(int, input().split())
+picture = 0
+for i in range(S, T+1):
+    picture = picture+1
+print(picture)

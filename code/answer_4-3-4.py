@@ -1,2 +1,2 @@
-W = input()
-print(W+"s")
+N = input()
+print("ABC"+N)

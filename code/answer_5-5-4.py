@@ -1,2 +1,2 @@
-X = input()
-print(sum(map(int, X)))
+abc = list(map(int, input().split()))
+print(sum(sorted(abc)[:2]))

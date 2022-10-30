@@ -1,7 +1,11 @@
-X, Y = input().split(".")
-if 0 <= int(Y) <= 2:
-    print(X+"-")
-if 3 <= int(Y) <= 6:
-    print(X)
-if 7 <= int(Y) <= 9:
-    print(X+"+")
+K = int(input())
+if K < 60:
+    if K < 10:
+        print("21:0"+str(K))
+    else:
+        print("21:"+str(K))
+else:
+    if K-60 < 10:
+        print("22:0"+str(K-60))
+    else:
+        print("22:"+str(K-60))

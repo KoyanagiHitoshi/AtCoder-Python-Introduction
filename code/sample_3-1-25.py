@@ -1,6 +1,6 @@
-x = 1
-y = 1
-z = 1
+x = 10
+y = 10
+z = 10
 if x == y == z:
     print(True)
 else:

@@ -1,2 +1,2 @@
-x = [1, 2, 3, 4, 5]
-print(x.index(3))
+x = ["a", "b", "c"]
+print(x[3])

@@ -1,2 +1,2 @@
 abc = list(map(int, input().split()))
-print(sum(sorted(abc)[:2]))
+print(21-sum(abc))

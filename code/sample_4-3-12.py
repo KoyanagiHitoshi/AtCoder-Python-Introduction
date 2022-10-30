@@ -1,2 +1,2 @@
-x = "12345"
-print(x.index("3"))
+x = "abcdcc"
+print(x.index("c"))

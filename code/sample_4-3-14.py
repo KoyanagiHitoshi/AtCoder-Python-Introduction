@@ -1,2 +1,2 @@
-x = "abbccc"
-print(x.count("d"))
+x = "abc"
+print(x.index("z"))

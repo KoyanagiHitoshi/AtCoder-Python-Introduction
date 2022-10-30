@@ -1,2 +1,2 @@
 import math
-print(math.ceil(-6/3))
+print(math.ceil(-5/3))

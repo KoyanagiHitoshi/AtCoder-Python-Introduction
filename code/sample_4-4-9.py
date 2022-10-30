@@ -1,2 +1,2 @@
-x = ["a", "b", "b", "c", "c", "c"]
-print(x.count("c"))
+x = ["a", "b", "c"]
+print(x.index("z"))

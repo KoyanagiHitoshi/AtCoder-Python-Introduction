@@ -1,2 +1,2 @@
-x = "abcabcabc"
-print(x.replace("b", "p"))
+x = "012345"
+print(x[1::2])

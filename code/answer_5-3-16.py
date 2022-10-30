@@ -1,6 +1,3 @@
-A = int(input())
-ans = 0
-for x in range(1, A+1):
-    y = A-x
-    ans = max(ans, x*y)
-print(ans)
+N = int(input())
+H = list(map(int, input().split()))
+print(H.index(max(H))+1)

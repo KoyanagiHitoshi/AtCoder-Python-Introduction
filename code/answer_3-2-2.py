@@ -1,5 +1,5 @@
-N = int(input())
-candy = 0
-for i in range(1, N+1):
-    candy = candy+i
-print(candy)
+abc = list(map(int, input().split()))
+total = 0
+for dice in abc:
+    total = total+(7-dice)
+print(total)

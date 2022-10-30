@@ -1,2 +1,3 @@
-X = input()
-print(["A", "B", "C", "D", "E"].index(X)+1)
+N = input()
+book = ["pon", "pon", "hon", "bon", "hon", "hon", "pon", "hon", "pon", "hon"]
+print(book[int(N[-1])])

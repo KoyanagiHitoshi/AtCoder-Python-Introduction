@@ -1,2 +1,2 @@
-S = input()
-print(S+"pp")
+S, T = input().split()
+print(T+S)

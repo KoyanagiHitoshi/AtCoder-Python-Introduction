@@ -1,5 +1,8 @@
-N = int(input())
-salary = 0
-for i in range(1, N+1):
-    salary = salary+i*10000*(1/N)
-print(salary)
+A = list(map(int, input().split()))
+total = 0
+for a in A:
+    total = total+a
+if total >= 22:
+    print("bust")
+else:
+    print("win")

@@ -1,2 +1,3 @@
-for i in range(2, 5):
+x = ["a", "b", "c"]
+for i in x:
     print(i)
