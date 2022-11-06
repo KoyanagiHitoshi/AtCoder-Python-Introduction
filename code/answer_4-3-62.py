@@ -1,2 +1,2 @@
-A, B = map(int, input().split())
-print(f"{B/A:.3f}")
+N = input()
+print(N.zfill(4))

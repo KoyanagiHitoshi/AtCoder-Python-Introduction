@@ -1,2 +1,2 @@
-S = input()
-print(S.count("+")-S.count("-"))
+X = input()
+print("0ABCDE".find(X))

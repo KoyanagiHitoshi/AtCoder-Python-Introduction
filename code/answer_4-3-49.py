@@ -1,6 +1,2 @@
-S = input()
-T = input()
-if S == T[:-1]:
-    print("Yes")
-else:
-    print("No")
+L, R = map(int, input().split())
+print("atcoder"[L-1:R])

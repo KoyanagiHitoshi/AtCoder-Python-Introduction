@@ -1,2 +1,3 @@
-N = int(input())
-print(f"{N:04}")
+S = input().split()
+for s in S:
+    print(s[0].upper(), end="")

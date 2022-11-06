@@ -1,2 +1,7 @@
-L, R = map(int, input().split())
-print("atcoder"[L-1:R])
+S = input()
+if S.count("R") != 2:
+    print(S.count("R"))
+elif S[1] == "R":
+    print(2)
+else:
+    print(1)

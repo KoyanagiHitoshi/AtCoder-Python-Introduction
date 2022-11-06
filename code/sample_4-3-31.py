@@ -1,2 +1,2 @@
-x = "12"
-print("ABC"+x.zfill(3))
+x = "abcabcabc"
+print(x.replace("b", "p"))

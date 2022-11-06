@@ -1,2 +1,2 @@
-x = "abbccc"
-print(x.count("d"))
+x = "abcabc"
+print(x.find("z"))

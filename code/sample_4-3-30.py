@@ -1,2 +1,2 @@
-x = "12"
-print(x.zfill(4))
+x = "Hello World"
+print(x[::-1])

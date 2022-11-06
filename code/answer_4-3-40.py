@@ -1,5 +1,6 @@
-N = input()
-if N.count("7") > 0:
-    print("Yes")
+S = input()
+idx = S.rfind("a")
+if idx != -1:
+    print(idx+1)
 else:
-    print("No")
+    print(-1)

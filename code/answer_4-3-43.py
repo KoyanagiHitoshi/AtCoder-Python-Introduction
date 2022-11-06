@@ -1,2 +1,2 @@
 S = input()
-print("2018"+S[4:])
+print(700+100*S.count("o"))

@@ -1,5 +1,3 @@
-N = int(input())
-if N < 42:
-    print(f"AGC{N:03}")
-else:
-    print(f"AGC{N+1:03}")
+N, K = map(int, input().split())
+S = input()
+print(S[:K-1]+S[K-1:K].lower()+S[K:])

@@ -1,3 +1,5 @@
-S = input().split()
-for s in S:
-    print(s[0].upper(), end="")
+N = input()
+if N == N[::-1]:
+    print("Yes")
+else:
+    print("No")

@@ -1,2 +1,3 @@
-S = input()
-print(700+100*S.count("o"))
+C = input()
+letters = "abcdefghijklmnopqrstuvwxyz"
+print(letters[letters.find(C)+1])

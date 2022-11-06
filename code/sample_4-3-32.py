@@ -1,2 +1,2 @@
-x = "5"
-print("12:"+x.zfill(2))
+x = "Hello World!"
+print(x.upper())
