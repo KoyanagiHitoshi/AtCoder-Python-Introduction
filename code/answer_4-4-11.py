@@ -1,3 +1,3 @@
-S = input()
-week = ["0", "SAT", "FRI", "THU", "WED", "TUE", "MON", "SUN"]
-print(week.index(S))
+N, X = input().split()
+P = input().split()
+print(P.index(X)+1)

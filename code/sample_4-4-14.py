@@ -1,2 +1,3 @@
-x = ["b", "a", "c", "a", "b"]
-print(list(set(x)))
+x = [0, 1, 2]
+x.append(3)
+print(x)

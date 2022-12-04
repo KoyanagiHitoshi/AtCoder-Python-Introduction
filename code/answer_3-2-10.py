@@ -1,8 +1,11 @@
-K = int(input())
-A, B = map(int, input().split())
-for i in range(A, B+1):
-    if i % K == 0:
-        print("OK")
-        break
-else:
-    print("NG")
+N, S, T = map(int, input().split())
+W = int(input())
+day = 0
+if S <= W <= T:
+    day = day+1
+for i in range(N-1):
+    A = int(input())
+    W = W+A
+    if S <= W <= T:
+        day = day+1
+print(day)

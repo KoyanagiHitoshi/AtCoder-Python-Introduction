@@ -1,3 +1,3 @@
-S = input()
-week = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"]
-print(7-week.index(S))
+N, X = map(int, input().split())
+P = list(map(int, input().split()))
+print(P.index(X)+1)

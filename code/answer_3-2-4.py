@@ -1,5 +1,8 @@
-S, T = map(int, input().split())
-picture = 0
-for i in range(S, T+1):
-    picture = picture+1
-print(picture)
+A = list(map(int, input().split()))
+total = 0
+for a in A:
+    total = total+a
+if total >= 22:
+    print("bust")
+else:
+    print("win")

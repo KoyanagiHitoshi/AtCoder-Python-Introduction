@@ -1,5 +1,3 @@
-N = int(input())
-if N < 42:
-    print("AGC"+str(N).zfill(3))
-else:
-    print("AGC"+str(N+1).zfill(3))
+N, K = map(int, input().split())
+S = input()
+print(S[:K-1]+S[K-1:K].lower()+S[K:])
