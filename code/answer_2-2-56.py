@@ -1,2 +1,2 @@
-A, B, C = map(int, input().split())
-print((A*B*C) % (10**9+7))
+N, K, A = map(int, input().split())
+print(((A+K-2) % N)+1)

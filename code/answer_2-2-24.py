@@ -1,2 +1,2 @@
-a = int(input())
-print(a+a**2+a**3)
+A, B = map(int, input().split())
+print(A**B)
