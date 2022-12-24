@@ -1,8 +1,4 @@
-K = int(input())
-A, B = map(int, input().split())
-for i in range(A, B+1):
-    if i % K == 0:
-        print("OK")
-        break
-else:
-    print("NG")
+a, b, n = [int(input()) for i in range(3)]
+while n % a != 0 or n % b != 0:
+    n = n+1
+print(n)

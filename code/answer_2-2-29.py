@@ -1,2 +1,2 @@
-N = int(input())
-print(N**3)
+H = int(input())
+print((H*(12800000+H))**(1/2))

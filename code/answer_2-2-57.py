@@ -1,2 +1,2 @@
-A, B, C = map(int, input().split())
-print((A*B*C) % (10**9+7))
+N = int(input())
+print(N % 998244353)

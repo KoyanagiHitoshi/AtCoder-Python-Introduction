@@ -1,2 +1,3 @@
 S = input()
-print(S[1:]+S[0])
+a, b = map(int, input().split())
+print(S[:a-1]+S[b-1]+S[a:b-1]+S[a-1]+S[b:])

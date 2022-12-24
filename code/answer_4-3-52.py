@@ -1,2 +1,2 @@
-L, R = map(int, input().split())
-print("atcoder"[L-1:R])
+S = input()
+print(S[1:]+S[0])

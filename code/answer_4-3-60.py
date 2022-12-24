@@ -1,6 +1,2 @@
-c1 = input()
-c2 = input()
-if c1 == c2[::-1]:
-    print("YES")
-else:
-    print("NO")
+n = input()
+print(n.replace("1", "x").replace("9", "1").replace("x", "9"))

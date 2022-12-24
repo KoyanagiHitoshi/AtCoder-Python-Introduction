@@ -1,2 +1,6 @@
 S = input()
-print((S*6)[:6])
+T = input()
+if S == T[:-1]:
+    print("Yes")
+else:
+    print("No")
