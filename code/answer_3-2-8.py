@@ -1,4 +1,3 @@
 N = int(input())
-print(N)
-for i in range(N):
-    print(1)
+for i in range(N+1):
+    print(N-i)
