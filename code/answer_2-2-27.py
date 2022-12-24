@@ -1,2 +1,2 @@
-r = int(input())
-print(r**2)
+A, B = map(int, input().split())
+print(32**(A-B))

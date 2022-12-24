@@ -1,2 +1,2 @@
-x = input().split()
+x = list(input().split())
 print(x)

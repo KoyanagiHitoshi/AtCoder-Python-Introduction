@@ -1,7 +1,4 @@
-A, B, C = map(int, input().split())
-for i in range(A, B+1):
-    if i % C == 0:
-        print(i)
-        break
-else:
-    print(-1)
+a, b, n = [int(input()) for i in range(3)]
+while not (n % a == 0 and n % b == 0):
+    n = n+1
+print(n)

@@ -1,14 +1,7 @@
-A, B, C, D, E, F, X = map(int, input().split())
-takahashi = 0
-aoki = 0
-for i in range(X):
-    if i % (A+C) < A:
-        takahashi = takahashi+B
-    if i % (D+F) < D:
-        aoki = aoki+E
-if takahashi > aoki:
-    print("Takahashi")
-elif takahashi < aoki:
-    print("Aoki")
+A, B, C = map(int, input().split())
+for i in range(A, B+1):
+    if i % C == 0:
+        print(i)
+        break
 else:
-    print("Draw")
+    print(-1)

@@ -1,2 +1,2 @@
-N = int(input())
-print((N % 12)+1)
+A, B = map(int, input().split())
+print((A+B) % 24)

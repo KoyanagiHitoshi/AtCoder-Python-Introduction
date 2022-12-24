@@ -1,3 +1,3 @@
 import math
-N = int(input())
-print(math.ceil(N/2))
+A, B = map(int, input().split())
+print(math.ceil(B/A))
