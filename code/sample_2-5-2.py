@@ -1,1 +1,0 @@
-print("ab" in "abc")
