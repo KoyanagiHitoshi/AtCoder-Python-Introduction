@@ -1,5 +1,3 @@
-Q = int(input())
-if Q == 1:
-    print("ABC")
-if Q == 2:
-    print("chokudai")
+A, B = map(int, input().split())
+A, B = B, A
+print(A, B)

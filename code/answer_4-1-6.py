@@ -1,2 +1,5 @@
-X = int(input())
-print(int(X**(1/4)))
+N = int(input())
+if N < 1000:
+    print("ABC")
+else:
+    print("ABD")

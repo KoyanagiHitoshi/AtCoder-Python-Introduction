@@ -1,2 +1,5 @@
-a, x, b = input()
-print(int(a)*int(b))
+Q = int(input())
+if Q == 1:
+    print("ABC")
+if Q == 2:
+    print("chokudai")

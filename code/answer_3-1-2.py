@@ -1,5 +1,4 @@
-Q = int(input())
-if Q == 1:
-    print("ABC")
-else:
-    print("chokudai")
+X, Y, Z = map(int, input().split())
+X, Y = Y, X
+X, Z = Z, X
+print(X, Y, Z)

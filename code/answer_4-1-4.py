@@ -1,2 +1,5 @@
-A, B, T = map(int, input().split())
-print(int(B*((T+0.5)//A)))
+x = int(input())
+if x == 0:
+    print(1)
+else:
+    print(0)

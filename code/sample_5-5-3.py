@@ -1,2 +1,1 @@
-x = "1234"
-print(sum(map(int, x)))
+print({"a", "b", "c"} | {"c", "d", "e"})

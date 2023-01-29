@@ -1,2 +1,3 @@
-S = input()
-print(45-sum(map(int, S)))
+U = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9"}
+S = set(input())
+print((U-S).pop())

@@ -1,2 +1,5 @@
-a, b, c = map(int, input().split())
-print(min(a+b, b+c, c+a))
+a = list(map(int, input().split()))
+idx = 0
+for i in range(2):
+    idx = a[idx]
+print(a[idx])

@@ -1,5 +1,2 @@
-S = input()
-if len(set(S)) == 3:
-    print("Yes")
-else:
-    print("No")
+X = int(input())
+print(int(X**(1/4)))

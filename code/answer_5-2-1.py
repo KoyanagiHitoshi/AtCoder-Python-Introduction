@@ -1,2 +1,2 @@
-abc = map(int, input().split())
-print(sorted(abc)[1])
+X = float(input())
+print(int(X+0.5))

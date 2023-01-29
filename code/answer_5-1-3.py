@@ -1,2 +1,5 @@
-N = input()
-print("0"*(4-len(N))+N)
+A, op, B = input().split()
+if op == "+":
+    print(int(A)+int(B))
+if op == "-":
+    print(int(A)-int(B))

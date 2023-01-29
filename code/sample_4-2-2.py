@@ -1,2 +1,3 @@
-x = "10"
-print(float(x))
+x = ["a", "b", "c"]
+for i in x:
+    print(i)

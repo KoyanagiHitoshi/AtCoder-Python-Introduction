@@ -1,2 +1,4 @@
-A, B, C = map(int, input().split())
-print(min(C, B//A))
+N = int(input())
+S = [input() for i in range(N)]
+for i in range(N):
+    print(S[N-i-1])

@@ -1,2 +1,3 @@
-for i in range(5):
-    print(i)
+x = 6
+x //= 3
+print(x)

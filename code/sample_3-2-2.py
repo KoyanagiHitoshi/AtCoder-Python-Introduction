@@ -1,3 +1,3 @@
-x = ["a", "b", "c"]
-for i in x:
-    print(i)
+x = 2
+x **= 3
+print(x)

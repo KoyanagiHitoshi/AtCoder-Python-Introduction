@@ -1,5 +1,3 @@
-x = int(input())
-if x == 0:
-    print(1)
-if x == 1:
-    print(0)
+X, Y, Z = map(int, input().split())
+X, Y, Z = Z, X, Y
+print(X, Y, Z)

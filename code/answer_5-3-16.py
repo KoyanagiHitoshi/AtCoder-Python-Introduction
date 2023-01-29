@@ -1,3 +1,3 @@
-N = int(input())
-H = list(map(int, input().split()))
-print(H.index(max(H))+1)
+s = input()
+i = int(input())
+print(s[i-1])

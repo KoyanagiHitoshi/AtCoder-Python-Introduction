@@ -1,2 +1,2 @@
-A, B = map(int, input().split())
-print(max(0, A-2*B))
+S = input()
+print(int(S[0])*int(S[2]))

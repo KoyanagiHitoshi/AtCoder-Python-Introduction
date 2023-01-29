@@ -1,7 +1,3 @@
-A, B = input().split()
-a = sum(map(int, A))
-b = sum(map(int, B))
-if a > b:
-    print(a)
-else:
-    print(b)
+U = {1, 2, 3}
+AB = set(int(input()) for i in range(2))
+print((U-AB).pop())

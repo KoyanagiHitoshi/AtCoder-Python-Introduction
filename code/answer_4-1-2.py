@@ -1,7 +1,5 @@
-A, op, B = input().split()
-A = int(A)
-B = int(B)
-if op == "+":
-    print(A+B)
-if op == "-":
-    print(A-B)
+Q = int(input())
+if Q == 1:
+    print("ABC")
+else:
+    print("chokudai")

@@ -1,2 +1,1 @@
-x = ["a", "b", "c", "a"]
-print(len(x))
+print(int(3.0))

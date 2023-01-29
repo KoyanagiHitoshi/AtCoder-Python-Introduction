@@ -1,2 +1,2 @@
-x = [1, 2, 3]
-print(max(x))
+x = 10
+print(str(x))

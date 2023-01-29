@@ -1,5 +1,2 @@
-N = input()
-if len(set(N)) == 1:
-    print("SAME")
-else:
-    print("DIFFERENT")
+A, B, T = map(int, input().split())
+print(int(B*((T+0.5)//A)))

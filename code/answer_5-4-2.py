@@ -1,2 +1,2 @@
-N, A, B = map(int, input().split())
-print(min(N*A, B))
+a = list(map(int, input().split()))
+print(a[a[a[0]]])

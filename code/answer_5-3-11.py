@@ -1,2 +1,2 @@
-X, t = map(int, input().split())
-print(max(0, X-t))
+D = int(input())
+print("Christmas"+" Eve"*(25-D))

@@ -1,2 +1,2 @@
-x = [1, 2, 3]
-print(sum(x))
+x = "abcabc"
+print(set(x))

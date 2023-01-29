@@ -1,5 +1,3 @@
-x, a, b = map(int, input().split())
-if abs(a-x) < abs(b-x):
-    print("A")
-else:
-    print("B")
+X = input()
+alphabet = {"A": 1, "B": 2, "C": 3, "D": 4, "E": 5}
+print(alphabet[X])

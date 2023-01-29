@@ -1,2 +1,2 @@
-x = 1234
-print(sum(map(int, str(x))))
+x = ["a", "b", "c", "a", "b", "c"]
+print(set(x))

@@ -1,2 +1,1 @@
-x = [0, 1, 2]
-print(len(x))
+print(int(3.1))

@@ -1,5 +1,3 @@
-x = 20
-if x == 10:
-    print("x is 10")
-else:
-    print("x is not 10")
+x, y = 1, 2
+x, y = y, x
+print(x, y)

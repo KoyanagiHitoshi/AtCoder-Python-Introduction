@@ -1,2 +1,2 @@
-x = [2, 1, 3]
-print(sorted(x))
+x = 10
+print(float(x))

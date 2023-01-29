@@ -1,1 +1,5 @@
-print(int(3.0))
+x = 20
+if x == 10:
+    print("x is 10")
+else:
+    print("x is not 10")

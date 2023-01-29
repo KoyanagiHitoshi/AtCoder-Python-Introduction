@@ -1,3 +1,3 @@
-x = [1, 2, 3]
-for i in x:
-    print(i)
+x = 2
+x += 1
+print(x)

@@ -1,5 +1,3 @@
-X, Y = map(int, input().split())
-if abs(X-Y) < 3:
-    print("Yes")
-else:
-    print("No")
+S = input()
+weather = {"Sunny": "Cloudy", "Cloudy": "Rainy", "Rainy": "Sunny"}
+print(weather[S])

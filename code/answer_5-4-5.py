@@ -1,2 +1,3 @@
-A, B, C, D = [int(input()) for i in range(4)]
-print(min(A, B)+min(C, D))
+N = input()
+book = ["pon", "pon", "hon", "bon", "hon", "hon", "pon", "hon", "pon", "hon"]
+print(book[int(N[-1])])

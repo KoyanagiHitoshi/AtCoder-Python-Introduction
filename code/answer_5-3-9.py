@@ -1,2 +1,5 @@
-A, B = map(int, input().split())
-print(max(0, B-A+1))
+a, b, c = input()
+abc = a+b+c
+bca = b+c+a
+cab = c+a+b
+print(int(abc)+int(bca)+int(cab))

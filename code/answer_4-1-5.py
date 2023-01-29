@@ -1,7 +1,5 @@
-N = int(input())
-if int(1.08*N) < 206:
-    print("Yay!")
-elif int(1.08*N) == 206:
-    print("so-so")
+x = int(input())
+if x < 1200:
+    print("ABC")
 else:
-    print(":(")
+    print("ARC")

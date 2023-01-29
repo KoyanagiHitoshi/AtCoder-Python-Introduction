@@ -1,2 +1,1 @@
-x = "Hello"
-print(len(x))
+print(int(2.9))
