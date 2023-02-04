@@ -1,11 +1,5 @@
-N, S, T = map(int, input().split())
-W = int(input())
-day = 0
-if S <= W <= T:
-    day = day+1
-for i in range(N-1):
-    A = int(input())
-    W = W+A
-    if S <= W <= T:
-        day = day+1
-print(day)
+N, X = map(int, input().split())
+P = list(map(int, input().split()))
+for i in range(N):
+    if P[i] == X:
+        print(i+1)

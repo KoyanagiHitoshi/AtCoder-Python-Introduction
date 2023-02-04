@@ -1,7 +1,2 @@
-x = False
-for i in range(5):
-    if x:
-        print(True)
-        break
-else:
-    print(False)
+for i in range(3, -1, -1):
+    print(i)

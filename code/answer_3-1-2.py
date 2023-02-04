@@ -1,4 +1,5 @@
 X, Y, Z = map(int, input().split())
-X, Y = Y, X
-X, Z = Z, X
-print(X, Y, Z)
+A, B, C = X, Y, Z
+A, B = B, A
+A, C = C, A
+print(A, B, C)

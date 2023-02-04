@@ -1,3 +1,4 @@
 X, Y, Z = map(int, input().split())
-X, Y, Z = Z, X, Y
-print(X, Y, Z)
+A, B, C = X, Y, Z
+A, B, C = C, A, B
+print(A, B, C)
