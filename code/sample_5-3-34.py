@@ -1,2 +1,2 @@
-x = "12"
-print(x.zfill(4))
+x = "ABC"
+print(x.isupper())

@@ -1,2 +1,2 @@
-x = "12"
-print("ABC"+x.zfill(3))
+x = "abc"
+print(x.islower())

@@ -1,3 +1,3 @@
 S = input()
-week = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
-print(5-week.index(S))
+week = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"]
+print(7-week.index(S))

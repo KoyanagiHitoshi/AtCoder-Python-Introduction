@@ -1,2 +1,4 @@
-X = input()
-print(["0", "A", "B", "C", "D", "E"].index(X))
+N = int(input())
+S = [input() for i in range(N)]
+for i in range(N-1, -1, -1):
+    print(S[i])

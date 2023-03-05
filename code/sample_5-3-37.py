@@ -1,2 +1,2 @@
-x = 12
-print(f"{x:04}")
+x = "12"
+print("ABC"+x.zfill(3))

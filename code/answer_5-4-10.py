@@ -1,2 +1,2 @@
-x = list(map(int, input().split()))
-print(x.index(0)+1)
+X = input()
+print(["A", "B", "C", "D", "E"].index(X)+1)

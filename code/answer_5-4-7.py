@@ -1,4 +1,3 @@
-N = int(input())
-S = [input() for i in range(N)]
-for i in range(N-1, -1, -1):
-    print(S[i])
+N = input()
+book = ["pon", "pon", "hon", "bon", "hon", "hon", "pon", "hon", "pon", "hon"]
+print(book[int(N[-1])])
