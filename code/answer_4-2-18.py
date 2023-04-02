@@ -1,4 +1,9 @@
-a, b, n = [int(input()) for i in range(3)]
-while n % a != 0 or n % b != 0:
-    n += 1
-print(n)
+N = int(input())
+W = input().split()
+S = {"and", "not", "that", "the", "you"}
+for w in W:
+    if w in S:
+        print("Yes")
+        break
+else:
+    print("No")

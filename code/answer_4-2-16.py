@@ -1,7 +1,8 @@
-A, B, C = map(int, input().split())
+K = int(input())
+A, B = map(int, input().split())
 for i in range(A, B+1):
-    if i % C == 0:
-        print(i)
+    if i % K == 0:
+        print("OK")
         break
 else:
-    print(-1)
+    print("NG")

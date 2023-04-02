@@ -1,3 +1,5 @@
 N = int(input())
-for i in range(N+1):
-    print(N-i)
+salary = 0
+for i in range(1, N+1):
+    salary += i*10000*(1/N)
+print(salary)

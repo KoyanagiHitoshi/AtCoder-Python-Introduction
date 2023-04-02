@@ -1,5 +1,6 @@
-AB = input()
-if "2" in AB:
-    print("No")
-else:
+N = int(input())
+S = input()
+if S in "MF"*51:
     print("Yes")
+else:
+    print("No")
