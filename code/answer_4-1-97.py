@@ -1,6 +1,6 @@
 N = int(input())
 S = input()
-if S in "MF"*51:
-    print("Yes")
-else:
+if "MM" in S or "FF" in S:
     print("No")
+else:
+    print("Yes")

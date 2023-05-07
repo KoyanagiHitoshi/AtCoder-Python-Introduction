@@ -1,5 +1,8 @@
-N = int(input())
-if N < 42:
-    print(f"AGC{N:03}")
-else:
-    print(f"AGC{N+1:03}")
+S = input()
+idx = 1
+for s in S:
+    if s.isupper():
+        break
+    else:
+        idx += 1
+print(idx)

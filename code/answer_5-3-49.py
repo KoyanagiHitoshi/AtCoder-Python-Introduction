@@ -1,2 +1,6 @@
+N = int(input())
 S = input()
-print("2018"+S[4:])
+if S.count("o") >= 1 and S.count("x") == 0:
+    print("Yes")
+else:
+    print("No")

@@ -1,5 +1,8 @@
-N = int(input())
 A = list(map(int, input().split()))
+total = 0
 for a in A:
-    if a % 2 == 0:
-        print(a, end=" ")
+    total += a
+if total >= 22:
+    print("bust")
+else:
+    print("win")

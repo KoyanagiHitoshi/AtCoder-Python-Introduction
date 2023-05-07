@@ -1,2 +1,2 @@
-s = input()
-print("A"+s[8]+"C")
+S = input()
+print(int(S[0])*int(S[2]))

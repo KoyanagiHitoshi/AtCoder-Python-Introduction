@@ -1,4 +1,5 @@
 N = int(input())
-for i in range(N):
-    A, B = map(int, input().split())
-    print(A+B)
+A = list(map(int, input().split()))
+for a in A:
+    if a % 2 == 0:
+        print(a, end=" ")

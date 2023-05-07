@@ -1,2 +1,2 @@
 S = input()
-print(700+100*S.count("o"))
+print(S.count("v")+2*S.count("w"))

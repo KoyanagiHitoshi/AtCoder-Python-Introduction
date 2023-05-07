@@ -1,2 +1,5 @@
-n = input()
-print(n.replace("1", "x").replace("9", "1").replace("x", "9"))
+N = input()
+if N == N[::-1]:
+    print("Yes")
+else:
+    print("No")

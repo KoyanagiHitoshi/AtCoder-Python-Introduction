@@ -1,3 +1,2 @@
-S = input().split()
-for s in S:
-    print(s[0].upper(), end="")
+n = input()
+print(n.replace("1", "x").replace("9", "1").replace("x", "9"))

@@ -1,5 +1,5 @@
-N = input()
-if N[0] == N[1] == N[2] or N[1] == N[2] == N[3]:
+S = input()
+if S[2] == S[3] and S[4] == S[5]:
     print("Yes")
 else:
     print("No")
