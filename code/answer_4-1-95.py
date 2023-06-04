@@ -1,5 +1,5 @@
 a = input()
-if a in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
-    print("A")
-else:
+if a in "abcdefghijklmnopqrstuvwxyz":
     print("a")
+else:
+    print("A")

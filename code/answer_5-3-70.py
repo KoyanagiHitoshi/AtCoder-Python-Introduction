@@ -1,3 +1,2 @@
-N, K = map(int, input().split())
-S = input()
-print(S[:K-1]+S[K-1:K].lower()+S[K:])
+s1, s2, s3 = input().split()
+print((s1[0]+s2[0]+s3[0]).upper())

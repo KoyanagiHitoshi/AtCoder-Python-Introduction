@@ -1,6 +1,5 @@
-N = int(input())
-S = input()
-if "o" in S and "x" not in S:
-    print("Yes")
+a = input()
+if a in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
+    print("A")
 else:
-    print("No")
+    print("a")

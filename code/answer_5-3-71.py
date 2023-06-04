@@ -1,8 +1,3 @@
-S = input()
-idx = 1
+S = input().split()
 for s in S:
-    if s.isupper():
-        break
-    else:
-        idx += 1
-print(idx)
+    print(s[0].upper(), end="")

@@ -1,5 +1,5 @@
-S = input()
-if S <= "2019/04/30":
-    print("Heisei")
+S, T = input().split()
+if S < T:
+    print("Yes")
 else:
-    print("TBD")
+    print("No")

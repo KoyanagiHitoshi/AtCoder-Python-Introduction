@@ -1,2 +1,5 @@
-s = input()
-print(s[::2])
+S = input()
+if S[-2:] == "er":
+    print("er")
+else:
+    print("ist")
