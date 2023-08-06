@@ -1,6 +1,5 @@
-N = int(input())
-S = [input() for i in range(N)]
-if S.count("For") > N/2:
-    print("Yes")
+ABC = input().split()
+if ABC.count("5") == 2 and ABC.count("7") == 1:
+    print("YES")
 else:
-    print("No")
+    print("NO")

@@ -1,5 +1,5 @@
-A, B = map(int, input().split())
-if A <= B <= 6*A:
+N = int(input())
+if -2**31 <= N < 2**31:
     print("Yes")
 else:
     print("No")

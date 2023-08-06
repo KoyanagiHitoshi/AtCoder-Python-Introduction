@@ -1,6 +1,6 @@
-N, K = map(int, input().split())
-A = list(map(int, input().split()))
-for i in range(K):
-    A.pop(0)
-    A.append(0)
-print(*A)
+N = int(input())
+S = [input() for i in range(N)]
+if S.count("For") > N/2:
+    print("Yes")
+else:
+    print("No")

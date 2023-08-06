@@ -1,3 +1,6 @@
-S = input()
-N = int(input())-1
-print(S[N//5]+S[N % 5])
+S = "XACABABAABABA"
+x, y = map(int, input().split())
+if S[x] == S[y]:
+    print("Yes")
+else:
+    print("No")

@@ -1,5 +1,5 @@
-A, B, C = map(int, input().split())
-if A <= C <= B:
+S = input()
+if S in "ACEGBDFAC":
     print("Yes")
 else:
     print("No")

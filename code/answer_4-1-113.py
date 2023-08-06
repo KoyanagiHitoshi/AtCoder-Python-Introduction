@@ -1,5 +1,5 @@
-A, B, X = map(int, input().split())
-if 0 <= X-A <= B:
-    print("YES")
+a, b, c, d = input()
+if a != b != c != d:
+    print("Good")
 else:
-    print("NO")
+    print("Bad")

@@ -1,11 +1,5 @@
-S, T, X = map(int, input().split())
-if S < T:
-    if S <= X < T:
-        print("Yes")
-    else:
-        print("No")
+A, B = map(int, input().split())
+if A <= B <= 6*A:
+    print("Yes")
 else:
-    if X < T or S <= X:
-        print("Yes")
-    else:
-        print("No")
+    print("No")

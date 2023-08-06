@@ -1,9 +1,4 @@
 N = int(input())
-S = []
-A = []
-for i in range(N):
-    s, a = input().split()
-    S.append(s)
-    A.append(int(a))
-idx = A.index(min(A))
-print(*S[idx:]+S[:idx], sep="\n")
+S = [input() for i in range(N)]
+for s in S[::-1]:
+    print(s)
