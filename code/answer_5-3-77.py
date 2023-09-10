@@ -1,2 +1,2 @@
-N = int(input())
-print(f"{N:04}")
+N = input()
+print(N.zfill(4))

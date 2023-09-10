@@ -1,3 +1,5 @@
-N = int(input())
-H = list(map(int, input().split()))
-print(H.index(max(H))+1)
+A, B = map(int, input().split())
+if max(A, B) <= 8:
+    print("Yay!")
+else:
+    print(":(")

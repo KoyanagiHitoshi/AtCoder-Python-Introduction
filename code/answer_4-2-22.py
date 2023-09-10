@@ -1,9 +1,9 @@
 N = int(input())
-S = input()
-for i in range(N-1):
-    if S[i] != S[i+1]:
-        continue
-    print("No")
-    break
+W = input().split()
+S = {"and", "not", "that", "the", "you"}
+for w in W:
+    if w in S:
+        print("Yes")
+        break
 else:
-    print("Yes")
+    print("No")

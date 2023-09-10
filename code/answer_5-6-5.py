@@ -1,4 +1,14 @@
-N = input()
-book = {"0": "pon", "1": "pon", "2": "hon", "3": "bon", "4": "hon",
-        "5": "hon", "6": "pon", "7": "hon", "8": "pon", "9": "hon"}
-print(book[N[-1]])
+rate = {
+    "tourist": 3858,
+    "ksun48": 3679,
+    "Benq": 3658,
+    "Um_nik": 3648,
+    "apiad": 3638,
+    "Stonefeang": 3630,
+    "ecnerwala": 3613,
+    "mnbvmar": 3555,
+    "newbiedmy": 3516,
+    "semiexp": 3481
+}
+S = input()
+print(rate[S])

@@ -1,3 +1,3 @@
 N = int(input())
-S = "0"+input()
-print(max(S.find("A"), S.find("B"), S.find("C")))
+H = list(map(int, input().split()))
+print(H.index(max(H))+1)

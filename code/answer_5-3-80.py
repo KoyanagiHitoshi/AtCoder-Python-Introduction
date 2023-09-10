@@ -1,2 +1,5 @@
 N = int(input())
-print(f"{N:02X}")
+if N < 42:
+    print(f"AGC{N:03}")
+else:
+    print(f"AGC{N+1:03}")

@@ -1,5 +1,3 @@
-A, B = map(int, input().split())
-if max(A, B) <= 8:
-    print("Yay!")
-else:
-    print(":(")
+import math
+N, M, P = map(int, input().split())
+print(max(0, math.ceil((N-M+1)/P)))

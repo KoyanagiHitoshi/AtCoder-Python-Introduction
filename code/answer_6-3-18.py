@@ -1,6 +1,3 @@
-A = int(input())
-ans = 0
-for x in range(1, A+1):
-    y = A-x
-    ans = max(ans, x*y)
-print(ans)
+N = int(input())
+S = "0"+input()
+print(max(S.find("A"), S.find("B"), S.find("C")))
