@@ -1,5 +1,11 @@
 # Change Log
 
+## [v3.7.0](https://github.com/KoyanagiHitoshi/AtCoder-Python-Introduction/releases/tag/v3.7.0) / 2023-09-17
+
+* [#28](https://github.com/KoyanagiHitoshi/AtCoder-Python-Introduction/pull/28) upgrade Python (3.8.2) => (CPython 3.11.4)
+* [#28](https://github.com/KoyanagiHitoshi/AtCoder-Python-Introduction/pull/28) update README.md
+* [#28](https://github.com/KoyanagiHitoshi/AtCoder-Python-Introduction/pull/28) update CHANGELOG.md
+
 ## [v3.6.0](https://github.com/KoyanagiHitoshi/AtCoder-Python-Introduction/releases/tag/v3.6.0) / 2023-09-10
 
 * [#27](https://github.com/KoyanagiHitoshi/AtCoder-Python-Introduction/pull/27) update README.md
