@@ -1,2 +1,2 @@
-X = int(input())
-print(X//10)
+A, P = map(int, input().split())
+print((3*A+P)//2)

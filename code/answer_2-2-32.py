@@ -1,2 +1,2 @@
-D = int(input())
-print(D/100)
+H = int(input())
+print((H*(12800000+H))**0.5)

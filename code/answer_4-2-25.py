@@ -1,4 +1,9 @@
 N = int(input())
-while N >= 0:
-    print(N)
-    N -= 1
+S = input()
+for i in range(N-1):
+    if S[i] != S[i+1]:
+        continue
+    print("No")
+    break
+else:
+    print("Yes")
