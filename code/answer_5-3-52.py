@@ -1,6 +1,6 @@
-H, W = map(int, input().split())
-S = [input() for i in range(H)]
-ans = 0
-for s in S:
-    ans += s.count("#")
-print(ans)
+N = int(input())
+S = input()
+if S.count("o") >= 1 and S.count("x") == 0:
+    print("Yes")
+else:
+    print("No")

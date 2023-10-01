@@ -1,5 +1,8 @@
-N = int(input())
-if N < 42:
-    print("AGC"+str(N).zfill(3))
-else:
-    print("AGC"+str(N+1).zfill(3))
+S = input()
+idx = 1
+for s in S:
+    if s.isupper():
+        break
+    else:
+        idx += 1
+print(idx)
