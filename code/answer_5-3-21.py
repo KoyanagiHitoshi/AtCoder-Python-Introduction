@@ -1,3 +1,3 @@
 N = int(input())
 S = input()
-print(S[-1])
+print(S[N-1])

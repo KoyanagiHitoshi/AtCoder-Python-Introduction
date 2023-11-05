@@ -1,5 +1,5 @@
 S = input()
-if S in "ACEGBDFAC":
+if S in {"ACE", "BDF", "CEG", "DFA", "EGB", "FAC", "GBD"}:
     print("Yes")
 else:
     print("No")

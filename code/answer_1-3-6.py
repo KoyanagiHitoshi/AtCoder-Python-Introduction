@@ -1,2 +1,2 @@
 S, T = input().split()
-print(S+" san")
+print(S, "san")

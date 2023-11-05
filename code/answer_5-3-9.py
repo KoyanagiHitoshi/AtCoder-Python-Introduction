@@ -1,5 +1,11 @@
-a, b, c = input()
-abc = a+b+c
-bca = b+c+a
-cab = c+a+b
-print(int(abc)+int(bca)+int(cab))
+K = int(input())
+if K < 60:
+    if K < 10:
+        print("21:0"+str(K))
+    else:
+        print("21:"+str(K))
+else:
+    if K-60 < 10:
+        print("22:0"+str(K-60))
+    else:
+        print("22:"+str(K-60))

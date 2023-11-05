@@ -1,5 +1,5 @@
-N = input()
-if N[0] == N[1] == N[2] == N[3]:
-    print("SAME")
+C = input()
+if C[0] == C[1] == C[2]:
+    print("Won")
 else:
-    print("DIFFERENT")
+    print("Lost")

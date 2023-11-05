@@ -1,5 +1,5 @@
-r, g, b = input().split()
-if int(r+g+b) % 4 == 0:
-    print("YES")
-else:
-    print("NO")
+a, b, c = input()
+abc = a+b+c
+bca = b+c+a
+cab = c+a+b
+print(int(abc)+int(bca)+int(cab))
