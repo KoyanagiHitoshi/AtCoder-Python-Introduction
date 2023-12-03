@@ -1,3 +1,3 @@
-print("x", end="")
-print("y", end="")
-print("z", end="")
+print("x")
+print("y")
+print("z")

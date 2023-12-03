@@ -1,9 +1,14 @@
-N = int(input())
-W = input().split()
-S = {"and", "not", "that", "the", "you"}
-for w in W:
-    if w in S:
-        print("Yes")
-        break
+A, B, C, D, E, F, X = map(int, input().split())
+takahashi = 0
+aoki = 0
+for i in range(X):
+    if i % (A+C) < A:
+        takahashi += B
+    if i % (D+F) < D:
+        aoki += E
+if takahashi > aoki:
+    print("Takahashi")
+elif takahashi < aoki:
+    print("Aoki")
 else:
-    print("No")
+    print("Draw")

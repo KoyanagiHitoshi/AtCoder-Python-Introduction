@@ -1,8 +1,7 @@
-N, A, B = map(int, input().split())
-C = list(map(int, input().split()))
-idx = 1
-for c in C:
-    if A+B == c:
-        print(idx)
-    else:
-        idx += 1
+N, L = map(int, input().split())
+A = list(map(int, input().split()))
+count = 0
+for a in A:
+    if a >= L:
+        count += 1
+print(count)

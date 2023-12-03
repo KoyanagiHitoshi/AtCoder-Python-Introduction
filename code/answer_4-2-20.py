@@ -1,7 +1,6 @@
-A, B, C = map(int, input().split())
-for i in range(A, B+1):
-    if i % C == 0:
-        print(i)
+N, H, X = map(int, input().split())
+P = list(map(int, input().split()))
+for i in range(N):
+    if H+P[i] >= X:
+        print(i+1)
         break
-else:
-    print(-1)

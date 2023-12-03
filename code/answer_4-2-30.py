@@ -1,4 +1,9 @@
-a, b, n = [int(input()) for i in range(3)]
-while not (n % a == 0 and n % b == 0):
-    n += 1
-print(n)
+S = input()
+for i in range(1, 16, 2):
+    if S[i] == "0":
+        continue
+    else:
+        print("No")
+        break
+else:
+    print("Yes")

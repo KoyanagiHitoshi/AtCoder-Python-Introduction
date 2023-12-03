@@ -1,9 +1,7 @@
-a, b = input().split()
-if a == "H" and b == "H":
-    print("H")
-if a == "H" and b == "D":
-    print("D")
-if a == "D" and b == "H":
-    print("D")
-if a == "D" and b == "D":
-    print("H")
+S, T = input().split()
+A, B = map(int, input().split())
+U = input()
+if S == U:
+    print(A-1, B)
+else:
+    print(A, B-1)

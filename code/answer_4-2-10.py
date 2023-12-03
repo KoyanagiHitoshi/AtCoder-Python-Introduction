@@ -1,5 +1,4 @@
 N = int(input())
-salary = 0
-for i in range(1, N+1):
-    salary += i*10000*(1/N)
-print(salary)
+for i in range(N):
+    A, B = map(int, input().split())
+    print(A+B)

@@ -1,8 +1,8 @@
-N = int(input())
-S = input()
-for i in range(N-1):
-    if S[i] == S[i+1]:
-        print("No")
+K = int(input())
+A, B = map(int, input().split())
+for i in range(A, B+1):
+    if i % K == 0:
+        print("OK")
         break
 else:
-    print("Yes")
+    print("NG")

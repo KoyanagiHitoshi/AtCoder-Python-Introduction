@@ -1,7 +1,4 @@
-N, M, P = map(int, input().split())
-count = 0
+N = int(input())
+print(N)
 for i in range(N):
-    if M <= N:
-        count += 1
-        M += P
-print(count)
+    print(1)

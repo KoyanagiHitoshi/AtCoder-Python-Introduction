@@ -1,7 +1,5 @@
-S, T = input().split()
-A, B = map(int, input().split())
-U = input()
-if S == U:
-    print(A-1, B)
+S = input()
+if S <= "2019/04/30":
+    print("Heisei")
 else:
-    print(A, B-1)
+    print("TBD")
