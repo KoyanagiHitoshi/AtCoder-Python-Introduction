@@ -1,6 +1,2 @@
-N = int(input())
 S = input()
-if S.count("o") >= 1 and S.count("x") == 0:
-    print("Yes")
-else:
-    print("No")
+print(700+100*S.count("o"))

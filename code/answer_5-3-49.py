@@ -1,2 +1,6 @@
+N = int(input())
 S = input()
-print(S.count("+")-S.count("-"))
+if S.find("|") < S.find("*") < S.rfind("|"):
+    print("in")
+else:
+    print("out")

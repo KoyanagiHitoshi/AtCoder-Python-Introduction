@@ -1,2 +1,2 @@
 X = input()
-print("ABCDE".find(X)+1)
+print("0ABCDE".index(X))

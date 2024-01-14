@@ -1,5 +1,5 @@
-S = input()
-if S[2] == S[3] and S[4] == S[5]:
-    print("Yes")
+A, B, C = input().split()
+if A[-1] == B[0] and B[-1] == C[0]:
+    print("YES")
 else:
-    print("No")
+    print("NO")

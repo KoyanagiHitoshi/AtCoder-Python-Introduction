@@ -1,4 +1,13 @@
 N = int(input())
-pi = "3.1415926535897932384626433832795028841971693993751"\
-     "058209749445923078164062862089986280348253421170679"
-print(pi[:N+2])
+S = input()
+T = S.count("T")
+A = S.count("A")
+if T > A:
+    print("T")
+elif T < A:
+    print("A")
+else:
+    if S[-1] == "A":
+        print("T")
+    else:
+        print("A")

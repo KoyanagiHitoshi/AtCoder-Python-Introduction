@@ -1,9 +1,9 @@
 a, b = input().split()
 if a == "H" and b == "H":
     print("H")
-elif a == "H" and b == "D":
+if a == "H" and b == "D":
     print("D")
-elif a == "D" and b == "H":
+if a == "D" and b == "H":
     print("D")
-else:
+if a == "D" and b == "D":
     print("H")

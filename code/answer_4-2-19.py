@@ -1,7 +1,5 @@
-N, M, P = map(int, input().split())
-count = 0
+N, A, B = map(int, input().split())
+C = list(map(int, input().split()))
 for i in range(N):
-    if M <= N:
-        count += 1
-        M += P
-print(count)
+    if A+B == C[i]:
+        print(i+1)

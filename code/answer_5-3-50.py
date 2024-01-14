@@ -1,2 +1,2 @@
-S = input()
-print(700+100*S.count("o"))
+s = input()
+print(s.count("1"))

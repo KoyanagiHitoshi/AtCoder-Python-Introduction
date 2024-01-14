@@ -1,3 +1,2 @@
-S = input()
-T = S.upper()
-print(T)
+n = input()
+print(n.replace("1", "x").replace("9", "1").replace("x", "9"))

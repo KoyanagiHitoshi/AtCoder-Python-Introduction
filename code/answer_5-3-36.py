@@ -1,3 +1,5 @@
-S = input()
-N = int(input())-1
-print(S[N//5]+S[N % 5])
+a, b = input().split(".")
+if int(b[0]) < 5:
+    print(int(a))
+else:
+    print(int(a)+1)

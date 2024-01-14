@@ -1,5 +1,5 @@
-A, B = map(int, input().split())
-if A-2*B > 0:
-    print(A-2*B)
+X, t = map(int, input().split())
+if X-t > 0:
+    print(X-t)
 else:
     print(0)

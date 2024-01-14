@@ -1,8 +1,19 @@
-M, D = map(int, input().split())
-y, m, d = map(int, input().split())
-if d == D and m == M:
-    print(y+1, 1, 1)
-elif d == D:
-    print(y, m+1, 1)
-else:
-    print(y, m, d+1)
+x, y = map(int, input().split())
+if x == 0 and y == 0:
+    print(0)
+if x == 0 and y == 1:
+    print(2)
+if x == 0 and y == 2:
+    print(1)
+if x == 1 and y == 0:
+    print(2)
+if x == 1 and y == 1:
+    print(1)
+if x == 1 and y == 2:
+    print(0)
+if x == 2 and y == 0:
+    print(1)
+if x == 2 and y == 1:
+    print(0)
+if x == 2 and y == 2:
+    print(2)

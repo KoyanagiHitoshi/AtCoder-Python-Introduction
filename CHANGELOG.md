@@ -1,5 +1,10 @@
 # Change Log
 
+## [v3.13.0](https://github.com/KoyanagiHitoshi/AtCoder-Python-Introduction/releases/tag/v3.13.0) / 2024-01-14
+
+* [#34](https://github.com/KoyanagiHitoshi/AtCoder-Python-Introduction/pull/34) add code
+* [#34](https://github.com/KoyanagiHitoshi/AtCoder-Python-Introduction/pull/34) update CHANGELOG.md
+
 ## [v3.12.0](https://github.com/KoyanagiHitoshi/AtCoder-Python-Introduction/releases/tag/v3.12.0) / 2023-12-03
 
 * [#33](https://github.com/KoyanagiHitoshi/AtCoder-Python-Introduction/pull/33) add code

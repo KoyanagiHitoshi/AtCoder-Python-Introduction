@@ -1,2 +1,2 @@
-s = input()
-print("A"+s[8]+"C")
+D = int(input())
+print("Christmas"+" Eve"*(25-D))

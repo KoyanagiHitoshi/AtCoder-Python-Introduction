@@ -1,5 +1,5 @@
-A, B = map(int, input().split())
-if A <= B <= 6*A:
-    print("Yes")
+a, b, c, d = input()
+if a != b != c != d:
+    print("Good")
 else:
-    print("No")
+    print("Bad")

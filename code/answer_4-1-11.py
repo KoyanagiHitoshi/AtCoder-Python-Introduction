@@ -1,5 +1,5 @@
-x, y = map(int, input().split())
-if x < y:
-    print("Better")
+B, G = map(int, input().split())
+if B > G:
+    print("Bat")
 else:
-    print("Worse")
+    print("Glove")
