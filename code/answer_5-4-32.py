@@ -1,4 +1,4 @@
-N = int(input())
-S = [input() for i in range(N)]
-for s in S[::-1]:
-    print(s)
+N, P, Q, R, S = map(int, input().split())
+A = input().split()
+A[P-1:Q], A[R-1:S] = A[R-1:S], A[P-1:Q]
+print(*A)

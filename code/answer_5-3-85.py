@@ -1,5 +1,5 @@
-N = int(input())
-if N < 42:
-    print("AGC"+str(N).zfill(3))
+S = input()
+if S == S[0].upper()+S[1:].lower():
+    print("Yes")
 else:
-    print("AGC"+str(N+1).zfill(3))
+    print("No")

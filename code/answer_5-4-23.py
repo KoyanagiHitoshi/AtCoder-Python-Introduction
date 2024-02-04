@@ -1,3 +1,3 @@
 S = input()
-weather = ["Sunny", "Cloudy", "Rainy", "Sunny"]
-print(weather[(weather.index(S)+1)])
+week = ["0", "Friday", "Thursday", "Wednesday", "Tuesday", "Monday"]
+print(week.index(S))

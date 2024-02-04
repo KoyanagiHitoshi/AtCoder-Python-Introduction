@@ -1,7 +1,6 @@
-N = int(input())
-S = input()
-for i in range(N-1):
-    if S[i] == S[i+1]:
+N = input()
+for i in range(len(N)-1):
+    if N[i] <= N[i+1]:
         print("No")
         break
 else:

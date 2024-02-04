@@ -1,2 +1,5 @@
-A, B = map(int, input().split())
-print(f"{B/A:.3f}")
+N = int(input())
+if N < 42:
+    print("AGC"+str(N).zfill(3))
+else:
+    print("AGC"+str(N+1).zfill(3))

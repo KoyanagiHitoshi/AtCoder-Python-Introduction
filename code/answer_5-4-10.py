@@ -1,8 +1,4 @@
-N, D = map(int, input().split())
-T = list(map(int, input().split()))
-for i in range(N-1):
-    if T[i+1]-T[i] <= D:
-        print(T[i+1])
-        break
-else:
-    print(-1)
+N = int(input())
+S = [input() for i in range(N)]
+for i in range(N-1, -1, -1):
+    print(S[i])

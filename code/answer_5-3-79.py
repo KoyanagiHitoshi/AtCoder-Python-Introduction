@@ -1,3 +1,6 @@
+N = int(input())
 S = input()
-T = S.upper()
-print(T)
+if S.replace(".", "") == "|*|":
+    print("in")
+else:
+    print("out")

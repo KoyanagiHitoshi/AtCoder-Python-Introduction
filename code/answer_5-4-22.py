@@ -1,3 +1,3 @@
 S = input()
-week = ["0", "Friday", "Thursday", "Wednesday", "Tuesday", "Monday"]
-print(week.index(S))
+week = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+print(5-week.index(S))

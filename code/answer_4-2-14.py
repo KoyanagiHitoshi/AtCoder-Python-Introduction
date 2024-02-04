@@ -1,5 +1,12 @@
 N = int(input())
-salary = 0
-for i in range(1, N+1):
-    salary += i*10000*(1/N)
-print(salary)
+X, Y = 0, 0
+for i in range(N):
+    x, y = map(int, input().split())
+    X += x
+    Y += y
+if X > Y:
+    print("Takahashi")
+elif X < Y:
+    print("Aoki")
+else:
+    print("Draw")

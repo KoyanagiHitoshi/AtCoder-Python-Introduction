@@ -1,6 +1,7 @@
-N, H, X = map(int, input().split())
-P = list(map(int, input().split()))
+N, M, P = map(int, input().split())
+count = 0
 for i in range(N):
-    if H+P[i] >= X:
-        print(i+1)
-        break
+    if M <= N:
+        count += 1
+        M += P
+print(count)

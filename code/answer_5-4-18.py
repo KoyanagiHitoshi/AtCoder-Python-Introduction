@@ -1,3 +1,3 @@
-N, A, B = map(int, input().split())
-C = list(map(int, input().split()))
-print(C.index(A+B)+1)
+N, X = input().split()
+P = input().split()
+print(P.index(X)+1)

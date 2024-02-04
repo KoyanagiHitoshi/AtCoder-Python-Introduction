@@ -1,2 +1,2 @@
 N = int(input())
-print(f"{N:02X}")
+print(f"{N:04}")
