@@ -1,5 +1,5 @@
-S = input()
-if S[2] == S[3] and S[4] == S[5]:
-    print("Yes")
+C = input()
+if C[0] == C[1] == C[2]:
+    print("Won")
 else:
-    print("No")
+    print("Lost")

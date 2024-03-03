@@ -1,5 +1,3 @@
+N = int(input())
 S = input()
-if S[-1] == "T":
-    print("YES")
-else:
-    print("NO")
+print(S[N-1])

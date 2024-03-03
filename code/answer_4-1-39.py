@@ -1,5 +1,9 @@
-A, B = map(int, input().split())
-if B-A+1 > 0:
-    print(B-A+1)
+a, b, c = map(int, input().split())
+if a == b:
+    print(c)
+elif b == c:
+    print(a)
+elif c == a:
+    print(b)
 else:
     print(0)

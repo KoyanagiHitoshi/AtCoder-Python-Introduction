@@ -1,4 +1,12 @@
 N = int(input())
-print(N)
+takahashi, aoki = 0, 0
 for i in range(N):
-    print(1)
+    X, Y = map(int, input().split())
+    takahashi += X
+    aoki += Y
+if takahashi > aoki:
+    print("Takahashi")
+elif takahashi < aoki:
+    print("Aoki")
+else:
+    print("Draw")

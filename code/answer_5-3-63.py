@@ -1,3 +1,2 @@
-K = int(input())
-letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-print(letters[:K])
+S = input()
+print("2018"+S[4:])

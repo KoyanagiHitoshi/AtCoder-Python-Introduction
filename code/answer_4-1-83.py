@@ -1,9 +1,9 @@
 b = input()
 if b == "A":
     print("T")
-elif b == "T":
+if b == "T":
     print("A")
-elif b == "C":
+if b == "C":
     print("G")
-else:
+if b == "G":
     print("C")

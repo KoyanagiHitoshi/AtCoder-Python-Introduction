@@ -1,9 +1,7 @@
-N = int(input())
-if N < 60:
-    print("Bad")
-elif N < 90:
-    print("Good")
-elif N < 100:
-    print("Great")
+R = int(input())
+if R < 1200:
+    print("ABC")
+elif R < 2800:
+    print("ARC")
 else:
-    print("Perfect")
+    print("AGC")

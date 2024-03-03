@@ -1,5 +1,5 @@
-A, B, X = map(int, input().split())
-if A <= X <= A+B:
-    print("YES")
+V, T, S, D = map(int, input().split())
+if V*T <= D <= V*S:
+    print("No")
 else:
-    print("NO")
+    print("Yes")

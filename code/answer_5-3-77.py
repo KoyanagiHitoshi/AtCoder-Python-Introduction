@@ -1,2 +1,8 @@
-n = input()
-print(n.replace("1", "x").replace("9", "1").replace("x", "9"))
+S = input()
+ans = ""
+for s in S[::-1]:
+    if s == ".":
+        break
+    else:
+        ans += s
+print(ans[::-1])

@@ -1,7 +1,9 @@
-a, b = map(int, input().split())
-if 12 < a:
-    print(b)
-elif 5 < a:
-    print(b//2)
+X = int(input())
+if X < 40:
+    print(40-X)
+elif X < 70:
+    print(70-X)
+elif X < 90:
+    print(90-X)
 else:
-    print(0)
+    print("expert")

@@ -1,5 +1,5 @@
-A, B = map(int, input().split())
-if A % 3 == 0 or B % 3 == 0 or (A+B) % 3 == 0:
-    print("Possible")
+N, X, T = map(int, input().split())
+if N % X == 0:
+    print(T*(N//X))
 else:
-    print("Impossible")
+    print(T*(N//X+1))

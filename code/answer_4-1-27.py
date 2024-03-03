@@ -1,9 +1,7 @@
-X = int(input())
-if X < 40:
-    print(40-X)
-elif X < 70:
-    print(70-X)
-elif X < 90:
-    print(90-X)
+N = int(input())
+if N <= 125:
+    print(4)
+elif N <= 211:
+    print(6)
 else:
-    print("expert")
+    print(8)

@@ -1,6 +1,5 @@
-S = "XACABABAABABA"
-x, y = map(int, input().split())
-if S[x] == S[y]:
-    print("Yes")
+a, b = input().split(".")
+if int(b[0]) < 5:
+    print(int(a))
 else:
-    print("No")
+    print(int(a)+1)

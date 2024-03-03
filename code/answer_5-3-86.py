@@ -1,8 +1,3 @@
+N, K = map(int, input().split())
 S = input()
-idx = 1
-for s in S:
-    if s.isupper():
-        break
-    else:
-        idx += 1
-print(idx)
+print(S[:K-1]+S[K-1:K].lower()+S[K:])

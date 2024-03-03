@@ -1,12 +1,8 @@
-H, W = map(int, input().split())
-R, C = map(int, input().split())
-ans = 4
-if C == 1:
-    ans = ans-1
-if C == W:
-    ans = ans-1
-if R == 1:
-    ans = ans-1
-if R == H:
-    ans = ans-1
-print(ans)
+M, D = map(int, input().split())
+y, m, d = map(int, input().split())
+if d == D and m == M:
+    print(y+1, 1, 1)
+elif d == D:
+    print(y, m+1, 1)
+else:
+    print(y, m, d+1)

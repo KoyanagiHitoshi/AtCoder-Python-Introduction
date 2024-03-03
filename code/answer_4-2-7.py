@@ -1,8 +1,8 @@
-N, A, B = map(int, input().split())
-C = list(map(int, input().split()))
-idx = 1
-for c in C:
-    if A+B == c:
-        print(idx)
-    else:
-        idx += 1
+S = input()
+count = 0
+for s in S:
+    if s == "v":
+        count += 1
+    if s == "w":
+        count += 2
+print(count)

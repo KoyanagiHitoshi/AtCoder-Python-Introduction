@@ -1,13 +1,7 @@
-N = int(input())
 S = input()
-T = S.count("T")
-A = S.count("A")
-if T > A:
-    print("T")
-elif T < A:
-    print("A")
+if S.count("R") != 2:
+    print(S.count("R"))
+elif S[1] == "R":
+    print(2)
 else:
-    if S[-1] == "A":
-        print("T")
-    else:
-        print("A")
+    print(1)

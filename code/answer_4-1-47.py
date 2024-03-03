@@ -1,5 +1,6 @@
-N, K, X, Y = [int(input()) for i in range(4)]
-if N <= K:
-    print(N*X)
+A, B, C, K = map(int, input().split())
+S, T = map(int, input().split())
+if S+T < K:
+    print(A*S+B*T)
 else:
-    print(K*X+(N-K)*Y)
+    print(A*S+B*T-(S+T)*C)

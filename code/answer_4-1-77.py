@@ -1,6 +1,5 @@
-A, B, C = map(int, input().split())
-mod = B-(B % C)
-if A <= mod:
-    print(mod)
+X, Y, N = map(int, input().split())
+if X < Y/3:
+    print(X*N)
 else:
-    print(-1)
+    print(Y*(N//3)+X*(N % 3))

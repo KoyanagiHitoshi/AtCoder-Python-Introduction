@@ -1,5 +1,5 @@
-N = int(input())
-if N % 1000 == 0:
-    print(0)
+X = int(input())
+if X % 100 == 0 and X != 0:
+    print("Yes")
 else:
-    print(1000-(N % 1000))
+    print("No")

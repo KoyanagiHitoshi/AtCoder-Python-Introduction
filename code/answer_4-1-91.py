@@ -1,6 +1,9 @@
-S1 = input()
-S2 = input()
-if (S1 == "#." and S2 == ".#") or (S1 == ".#" and S2 == "#."):
-    print("No")
+a, b = input().split()
+if a == "H" and b == "H":
+    print("H")
+elif a == "H" and b == "D":
+    print("D")
+elif a == "D" and b == "H":
+    print("D")
 else:
-    print("Yes")
+    print("H")
