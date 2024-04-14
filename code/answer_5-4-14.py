@@ -1,2 +1,2 @@
-X = input()
-print(["0", "A", "B", "C", "D", "E"].index(X))
+S = input().split("|")
+print(S[0]+S[2])

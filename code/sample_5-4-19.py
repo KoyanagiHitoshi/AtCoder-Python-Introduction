@@ -1,2 +1,2 @@
-x = []
-print(x.pop())
+x = ["a", "b", "b", "c", "c", "c"]
+print(x.count("c"))

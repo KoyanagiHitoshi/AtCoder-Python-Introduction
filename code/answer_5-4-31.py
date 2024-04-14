@@ -1,4 +1,6 @@
-N, P, Q, R, S = map(int, input().split())
-A = list(map(int, input().split()))
-A[P-1:Q], A[R-1:S] = A[R-1:S], A[P-1:Q]
-print(*A)
+N = int(input())
+S = [input() for i in range(N)]
+if S.count("For") > N/2:
+    print("Yes")
+else:
+    print("No")

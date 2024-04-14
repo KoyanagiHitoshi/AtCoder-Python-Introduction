@@ -1,13 +1,7 @@
-S = list(map(int, input().split()))
-flag = True
-for i in range(7):
-    if S[i] <= S[i+1]:
-        continue
-    else:
-        flag = False
-for s in S:
-    if 100 <= s <= 675 and s % 25 == 0:
-        continue
-    else:
-        flag = False
-print("Yes" if flag else "No")
+N, M = map(int, input().split())
+A = list(map(int, input().split()))
+B = list(map(int, input().split()))
+total = 0
+for i in range(M):
+    total += A[B[i]-1]
+print(total)

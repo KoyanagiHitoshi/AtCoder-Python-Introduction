@@ -1,2 +1,3 @@
-x = ["a", "b", "b", "c", "c", "c"]
-print(x.count("c"))
+x = [3, 4]
+y = [1, 2, 3]
+print(x+y)

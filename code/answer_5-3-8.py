@@ -1,7 +1,7 @@
-N = int(input())
-if N <= 9:
-    print("AGC00"+str(N))
-elif N <= 41:
-    print("AGC0"+str(N))
-else:
-    print("AGC0"+str(N+1))
+X, Y = input().split(".")
+if 0 <= int(Y) <= 2:
+    print(X+"-")
+if 3 <= int(Y) <= 6:
+    print(X)
+if 7 <= int(Y) <= 9:
+    print(X+"+")

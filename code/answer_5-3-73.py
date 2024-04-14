@@ -1,5 +1,3 @@
 S = input()
-if S[-2:] == "er":
-    print("er")
-else:
-    print("ist")
+dot = S.rfind(".")
+print(S[dot+1:])

@@ -1,3 +1,2 @@
-x = [1, 2, 3]
-print(x.pop(3))
-print(x)
+x = [1, 2, 3, 4, 3, 5]
+print(x.count(3))

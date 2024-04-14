@@ -1,2 +1,6 @@
-s = input()
-print("A"+s[8]+"C")
+N = int(input())
+S = input()
+if S in "MF"*51:
+    print("Yes")
+else:
+    print("No")

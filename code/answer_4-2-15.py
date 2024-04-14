@@ -1,3 +1,3 @@
-A, B, D = map(int, input().split())
-for i in range(A, B+1, D):
-    print(i, end=" ")
+N = int(input())
+for i in range(N, -1, -1):
+    print(i)

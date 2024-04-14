@@ -1,3 +1,2 @@
-x = ["a", "b", "c"]
-x.append("d")
-print(x)
+x = [1, 2, 3]
+print(x*3)

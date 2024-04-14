@@ -1,2 +1,6 @@
 N = int(input())
-print("L"+"o"*N+"ng")
+S = input()
+ans = ""
+for s in S:
+    ans += s+s
+print(ans)

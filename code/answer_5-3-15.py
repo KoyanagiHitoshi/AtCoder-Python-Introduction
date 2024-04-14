@@ -1,2 +1,2 @@
 N = int(input())
-print("10"*N+"1")
+print("L"+"o"*N+"ng")

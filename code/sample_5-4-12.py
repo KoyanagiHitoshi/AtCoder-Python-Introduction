@@ -1,2 +1,2 @@
-x = ["a", "b", "b", "c", "c", "c"]
-print(x.count("d"))
+x = ["Hello", "World"]
+print(x*2)

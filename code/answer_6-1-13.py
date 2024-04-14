@@ -1,2 +1,2 @@
-ABCDE = input().split()
-print(len(set(ABCDE)))
+abc = list(map(int, input().split()))
+print(len(set(abc)))

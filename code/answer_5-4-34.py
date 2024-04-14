@@ -1,9 +1,4 @@
-N = int(input())
-S = []
-A = []
-for i in range(N):
-    s, a = input().split()
-    S.append(s)
-    A.append(int(a))
-idx = A.index(min(A))
-print(*S[idx:]+S[:idx], sep="\n")
+N, P, Q, R, S = map(int, input().split())
+A = input().split()
+A[P-1:Q], A[R-1:S] = A[R-1:S], A[P-1:Q]
+print(*A)

@@ -1,11 +1,7 @@
-K = int(input())
-if K < 60:
-    if K < 10:
-        print("21:0"+str(K))
-    else:
-        print("21:"+str(K))
+N = int(input())
+if N <= 9:
+    print("AGC00"+str(N))
+elif N <= 41:
+    print("AGC0"+str(N))
 else:
-    if K-60 < 10:
-        print("22:0"+str(K-60))
-    else:
-        print("22:"+str(K-60))
+    print("AGC0"+str(N+1))

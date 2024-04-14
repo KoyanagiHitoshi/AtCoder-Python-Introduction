@@ -1,2 +1,2 @@
 N = int(input())
-print(str(N)*N)
+print("10"*N+"1")

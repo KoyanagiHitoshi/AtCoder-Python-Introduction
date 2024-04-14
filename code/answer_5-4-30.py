@@ -1,6 +1,5 @@
-N, K = map(int, input().split())
-A = list(map(int, input().split()))
-for i in range(K):
-    A.pop(0)
-    A.append(0)
-print(*A)
+ABC = input().split()
+if ABC.count("5") == 2 and ABC.count("7") == 1:
+    print("YES")
+else:
+    print("NO")

@@ -1,8 +1,7 @@
-N, D = map(int, input().split())
-T = list(map(int, input().split()))
-for i in range(N-1):
-    if T[i+1]-T[i] <= D:
-        print(T[i+1])
-        break
-else:
-    print(-1)
+N, M = map(int, input().split())
+A = list(map(int, input().split()))
+B = list(map(int, input().split()))
+total = 0
+for b in B:
+    total += A[b-1]
+print(total)

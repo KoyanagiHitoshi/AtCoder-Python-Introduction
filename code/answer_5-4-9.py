@@ -1,4 +1,4 @@
 N = int(input())
-S = [input() for i in range(N)]
-for i in range(N):
-    print(S[N-i-1])
+A = list(map(int, input().split()))
+for i in range(N-1):
+    print(A[i]*A[i+1], end=" ")

@@ -1,2 +1,2 @@
-x = ["a", "b", "c"]
-print(x.index("z"))
+x = ["Hello", "World", "!"]
+print(x[0]+x[-1])

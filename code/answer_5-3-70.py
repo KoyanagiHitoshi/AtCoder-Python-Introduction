@@ -1,3 +1,2 @@
 S = input()
-dot = S.rfind(".")
-print(S[dot+1:])
+print(S[:-1]+"4")

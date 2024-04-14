@@ -1,3 +1,2 @@
-x = [0, 1, 2]
-x.append(3)
-print(x)
+x = [1, 2, 3, 4, 5]
+print(x.index(3))

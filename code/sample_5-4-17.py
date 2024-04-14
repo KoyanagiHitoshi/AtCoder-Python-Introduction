@@ -1,3 +1,2 @@
-x = [1, 2, 3]
-print(x.pop())
-print(x)
+x = ["a", "b", "c"]
+print(x.index("z"))

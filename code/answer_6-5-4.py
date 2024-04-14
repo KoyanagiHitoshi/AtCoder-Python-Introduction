@@ -1,2 +1,3 @@
-abc = list(map(int, input().split()))
-print(sum(sorted(abc)[:2]))
+N = int(input())
+A = list(map(int, input().split()))
+print(0-sum(A))
