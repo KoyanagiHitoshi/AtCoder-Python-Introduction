@@ -1,3 +1,1 @@
-x = 10
-print(x)
-print(type(x))
+print(　)  # 全角スペースを出力している

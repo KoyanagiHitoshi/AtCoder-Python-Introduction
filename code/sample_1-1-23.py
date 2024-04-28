@@ -1,3 +1,2 @@
-print("x", end="")
-print("y", end="")
-print("z", end="")
+x = "ABC"
+print(*x)

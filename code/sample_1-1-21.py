@@ -1,4 +1,3 @@
-x = 1
-y = 2
-z = 3
-print(x, y, z, sep="")
+print("x", end="")
+print("y", end="")
+print("z", end="")
