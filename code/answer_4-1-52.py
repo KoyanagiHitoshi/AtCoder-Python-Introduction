@@ -1,5 +1,5 @@
-a, b = map(int, input().split())
-if b-a == 1 or b-a == 9:
-    print("Yes")
+N, R = map(int, input().split())
+if N >= 10:
+    print(R)
 else:
-    print("No")
+    print(R+100*(10-N))

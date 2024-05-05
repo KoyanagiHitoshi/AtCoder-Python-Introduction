@@ -1,1 +1,1 @@
-print("z" not in ["a", "b", "c"])
+print("abc" in "abc")

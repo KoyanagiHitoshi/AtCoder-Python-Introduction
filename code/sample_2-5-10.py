@@ -1,1 +1,1 @@
-print(10 in {10, 20, 30})
+print("ab" in ["a", "b", "c"])

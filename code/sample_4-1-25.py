@@ -1,7 +1,4 @@
-x = 10
-y = 10
-z = 10
-if x == y == z:
-    print(True)
+if "ab" in ["a", "b", "c"]:
+    print("ab in list")
 else:
-    print(False)
+    print("else")

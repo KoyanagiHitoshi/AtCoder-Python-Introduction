@@ -1,7 +1,9 @@
-A, B, C, D = map(int, input().split())
-if A+B > C+D:
-    print("Left")
-elif A+B == C+D:
-    print("Balanced")
+N = int(input())
+if N < 60:
+    print("Bad")
+elif N < 90:
+    print("Good")
+elif N < 100:
+    print("Great")
 else:
-    print("Right")
+    print("Perfect")

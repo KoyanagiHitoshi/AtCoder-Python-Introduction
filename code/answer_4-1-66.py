@@ -1,5 +1,5 @@
-W, H = map(int, input().split())
-if W*H % 144 == 0:
-    print("16:9")
+M, H = map(int, input().split())
+if H % M == 0:
+    print("Yes")
 else:
-    print("4:3")
+    print("No")

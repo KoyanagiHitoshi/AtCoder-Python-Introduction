@@ -1,5 +1,5 @@
-N, K = map(int, input().split())
-if N % K == 0:
-    print(0)
+M, D = map(int, input().split())
+if M % D == 0:
+    print("YES")
 else:
-    print(1)
+    print("NO")

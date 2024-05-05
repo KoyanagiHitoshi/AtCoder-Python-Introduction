@@ -1,5 +1,5 @@
-a = input()
-if a in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
-    print("A")
+N = input()
+if N in "369":
+    print("YES")
 else:
-    print("a")
+    print("NO")

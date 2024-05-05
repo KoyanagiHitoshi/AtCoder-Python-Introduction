@@ -1,5 +1,5 @@
-X = int(input())
-if X % 100 == 0 and X != 0:
-    print("Yes")
+A, B = map(int, input().split())
+if A % 3 == 0 or B % 3 == 0 or (A+B) % 3 == 0:
+    print("Possible")
 else:
-    print("No")
+    print("Impossible")

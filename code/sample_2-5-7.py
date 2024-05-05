@@ -1,1 +1,1 @@
-print(90 not in [10, 20, 30])
+print("z" not in "abc")

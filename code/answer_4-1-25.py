@@ -1,7 +1,5 @@
-R = int(input())
-if R < 1200:
-    print("ABC")
-elif R < 2800:
-    print("ARC")
+A, B, C = map(int, input().split())
+if A**2+B**2 < C**2:
+    print("Yes")
 else:
-    print("AGC")
+    print("No")

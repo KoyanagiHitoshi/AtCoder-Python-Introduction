@@ -1,5 +1,6 @@
-X = input()
-if X in "753":
-    print("YES")
+S1 = input()
+S2 = input()
+if (S1 == "#." and S2 == ".#") or (S1 == ".#" and S2 == "#."):
+    print("No")
 else:
-    print("NO")
+    print("Yes")

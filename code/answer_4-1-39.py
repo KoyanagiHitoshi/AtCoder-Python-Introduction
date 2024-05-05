@@ -1,9 +1,7 @@
-a, b, c = map(int, input().split())
-if a == b:
-    print(c)
-elif b == c:
-    print(a)
-elif c == a:
-    print(b)
+X, A, B = map(int, input().split())
+if X < B-A:
+    print("dangerous")
+elif A < B:
+    print("safe")
 else:
-    print(0)
+    print("delicious")

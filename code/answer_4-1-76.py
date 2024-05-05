@@ -1,5 +1,9 @@
-N = int(input())
-if N % 1000 == 0:
-    print(0)
+Y = int(input())
+if Y % 4 == 0:
+    print(Y+2)
+elif Y % 4 == 1:
+    print(Y+1)
+elif Y % 4 == 2:
+    print(Y)
 else:
-    print(1000-(N % 1000))
+    print(Y+3)

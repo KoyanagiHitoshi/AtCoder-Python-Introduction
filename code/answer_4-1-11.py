@@ -1,5 +1,5 @@
-B, G = map(int, input().split())
-if B > G:
-    print("Bat")
+x = int(input())
+if x == 0:
+    print(1)
 else:
-    print("Glove")
+    print(0)

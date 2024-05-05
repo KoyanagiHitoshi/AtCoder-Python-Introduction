@@ -1,5 +1,4 @@
-x = ["a", "b", "c"]
-if "ab" in x:
-    print("ab include")
+if "a" in "abc":
+    print("a in abc")
 else:
-    print("ab don't include")
+    print("else")

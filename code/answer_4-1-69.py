@@ -1,5 +1,5 @@
-A, B = map(int, input().split())
-if A % B == 0:
-    print(A//B)
+W, H = map(int, input().split())
+if W*H % 144 == 0:
+    print("16:9")
 else:
-    print(A//B+1)
+    print("4:3")

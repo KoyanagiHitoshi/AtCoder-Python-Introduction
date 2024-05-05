@@ -1,6 +1,7 @@
 A, B, C = map(int, input().split())
-water = C-(A-B)
-if water > 0:
-    print(water)
-else:
-    print(0)
+if A == B:
+    print(C)
+elif B == C:
+    print(A)
+elif C == A:
+    print(B)

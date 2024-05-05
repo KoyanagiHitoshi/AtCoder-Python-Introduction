@@ -1,5 +1,6 @@
-N, M, X, T, D = map(int, input().split())
-if M >= X:
-    print(T)
+A, B, C = map(int, input().split())
+water = C-(A-B)
+if water > 0:
+    print(water)
 else:
-    print(T-(X-M)*D)
+    print(0)

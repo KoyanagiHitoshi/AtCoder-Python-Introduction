@@ -1,5 +1,5 @@
-M, H = map(int, input().split())
-if H % M == 0:
-    print("Yes")
+A, B = map(int, input().split())
+if (A+B) % 2 == 0:
+    print((A+B)//2)
 else:
-    print("No")
+    print("IMPOSSIBLE")

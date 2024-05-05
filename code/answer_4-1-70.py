@@ -1,5 +1,5 @@
-H, A = map(int, input().split())
-if H % A == 0:
-    print(H//A)
+N, K = map(int, input().split())
+if N % K == 0:
+    print(0)
 else:
-    print(H//A+1)
+    print(1)

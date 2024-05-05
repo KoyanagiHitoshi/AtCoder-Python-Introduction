@@ -1,8 +1,5 @@
-M, D = map(int, input().split())
-y, m, d = map(int, input().split())
-if d == D and m == M:
-    print(y+1, 1, 1)
-elif d == D:
-    print(y, m+1, 1)
+N, A, X, Y = map(int, input().split())
+if N < A:
+    print(N*X)
 else:
-    print(y, m, d+1)
+    print(A*X+(N-A)*Y)

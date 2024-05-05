@@ -1,2 +1,3 @@
-for i in range(2, 5):
+x = "012"
+for i in x:
     print(i)

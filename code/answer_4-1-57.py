@@ -1,12 +1,5 @@
-H, W = map(int, input().split())
-R, C = map(int, input().split())
-ans = 0
-if C != 1:
-    ans = ans+1
-if C != W:
-    ans = ans+1
-if R != 1:
-    ans = ans+1
-if R != H:
-    ans = ans+1
-print(ans)
+a, b = map(int, input().split())
+if (a == b-1) or (a == 1 and b == 10):
+    print("Yes")
+else:
+    print("No")

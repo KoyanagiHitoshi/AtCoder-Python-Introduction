@@ -1,5 +1,5 @@
-a, b, c = map(int, input().split())
-if b-a == c-b:
-    print("YES")
+B, G = map(int, input().split())
+if B > G:
+    print("Bat")
 else:
-    print("NO")
+    print("Glove")

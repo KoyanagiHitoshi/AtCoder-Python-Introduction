@@ -1,9 +1,5 @@
-Y = int(input())
-if Y % 4 == 0:
-    print(Y+2)
-elif Y % 4 == 1:
-    print(Y+1)
-elif Y % 4 == 2:
-    print(Y)
+H, A = map(int, input().split())
+if H % A == 0:
+    print(H//A)
 else:
-    print(Y+3)
+    print(H//A+1)

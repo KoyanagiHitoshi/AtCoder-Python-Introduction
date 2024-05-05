@@ -1,5 +1,6 @@
-n = int(input())
-if n == 2 or n == 3 or n == 4:
-    print("No")
+A, B, C, K = map(int, input().split())
+S, T = map(int, input().split())
+if S+T < K:
+    print(A*S+B*T)
 else:
-    print("Yes")
+    print(A*S+B*T-(S+T)*C)

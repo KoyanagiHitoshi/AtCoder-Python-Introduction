@@ -1,7 +1,7 @@
-N, L = map(int, input().split())
-A = list(map(int, input().split()))
-count = 0
-for a in A:
-    if a >= L:
-        count += 1
-print(count)
+N, X = map(int, input().split())
+S = list(map(int, input().split()))
+total = 0
+for s in S:
+    if s <= X:
+        total += s
+print(total)

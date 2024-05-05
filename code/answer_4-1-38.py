@@ -1,7 +1,7 @@
-A, B, C = map(int, input().split())
-if A == B:
-    print(C)
-elif B == C:
-    print(A)
-elif C == A:
-    print(B)
+A, B, C, D = map(int, input().split())
+if A+B > C+D:
+    print("Left")
+elif A+B == C+D:
+    print("Balanced")
+else:
+    print("Right")

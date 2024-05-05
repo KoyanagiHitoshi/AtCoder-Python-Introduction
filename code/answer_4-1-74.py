@@ -1,7 +1,5 @@
-A, B = map(int, input().split())
-if A == B:
-    print("Draw")
-elif (A+13) % 15 < (B+13) % 15:
-    print("Bob")
+N, X, T = map(int, input().split())
+if N % X == 0:
+    print(T*(N//X))
 else:
-    print("Alice")
+    print(T*(N//X+1))

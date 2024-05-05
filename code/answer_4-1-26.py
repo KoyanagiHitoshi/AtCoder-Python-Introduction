@@ -1,9 +1,5 @@
-N = int(input())
-if N < 60:
-    print("Bad")
-elif N < 90:
-    print("Good")
-elif N < 100:
-    print("Great")
+D, T, S = map(int, input().split())
+if D <= S*T:
+    print("Yes")
 else:
-    print("Perfect")
+    print("No")

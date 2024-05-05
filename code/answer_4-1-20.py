@@ -1,5 +1,5 @@
-D, T, S = map(int, input().split())
-if D <= S*T:
-    print("Yes")
+S, W = map(int, input().split())
+if W >= S:
+    print("unsafe")
 else:
-    print("No")
+    print("safe")

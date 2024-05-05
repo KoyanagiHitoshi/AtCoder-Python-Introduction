@@ -1,5 +1,5 @@
-X, A = map(int, input().split())
-if X < A:
-    print(0)
+N = int(input())
+if N < 1000:
+    print("ABC")
 else:
-    print(10)
+    print("ABD")

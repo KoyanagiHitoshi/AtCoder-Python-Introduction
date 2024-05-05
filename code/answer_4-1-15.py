@@ -1,5 +1,6 @@
-A, B = map(int, input().split())
-if A+B < 10:
-    print(A+B)
+a = int(input())
+s = input()
+if a >= 3200:
+    print(s)
 else:
-    print("error")
+    print("red")

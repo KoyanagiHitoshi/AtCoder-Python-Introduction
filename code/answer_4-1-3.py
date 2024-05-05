@@ -1,5 +1,7 @@
-x = int(input())
-if x == 0:
-    print(1)
-if x == 1:
-    print(0)
+N = int(input())
+if N == 1:
+    print("Hello World")
+if N == 2:
+    A = int(input())
+    B = int(input())
+    print(A+B)

@@ -1,7 +1,9 @@
-X, Y = input().split()
-if X < Y:
-    print("<")
-elif X == Y:
-    print("=")
+b = input()
+if b == "A":
+    print("T")
+elif b == "T":
+    print("A")
+elif b == "C":
+    print("G")
 else:
-    print(">")
+    print("C")

@@ -1,5 +1,8 @@
-x = "Hello world!"
-if "Hello" in x:
-    print("Hello include")
+x = "a"
+y = "b"
+if x < y:
+    print("x < y")
+elif x == y:
+    print("x == y")
 else:
-    print("Hello don't include")
+    print("else")

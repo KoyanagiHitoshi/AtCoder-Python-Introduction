@@ -1,6 +1,9 @@
-a = int(input())
-s = input()
-if a >= 3200:
-    print(s)
-else:
-    print("red")
+b = input()
+if b == "A":
+    print("T")
+if b == "T":
+    print("A")
+if b == "C":
+    print("G")
+if b == "G":
+    print("C")

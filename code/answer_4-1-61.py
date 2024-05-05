@@ -1,5 +1,5 @@
-N = int(input())
-if N % 2 == 0:
-    print("White")
+a, b = map(int, input().split())
+if a*b % 2 == 0:
+    print("Even")
 else:
-    print("Black")
+    print("Odd")

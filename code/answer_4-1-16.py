@@ -1,5 +1,7 @@
-A, B, C = map(int, input().split())
-if A+B >= C:
-    print("Yes")
+N = int(input())
+if N == 1:
+    print("Hello World")
 else:
-    print("No")
+    A = int(input())
+    B = int(input())
+    print(A+B)

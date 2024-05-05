@@ -1,5 +1,5 @@
-X = int(input())
-if X >= 30:
-    print("Yes")
-else:
-    print("No")
+S = input()
+if S == "ABC":
+    print("ARC")
+if S == "ARC":
+    print("ABC")

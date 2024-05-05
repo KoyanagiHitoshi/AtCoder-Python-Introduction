@@ -1,7 +1,5 @@
-a, b = map(int, input().split())
-if 12 < a:
-    print(b)
-elif 5 < a:
-    print(b//2)
+A, B = map(int, input().split())
+if A+B == 0:
+    print(1)
 else:
     print(0)

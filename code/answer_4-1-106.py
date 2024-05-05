@@ -1,5 +1,5 @@
-S = input()
-if S in {"ACE", "BDF", "CEG", "DFA", "EGB", "FAC", "GBD"}:
-    print("Yes")
-else:
+AB = input()
+if "2" in AB:
     print("No")
+else:
+    print("Yes")

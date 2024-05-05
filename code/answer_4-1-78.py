@@ -1,6 +1,5 @@
-A, B, C = map(int, input().split())
-mod = B-(B % C)
-if A <= mod:
-    print(mod)
+X = int(input())
+if X % 100 == 0 and X != 0:
+    print("Yes")
 else:
-    print(-1)
+    print("No")

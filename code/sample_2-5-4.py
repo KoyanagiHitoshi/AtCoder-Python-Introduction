@@ -1,1 +1,1 @@
-print("a" in ["a", "b", "c"])
+print("ac" in "abc")

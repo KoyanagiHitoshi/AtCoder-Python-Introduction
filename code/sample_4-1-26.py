@@ -1,7 +1,4 @@
-x = 10
-y = 20
-z = 30
-if x < y < z:
-    print(True)
+if 10 in [10, 20, 30]:
+    print("10 in list")
 else:
-    print(False)
+    print("else")

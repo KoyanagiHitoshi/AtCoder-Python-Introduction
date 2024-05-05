@@ -1,5 +1,5 @@
 a, b = map(int, input().split())
-if a*b % 2 == 0:
-    print("Even")
+if b-a == 1 or b-a == 9:
+    print("Yes")
 else:
-    print("Odd")
+    print("No")

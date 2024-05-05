@@ -1,5 +1,7 @@
-X, Y, N = map(int, input().split())
-if X < Y/3:
-    print(X*N)
+A, B = map(int, input().split())
+if A == B:
+    print("Draw")
+elif (A+13) % 15 < (B+13) % 15:
+    print("Bob")
 else:
-    print(Y*(N//3)+X*(N % 3))
+    print("Alice")

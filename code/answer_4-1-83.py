@@ -1,9 +1,6 @@
-b = input()
-if b == "A":
-    print("T")
-if b == "T":
-    print("A")
-if b == "C":
-    print("G")
-if b == "G":
-    print("C")
+a = int(input())
+b = int(input())
+if a % b != 0:
+    print(b-(a % b))
+else:
+    print(0)

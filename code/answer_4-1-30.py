@@ -1,7 +1,5 @@
-A, B = map(int, input().split())
-if B == 0:
-    print("Gold")
-elif A == 0:
-    print("Silver")
+a, b = map(int, input().split())
+if a > b:
+    print(a-1)
 else:
-    print("Alloy")
+    print(a)

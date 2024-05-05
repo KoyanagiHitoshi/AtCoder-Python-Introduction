@@ -1,5 +1,9 @@
-x = int(input())
-if x > 0:
-    print(x)
+A, B, C, D = map(int, input().split())
+if A < C:
+    print("Takahashi")
+elif A > C:
+    print("Aoki")
+elif B <= D:
+    print("Takahashi")
 else:
-    print(0)
+    print("Aoki")

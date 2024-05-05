@@ -1,1 +1,1 @@
-print("z" not in "abc")
+print("ab" in "abc")

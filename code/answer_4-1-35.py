@@ -1,9 +1,7 @@
-A, B, C, D = map(int, input().split())
-if A < C:
-    print("Takahashi")
-elif A > C:
-    print("Aoki")
-elif B <= D:
-    print("Takahashi")
+a, b = map(int, input().split())
+if 12 < a:
+    print(b)
+elif 5 < a:
+    print(b//2)
 else:
-    print("Aoki")
+    print(0)

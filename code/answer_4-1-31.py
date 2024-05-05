@@ -1,7 +1,7 @@
-A, B, C, D = map(int, input().split())
-if B/A > D/C:
-    print("TAKAHASHI")
-elif B/A < D/C:
-    print("AOKI")
+R = int(input())
+if R < 1200:
+    print("ABC")
+elif R < 2800:
+    print("ARC")
 else:
-    print("DRAW")
+    print("AGC")

@@ -1,5 +1,5 @@
-K, X = map(int, input().split())
-if 500*K >= X:
-    print("Yes")
+x, y = map(int, input().split())
+if x < y:
+    print("Better")
 else:
-    print("No")
+    print("Worse")

@@ -1,8 +1,5 @@
-x = "a"
-y = "b"
-if x < y:
-    print("x < y")
-elif x == y:
-    print("x == y")
+x = "b"
+if x == "a":
+    print("x == a")
 else:
-    print("x > y")
+    print("else")

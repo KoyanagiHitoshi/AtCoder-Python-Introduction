@@ -1,5 +1,4 @@
-x = {10, 20, 30}
-if 10 in x:
-    print("10 include")
+if "a" in ["a", "b", "c"]:
+    print("a in list")
 else:
-    print("10 don't include")
+    print("else")
