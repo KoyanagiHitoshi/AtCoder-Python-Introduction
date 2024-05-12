@@ -1,9 +1,5 @@
-X = int(input())
-if 0 <= X < 40:
-    print(40-X)
-elif 40 <= X < 70:
-    print(70-X)
-elif 70 <= X < 90:
-    print(90-X)
+N, X, Y, Z = map(int, input().split())
+if X < Z < Y or X > Z > Y:
+    print("Yes")
 else:
-    print("expert")
+    print("No")

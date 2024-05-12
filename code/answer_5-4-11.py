@@ -1,7 +1,6 @@
-N, M = map(int, input().split())
+N = int(input())
 A = list(map(int, input().split()))
-B = list(map(int, input().split()))
 total = 0
-for b in B:
-    total += A[b-1]
+for i in range(N):
+    total += A[i]
 print(total)

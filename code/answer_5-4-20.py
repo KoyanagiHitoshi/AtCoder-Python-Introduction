@@ -1,3 +1,3 @@
-N, X = input().split()
-P = input().split()
+N, X = map(int, input().split())
+P = list(map(int, input().split()))
 print(P.index(X)+1)

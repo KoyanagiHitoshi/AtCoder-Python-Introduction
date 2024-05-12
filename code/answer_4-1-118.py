@@ -1,5 +1,5 @@
 a, b, c, d = map(int, input())
-if a != b != c != d:
-    print("Good")
+if a == b == c or b == c == d:
+    print("Yes")
 else:
-    print("Bad")
+    print("No")

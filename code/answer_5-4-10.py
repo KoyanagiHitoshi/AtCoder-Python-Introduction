@@ -1,6 +1,4 @@
 N = int(input())
 A = list(map(int, input().split()))
-total = 0
-for i in range(N):
-    total += A[i]
-print(total)
+for i in range(N-1):
+    print(A[i]*A[i+1], end=" ")
