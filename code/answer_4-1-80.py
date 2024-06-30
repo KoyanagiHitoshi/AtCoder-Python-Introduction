@@ -1,5 +1,5 @@
-X, Y, N = map(int, input().split())
-if X < Y/3:
-    print(X*N)
+N = int(input())
+if N % 1000 == 0:
+    print(0)
 else:
-    print(Y*(N//3)+X*(N % 3))
+    print(1000-(N % 1000))

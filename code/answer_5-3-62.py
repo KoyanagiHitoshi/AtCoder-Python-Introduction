@@ -1,5 +1,6 @@
+N = int(input())
 S = input()
-if S[0] == "<" and S.count("<") == 1 and S[-1] == ">" and S.count(">") == 1:
+if S.count("o") >= 1 and S.count("x") == 0:
     print("Yes")
 else:
     print("No")

@@ -1,4 +1,4 @@
-A, B, D = map(int, input().split())
-while A <= B:
-    print(A, end=" ")
-    A += D
+N = int(input())
+while N >= 0:
+    print(N)
+    N -= 1

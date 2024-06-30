@@ -1,5 +1,5 @@
-S = input()
-if "ABC001" <= S <= "ABC349" and S != "ABC316":
-    print("Yes")
+A, B, X = map(int, input().split())
+if 0 <= X-A <= B:
+    print("YES")
 else:
-    print("No")
+    print("NO")

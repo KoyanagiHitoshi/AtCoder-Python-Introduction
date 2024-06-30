@@ -1,2 +1,3 @@
-S = input()
-print(S[:-1]+"4")
+K = int(input())
+letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+print(letters[:K])

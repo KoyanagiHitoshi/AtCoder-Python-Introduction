@@ -1,5 +1,5 @@
 A, B = map(int, input().split())
-if A+B == 0:
-    print(1)
+if A <= 8 and B <= 8:
+    print("Yay!")
 else:
-    print(0)
+    print(":(")

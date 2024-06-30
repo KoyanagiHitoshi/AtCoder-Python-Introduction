@@ -1,5 +1,5 @@
-S = input()
-if S <= "2019/04/30":
-    print("Heisei")
+ST=input()
+if ST=="AtCoder Land":
+    print("Yes")
 else:
-    print("TBD")
+    print("No")

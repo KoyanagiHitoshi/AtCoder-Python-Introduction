@@ -1,9 +1,7 @@
-A, B = map(int, input().split())
-if A+B >= 15 and B >= 8:
+A, B, C, X = map(int, input().split())
+if X <= A:
     print(1)
-elif A+B >= 10 and B >= 3:
-    print(2)
-elif A+B >= 3:
-    print(3)
+elif X > B:
+    print(0)
 else:
-    print(4)
+    print(C/(B-A))

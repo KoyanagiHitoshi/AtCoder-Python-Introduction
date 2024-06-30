@@ -1,5 +1,5 @@
-A, B, C = map(int, input().split())
-if A+B >= C:
-    print("Yes")
+A, B = map(int, input().split())
+if A+B < 10:
+    print(A+B)
 else:
-    print("No")
+    print("error")

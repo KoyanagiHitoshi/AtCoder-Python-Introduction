@@ -1,11 +1,10 @@
-N, S, T = map(int, input().split())
-W = int(input())
-day = 0
-if S <= W <= T:
-    day += 1
-for i in range(N-1):
-    A = int(input())
-    W += A
-    if S <= W <= T:
-        day += 1
-print(day)
+N, M = map(int, input().split())
+H = list(map(int, input().split()))
+count = 0
+for i in range(N):
+    M -= H[i]
+    if M < 0:
+        break
+    else:
+        count += 1
+print(count)

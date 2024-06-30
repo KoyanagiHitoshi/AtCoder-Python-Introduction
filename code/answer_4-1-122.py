@@ -1,5 +1,5 @@
-V, T, S, D = map(int, input().split())
-if V*T <= D <= V*S:
-    print("No")
+a, b, c, d = map(int, input())
+if a != b != c != d:
+    print("Good")
 else:
-    print("Yes")
+    print("Bad")

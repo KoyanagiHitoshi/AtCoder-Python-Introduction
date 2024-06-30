@@ -1,5 +1,5 @@
-N, X, Y, Z = map(int, input().split())
-if X < Z < Y or X > Z > Y:
+N = int(input())
+if -2**31 <= N < 2**31:
     print("Yes")
 else:
     print("No")

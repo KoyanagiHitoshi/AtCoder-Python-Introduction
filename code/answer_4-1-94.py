@@ -1,6 +1,5 @@
-S1 = input()
-S2 = input()
-if (S1 == "#." and S2 == ".#") or (S1 == ".#" and S2 == "#."):
-    print("No")
-else:
+a, b, c, d, e, f = input()
+if c == d and e == f:
     print("Yes")
+else:
+    print("No")

@@ -1,5 +1,3 @@
-S = input()
-if S[-2:] == "er":
-    print("er")
-else:
-    print("ist")
+N = int(input())
+S = "oox"*34
+print(S[:N])

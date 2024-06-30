@@ -1,7 +1,5 @@
-R = int(input())
-if R < 1200:
-    print("ABC")
-elif R < 2800:
-    print("ARC")
+a, b = map(int, input().split())
+if a > b:
+    print(a-1)
 else:
-    print("AGC")
+    print(a)

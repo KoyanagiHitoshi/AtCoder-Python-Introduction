@@ -1,6 +1,5 @@
-N = int(input())
 S = input()
-if "ABC" in S:
-    print(S.index("ABC")+1)
+if S.index("R") < S.index("M"):
+    print("Yes")
 else:
-    print(-1)
+    print("No")

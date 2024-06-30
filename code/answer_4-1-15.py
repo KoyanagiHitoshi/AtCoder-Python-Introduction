@@ -1,6 +1,5 @@
-a = int(input())
-s = input()
-if a >= 3200:
-    print(s)
+X = int(input())
+if X >= 30:
+    print("Yes")
 else:
-    print("red")
+    print("No")

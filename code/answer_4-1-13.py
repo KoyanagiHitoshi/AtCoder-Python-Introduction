@@ -1,5 +1,5 @@
-N = int(input())
-if N < 1000:
+x = int(input())
+if x < 1200:
     print("ABC")
 else:
-    print("ABD")
+    print("ARC")

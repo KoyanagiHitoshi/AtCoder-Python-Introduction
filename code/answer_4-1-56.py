@@ -1,5 +1,5 @@
-N, M, X, T, D = map(int, input().split())
-if M >= X:
-    print(T)
+N, A, X, Y = map(int, input().split())
+if N < A:
+    print(N*X)
 else:
-    print(T-(X-M)*D)
+    print(A*X+(N-A)*Y)
