@@ -1,13 +1,8 @@
-S = list(map(int, input().split()))
-flag = True
-for i in range(7):
-    if S[i] <= S[i+1]:
-        continue
-    else:
-        flag = False
-for s in S:
-    if 100 <= s <= 675 and s % 25 == 0:
-        continue
-    else:
-        flag = False
-print("Yes" if flag else "No")
+N = int(input())
+S = [input() for i in range(N)]
+for i in range(N-2):
+    if S[i] == "sweet" and S[i+1] == "sweet":
+        print("No")
+        break
+else:
+    print("Yes")

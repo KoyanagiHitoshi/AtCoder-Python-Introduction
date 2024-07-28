@@ -1,6 +1,6 @@
 N = int(input())
 S = input()
-if "MM" in S or "FF" in S:
-    print("No")
-else:
+if "o" in S and "x" not in S:
     print("Yes")
+else:
+    print("No")

@@ -1,3 +1,7 @@
 N = int(input())
-S = [input() for i in range(N)]
-print(S.count("Takahashi"))
+H = list(map(int, input().split()))
+bridge = 0
+for h in H:
+    if h > bridge:
+        bridge = h
+print(H.index(bridge)+1)

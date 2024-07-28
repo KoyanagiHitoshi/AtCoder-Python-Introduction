@@ -1,5 +1,5 @@
-A, B = map(int, input().split())
-if (A+B) % 2 == 0:
-    print((A+B)//2)
+N = int(input())
+if N % 2 == 0:
+    print(N)
 else:
-    print("IMPOSSIBLE")
+    print(N*2)

@@ -1,2 +1,2 @@
-N, K, A = map(int, input().split())
-print(((A+K-2) % N)+1)
+R = int(input())
+print(100-(R % 100))

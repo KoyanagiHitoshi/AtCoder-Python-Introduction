@@ -1,2 +1,8 @@
-L1, R1, L2, R2 = map(int, input().split())
-print(max(0, min(R1, R2)-max(L1, L2)))
+R, G, B = map(int, input().split())
+C = input()
+if C == "Red":
+    print(min(G, B))
+if C == "Green":
+    print(min(R, B))
+if C == "Blue":
+    print(min(R, G))

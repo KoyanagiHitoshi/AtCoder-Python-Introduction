@@ -1,5 +1,5 @@
 S = input()
-if S == "ARC":
-    print("ABC")
+if S == "Hello,World!":
+    print("AC")
 else:
-    print("ARC")
+    print("WA")

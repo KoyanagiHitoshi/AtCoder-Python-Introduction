@@ -1,3 +1,3 @@
 x = ["a", "b", "c"]
-print(x.pop(0))
+x.insert(1, "z")
 print(x)

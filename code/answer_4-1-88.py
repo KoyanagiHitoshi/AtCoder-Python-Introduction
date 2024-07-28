@@ -1,5 +1,9 @@
-S, T = input().split()
-if S == "AtCoder" and T == "Land":
-    print("Yes")
+b = input()
+if b == "A":
+    print("T")
+elif b == "T":
+    print("A")
+elif b == "C":
+    print("G")
 else:
-    print("No")
+    print("C")

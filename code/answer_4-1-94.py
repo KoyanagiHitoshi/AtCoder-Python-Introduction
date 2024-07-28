@@ -1,5 +1,7 @@
-a, b, c, d, e, f = input()
-if c == d and e == f:
-    print("Yes")
+S, T = input().split()
+A, B = map(int, input().split())
+U = input()
+if S == U:
+    print(A-1, B)
 else:
-    print("No")
+    print(A, B-1)

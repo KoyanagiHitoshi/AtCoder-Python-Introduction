@@ -1,3 +1,3 @@
-x = [1, 2, 3]
-print(x.pop(1))
+x = ["a", "b", "c"]
+print(x.pop(0))
 print(x)

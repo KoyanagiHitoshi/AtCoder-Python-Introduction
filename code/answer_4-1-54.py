@@ -1,6 +1,5 @@
-A, B, C, K = map(int, input().split())
-S, T = map(int, input().split())
-if S+T < K:
-    print(A*S+B*T)
+N, R = map(int, input().split())
+if N >= 10:
+    print(R)
 else:
-    print(A*S+B*T-(S+T)*C)
+    print(R+100*(10-N))
