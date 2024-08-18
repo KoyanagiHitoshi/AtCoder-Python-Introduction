@@ -1,5 +1,11 @@
 # Change Log
 
+## [v3.23.0](https://github.com/KoyanagiHitoshi/AtCoder-Python-Introduction/releases/tag/v3.23.0) / 2024-08-18
+
+* [#44](https://github.com/KoyanagiHitoshi/AtCoder-Python-Introduction/pull/44) upgrade pycodestyle 2.12.0 => 2.12.1
+* [#44](https://github.com/KoyanagiHitoshi/AtCoder-Python-Introduction/pull/44) update README.md
+* [#44](https://github.com/KoyanagiHitoshi/AtCoder-Python-Introduction/pull/44) update CHANGELOG.md
+
 ## [v3.22.0](https://github.com/KoyanagiHitoshi/AtCoder-Python-Introduction/releases/tag/v3.22.0) / 2024-07-28
 
 * [#43](https://github.com/KoyanagiHitoshi/AtCoder-Python-Introduction/pull/43) add code
