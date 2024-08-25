@@ -1,5 +1,6 @@
-N, R = map(int, input().split())
-if N >= 10:
-    print(R)
+import math
+X, Y = map(int, input().split())
+if Y-X > 0:
+    print(math.ceil((Y-X)/10))
 else:
-    print(R+100*(10-N))
+    print(0)

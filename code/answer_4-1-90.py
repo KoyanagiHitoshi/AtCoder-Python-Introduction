@@ -1,5 +1,5 @@
-ST = input()
-if ST == "AtCoder Land":
-    print("Yes")
+S = input()
+if S == "ARC":
+    print("ABC")
 else:
-    print("No")
+    print("ARC")

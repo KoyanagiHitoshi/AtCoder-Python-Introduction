@@ -1,5 +1,5 @@
-X, t = map(int, input().split())
-if X-t > 0:
-    print(X-t)
+x = int(input())
+if x > 0:
+    print(x)
 else:
     print(0)

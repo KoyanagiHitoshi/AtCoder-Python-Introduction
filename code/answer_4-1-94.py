@@ -1,7 +1,7 @@
-S, T = input().split()
-A, B = map(int, input().split())
-U = input()
-if S == U:
-    print(A-1, B)
+X, Y = input().split()
+if X < Y:
+    print("<")
+elif X == Y:
+    print("=")
 else:
-    print(A, B-1)
+    print(">")

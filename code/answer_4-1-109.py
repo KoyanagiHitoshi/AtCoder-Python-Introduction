@@ -1,5 +1,6 @@
-A, B = input().split()
-if "2" in A or "2" in B:
-    print("No")
-else:
+N = int(input())
+S = input()
+if "ab" in S or "ba" in S:
     print("Yes")
+else:
+    print("No")

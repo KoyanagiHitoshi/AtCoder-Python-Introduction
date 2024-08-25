@@ -1,5 +1,5 @@
-A, B, X = map(int, input().split())
-if 0 <= X-A <= B:
-    print("YES")
+A, B = map(int, input().split())
+if 1 <= A <= 9 and 1 <= B <= 9:
+    print(A*B)
 else:
-    print("NO")
+    print(-1)

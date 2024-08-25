@@ -1,5 +1,5 @@
-S, T = input().split()
-if S == "AtCoder" and T == "Land":
-    print("Yes")
+S = input()
+if S == "Hello,World!":
+    print("AC")
 else:
-    print("No")
+    print("WA")

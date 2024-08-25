@@ -1,5 +1,5 @@
-N = int(input())
-if N % 2 == 0:
-    print("White")
+A, B = map(int, input().split())
+if (A+B) % 2 == 0:
+    print((A+B)//2)
 else:
-    print("Black")
+    print("IMPOSSIBLE")

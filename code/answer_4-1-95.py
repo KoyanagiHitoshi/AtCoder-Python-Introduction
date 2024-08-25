@@ -1,5 +1,5 @@
-a, b, c, d, e, f = input()
-if c == d and e == f:
+S, T = input().split()
+if S < T:
     print("Yes")
 else:
     print("No")

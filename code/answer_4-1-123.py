@@ -1,5 +1,5 @@
-a, b, c, d = map(int, input())
-if a != b != c != d:
-    print("Good")
+N, X, Y, Z = map(int, input().split())
+if X < Z < Y or X > Z > Y:
+    print("Yes")
 else:
-    print("Bad")
+    print("No")
