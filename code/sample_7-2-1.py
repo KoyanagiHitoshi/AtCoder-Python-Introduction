@@ -1,9 +1,8 @@
-def fibonacci(n):
-    if n == 0:
-        return 0
-    if n == 1:
+def factorial(N):
+    if N == 0:
         return 1
-    return fibonacci(n-1)+fibonacci(n-2)
+    else:
+        return N*factorial(N-1)
 
 
-print(fibonacci(10))
+print(factorial(4))
