@@ -1,5 +1,5 @@
-A, B = map(int, input().split())
-if (A+B) % 2 == 0:
-    print((A+B)//2)
+a, b = map(int, input().split())
+if a*b % 2 == 0:
+    print("Even")
 else:
-    print("IMPOSSIBLE")
+    print("Odd")

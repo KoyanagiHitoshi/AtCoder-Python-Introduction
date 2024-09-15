@@ -1,5 +1,5 @@
-N = int(input())
-if N % 2 == 0:
-    print(0.5)
+W, H = map(int, input().split())
+if W*H % 144 == 0:
+    print("16:9")
 else:
-    print(((N//2)+1)/N)
+    print("4:3")

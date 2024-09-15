@@ -1,5 +1,5 @@
-n = int(input())
-if n == 2 or n == 3 or n == 4:
-    print("No")
-else:
+a, b = map(int, input().split())
+if (a == b-1) or (a == 1 and b == 10):
     print("Yes")
+else:
+    print("No")

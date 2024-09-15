@@ -1,5 +1,5 @@
-A, B, C = map(int, input().split())
-if (B < C and not B < A < C) or (C < B and C < A < B):
-    print("Yes")
+N = int(input())
+if N % 1000 == 0:
+    print(0)
 else:
-    print("No")
+    print(1000-(N % 1000))

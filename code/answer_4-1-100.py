@@ -1,9 +1,5 @@
-a, b = input().split()
-if a == "H" and b == "H":
-    print("H")
-elif a == "H" and b == "D":
-    print("D")
-elif a == "D" and b == "H":
-    print("D")
+a, b, c, d, e, f = input()
+if c == d and e == f:
+    print("Yes")
 else:
-    print("H")
+    print("No")

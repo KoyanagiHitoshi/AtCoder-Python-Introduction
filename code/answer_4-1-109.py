@@ -1,6 +1,5 @@
-N = int(input())
-S = input()
-if "ab" in S or "ba" in S:
-    print("Yes")
+N = input()
+if N in "369":
+    print("YES")
 else:
-    print("No")
+    print("NO")

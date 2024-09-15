@@ -1,5 +1,7 @@
-S = input()
-if S <= "2019/04/30":
-    print("Heisei")
+X, Y = input().split()
+if X < Y:
+    print("<")
+elif X == Y:
+    print("=")
 else:
-    print("TBD")
+    print(">")

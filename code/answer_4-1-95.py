@@ -1,5 +1,5 @@
-S, T = input().split()
-if S < T:
+ST = input()
+if ST == "AtCoder Land":
     print("Yes")
 else:
     print("No")

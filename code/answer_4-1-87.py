@@ -1,8 +1,5 @@
-V, A, B, C = map(int, input().split())
-V = V % (A+B+C)
-if V-A < 0:
-    print("F")
-elif V-(A+B) < 0:
-    print("M")
+A, B, C = map(int, input().split())
+if (B < C and not B < A < C) or (C < B and C < A < B):
+    print("Yes")
 else:
-    print("T")
+    print("No")

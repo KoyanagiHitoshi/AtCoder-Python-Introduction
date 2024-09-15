@@ -1,5 +1,5 @@
-a, b = map(int, input().split())
-if (a == b-1) or (a == 1 and b == 10):
-    print("Yes")
+N, A, X, Y = map(int, input().split())
+if N < A:
+    print(N*X)
 else:
-    print("No")
+    print(A*X+(N-A)*Y)

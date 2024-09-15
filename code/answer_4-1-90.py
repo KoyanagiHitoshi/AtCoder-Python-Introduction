@@ -1,5 +1,6 @@
-S = input()
-if S == "ARC":
-    print("ABC")
+a = int(input())
+b = int(input())
+if a % b != 0:
+    print(b-(a % b))
 else:
-    print("ARC")
+    print(0)

@@ -1,5 +1,5 @@
-N, X, T = map(int, input().split())
-if N % X == 0:
-    print(T*(N//X))
+A, B = map(int, input().split())
+if A % B == 0:
+    print(A//B)
 else:
-    print(T*(N//X+1))
+    print(A//B+1)

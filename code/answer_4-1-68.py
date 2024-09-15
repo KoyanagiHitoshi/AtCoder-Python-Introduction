@@ -1,5 +1,5 @@
 A, B = map(int, input().split())
-if B % A == 0:
-    print(A+B)
+if (A+B) % 2 == 0:
+    print((A+B)//2)
 else:
-    print(B-A)
+    print("IMPOSSIBLE")

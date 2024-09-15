@@ -1,5 +1,5 @@
-a, b, c, d, e, f = input()
-if c == d and e == f:
-    print("Yes")
+S = input()
+if S <= "2019/04/30":
+    print("Heisei")
 else:
-    print("No")
+    print("TBD")

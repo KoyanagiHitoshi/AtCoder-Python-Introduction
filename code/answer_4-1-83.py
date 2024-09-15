@@ -1,5 +1,7 @@
-N = int(input())
-if N % 1000 == 0:
-    print(0)
+A, B = map(int, input().split())
+if A == B:
+    print("Draw")
+elif (A+13) % 15 < (B+13) % 15:
+    print("Bob")
 else:
-    print(1000-(N % 1000))
+    print("Alice")

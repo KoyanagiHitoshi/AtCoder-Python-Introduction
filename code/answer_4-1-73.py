@@ -1,5 +1,6 @@
-N, K = map(int, input().split())
-if N % K == 0:
-    print(0)
+N = int(input())
+A = int(input())
+if N % 500 <= A:
+    print("Yes")
 else:
-    print(1)
+    print("No")
