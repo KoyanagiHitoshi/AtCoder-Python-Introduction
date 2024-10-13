@@ -1,3 +1,3 @@
-N = int(input())
-S = "oox"*34
-print(S[:N])
+S = input()
+dot = S.rfind(".")
+print(S[dot+1:])

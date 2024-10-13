@@ -1,2 +1,6 @@
+N = int(input())
 S = input()
-print(int(S[0])*int(S[2]))
+if S in "MF"*51:
+    print("Yes")
+else:
+    print("No")

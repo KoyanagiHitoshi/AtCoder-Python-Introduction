@@ -1,5 +1,5 @@
-N = int(input())
-if N < 42:
-    print(f"AGC{N:03}")
+S = input()
+if S == S[0].upper()+S[1:].lower():
+    print("Yes")
 else:
-    print(f"AGC{N+1:03}")
+    print("No")

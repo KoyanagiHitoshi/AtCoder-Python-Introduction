@@ -1,6 +1,5 @@
-c1 = input()
-c2 = input()
-if c1 == c2[::-1]:
-    print("YES")
+S = input()
+if S[-2:] == "er":
+    print("er")
 else:
-    print("NO")
+    print("ist")

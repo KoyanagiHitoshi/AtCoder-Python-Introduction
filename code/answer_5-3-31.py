@@ -1,5 +1,5 @@
 S = input()
-if S[-1] != "s":
-    print(S+"s")
+if S[-1] == "T":
+    print("YES")
 else:
-    print(S+"es")
+    print("NO")

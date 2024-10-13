@@ -1,6 +1,6 @@
-S = input()
-print(S.replace("a", "")
-      .replace("e", "")
-      .replace("i", "")
-      .replace("o", "")
-      .replace("u", ""))
+c1 = input()
+c2 = input()
+if c1 == c2[::-1]:
+    print("YES")
+else:
+    print("NO")

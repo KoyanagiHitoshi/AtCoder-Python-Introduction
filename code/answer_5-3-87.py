@@ -1,6 +1,8 @@
-N = int(input())
 S = input()
-if S.replace(".", "") == "|*|":
-    print("in")
-else:
-    print("out")
+ans = ""
+for s in S[::-1]:
+    if s == ".":
+        break
+    else:
+        ans += s
+print(ans[::-1])

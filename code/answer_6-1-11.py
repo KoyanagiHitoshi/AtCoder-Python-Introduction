@@ -1,9 +1,11 @@
 S = input()
-if S[0] == S[1]:
-    majority = S[0]
+flag = True
+if S[0] != "<" or S[-1] != ">":
+    flag = False
+for i in range(1, len(S)-1):
+    if S[i] != "=":
+        flag = False
+if flag:
+    print("Yes")
 else:
-    majority = S[2]
-for i in range(len(S)):
-    if S[i] != majority:
-        print(i+1)
-        break
+    print("No")

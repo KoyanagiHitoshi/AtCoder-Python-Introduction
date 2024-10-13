@@ -1,2 +1,2 @@
 N = int(input())
-print(str(N)*N)
+print(f"{N:04}")

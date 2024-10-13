@@ -1,4 +1,6 @@
-N = int(input())
-pi = "3.1415926535897932384626433832795028841971693993751"\
-     "058209749445923078164062862089986280348253421170679"
-print(pi[:N+2])
+H, W = map(int, input().split())
+S = [input() for i in range(H)]
+ans = 0
+for s in S:
+    ans += s.count("#")
+print(ans)

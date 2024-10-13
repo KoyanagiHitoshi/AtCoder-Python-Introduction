@@ -1,2 +1,8 @@
-A, B = map(int, input().split())
-print(f"{B/A:.3f}")
+S = input()
+idx = 1
+for s in S:
+    if s.isupper():
+        break
+    else:
+        idx += 1
+print(idx)

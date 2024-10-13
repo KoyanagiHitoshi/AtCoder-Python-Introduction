@@ -1,2 +1,6 @@
+N = int(input())
 S = input()
-print(S.count("v")+2*S.count("w"))
+if S.find("|") < S.find("*") < S.rfind("|"):
+    print("in")
+else:
+    print("out")

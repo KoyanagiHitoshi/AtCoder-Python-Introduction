@@ -1,3 +1,6 @@
-N, K = map(int, input().split())
+N = int(input())
 S = input()
-print(S[:K-1]+S[K-1:K].lower()+S[K:])
+if S.replace(".", "") == "|*|":
+    print("in")
+else:
+    print("out")

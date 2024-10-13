@@ -1,6 +1,5 @@
 S = input()
-idx = S.rfind("a")
-if idx != -1:
-    print(idx+1)
+if S.find("R") < S.find("M"):
+    print("Yes")
 else:
-    print(-1)
+    print("No")
