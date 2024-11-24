@@ -1,2 +1,7 @@
-x, y, z = sorted(map(int, input().split()))[::-1]
-print(x+y)
+a, b, c = sorted(input())
+if a != b:
+    print(a)
+elif b != c:
+    print(c)
+else:
+    print(-1)

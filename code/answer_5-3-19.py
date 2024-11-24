@@ -1,2 +1,2 @@
-N = input()
-print(N*int(N))
+N = int(input())
+print("10"*N+"1")

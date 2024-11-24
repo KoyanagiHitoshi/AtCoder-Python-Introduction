@@ -1,5 +1,5 @@
-A, B, C, D, E = sorted(input().split())
-if (A == B == C and D == E) or (A == B and C == D == E):
+S = input()
+if sorted(S) == list("ABC"):
     print("Yes")
 else:
     print("No")

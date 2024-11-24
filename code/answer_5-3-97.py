@@ -1,3 +1,7 @@
-N, K = map(int, input().split())
-S = input()
-print(S[:K-1]+S[K-1:K].lower()+S[K:])
+N = int(input())
+S = input().replace("1", "l").replace("0", "o")
+T = input().replace("1", "l").replace("0", "o")
+if S == T:
+    print("Yes")
+else:
+    print("No")

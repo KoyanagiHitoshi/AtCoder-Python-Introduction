@@ -1,8 +1,7 @@
+N = int(input())
 S = input()
-ans = ""
-for s in S[::-1]:
-    if s == ".":
-        break
-    else:
-        ans += s
-print(ans[::-1])
+count = 0
+for i in range(1, N-1):
+    if S[i-1:i+2] == "#.#":
+        count += 1
+print(count)

@@ -1,4 +1,5 @@
-N, K, X = map(int, input().split())
-A = list(map(int, input().split()))
-A.insert(K, X)
-print(*A)
+ABC = input().split()
+if ABC.count("5") == 2 and ABC.count("7") == 1:
+    print("YES")
+else:
+    print("NO")

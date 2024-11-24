@@ -1,6 +1,6 @@
+N = int(input())
 S = input()
 ans = ""
 for s in S:
-    if s != ".":
-        ans += s
+    ans += s+s
 print(ans)

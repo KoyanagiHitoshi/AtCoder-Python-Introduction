@@ -1,6 +1,5 @@
-N = int(input())
-S = input()
-ans = ""
-for s in S:
-    ans += s+s
-print(ans)
+r, g, b = input().split()
+if int(r+g+b) % 4 == 0:
+    print("YES")
+else:
+    print("NO")

@@ -1,3 +1,2 @@
-N, X = input().split()
-P = input().split()
-print(P.index(X)+1)
+x = input().split()
+print(x.index("0")+1)

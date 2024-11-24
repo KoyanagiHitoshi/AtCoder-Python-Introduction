@@ -1,5 +1,5 @@
-S = input()
-if "ABC001" <= S <= "ABC349" and S != "ABC316":
+a, b, c, d = input()
+if a == b == c or b == c == d:
     print("Yes")
 else:
     print("No")

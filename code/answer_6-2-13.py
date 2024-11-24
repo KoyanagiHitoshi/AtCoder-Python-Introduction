@@ -1,6 +1,5 @@
-S = input()
-d = sorted(S)
-if d[0] != d[1]:
-    print(S.index(d[0])+1)
+A, B, C, D, E = sorted(map(int, input().split()))
+if (A == B == C and D == E) or (A == B and C == D == E):
+    print("Yes")
 else:
-    print(S.index(d[-1])+1)
+    print("No")

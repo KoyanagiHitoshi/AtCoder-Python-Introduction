@@ -1,3 +1,3 @@
-N = int(input())
-S = [input() for i in range(N)]
-print(S.count("Takahashi"))
+S = input()
+weather = ["Sunny", "Cloudy", "Rainy"]
+print(weather[(weather.index(S)+1) % 3])

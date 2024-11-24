@@ -1,5 +1,5 @@
-A, B, C, D, E = sorted(map(int, input().split()))
-if (A == B == C and D == E) or (A == B and C == D == E):
+N = input()
+if sorted(N) == list("122333"):
     print("Yes")
 else:
     print("No")

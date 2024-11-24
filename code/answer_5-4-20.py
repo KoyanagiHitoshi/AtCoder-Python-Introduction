@@ -1,2 +1,2 @@
-x = input().split()
-print(x.index("0")+1)
+X = input()
+print(["0", "A", "B", "C", "D", "E"].index(X))

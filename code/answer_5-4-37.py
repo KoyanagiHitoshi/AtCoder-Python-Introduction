@@ -1,3 +1,4 @@
-N = int(input())
-S = [input() for i in range(N)]
-print(*S[::-1], sep="\n")
+N, K, X = map(int, input().split())
+A = list(map(int, input().split()))
+A.insert(K, X)
+print(*A)

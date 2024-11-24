@@ -1,5 +1,2 @@
 S = input()
-if S[-2:] == "er":
-    print("er")
-else:
-    print("ist")
+print((S*6)[:6])
