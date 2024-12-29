@@ -1,5 +1,5 @@
-S = input()
-if S[0] == "<" and S.count("<") == 1 and S[-1] == ">" and S.count(">") == 1:
+N = input()
+if N.count("1") == 1 and N.count("2") == 2 and N.count("3") == 3:
     print("Yes")
 else:
     print("No")

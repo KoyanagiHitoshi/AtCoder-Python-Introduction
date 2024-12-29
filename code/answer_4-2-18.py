@@ -1,9 +1,4 @@
-N, S, K = map(int, input().split())
-total = 0
+N = int(input())
+print(N)
 for i in range(N):
-    P, Q = map(int, input().split())
-    total += P*Q
-if total >= S:
-    print(total)
-else:
-    print(total+K)
+    print(1)

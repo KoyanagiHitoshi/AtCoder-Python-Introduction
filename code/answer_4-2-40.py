@@ -1,7 +1,6 @@
-H = int(input())
-now = 0
-day = 0
-while now <= H:
-    now += 2**day
-    day += 1
-print(day)
+N, M, P = map(int, input().split())
+count = 0
+while M <= N:
+    count += 1
+    M += P
+print(count)

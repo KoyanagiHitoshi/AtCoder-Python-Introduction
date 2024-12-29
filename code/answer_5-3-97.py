@@ -1,7 +1,2 @@
-N = int(input())
-S = input().replace("1", "l").replace("0", "o")
-T = input().replace("1", "l").replace("0", "o")
-if S == T:
-    print("Yes")
-else:
-    print("No")
+s = input()
+print(s.replace("0", "x").replace("1", "0").replace("x", "1"))

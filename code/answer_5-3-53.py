@@ -1,2 +1,5 @@
-X = input()
-print("ABCDE".find(X)+1)
+S = input()
+if S.index("R") < S.index("M"):
+    print("Yes")
+else:
+    print("No")

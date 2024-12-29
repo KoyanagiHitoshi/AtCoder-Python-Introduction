@@ -1,2 +1,6 @@
+N = int(input())
 S = input()
-print(int(S[0])*int(S[2]))
+if S == "1"*(N//2)+"/"+"2"*(N//2):
+    print("Yes")
+else:
+    print("No")

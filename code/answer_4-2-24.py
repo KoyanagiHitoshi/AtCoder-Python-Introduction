@@ -1,10 +1,7 @@
-N, M = map(int, input().split())
-H = list(map(int, input().split()))
+N, M, P = map(int, input().split())
 count = 0
 for i in range(N):
-    M -= H[i]
-    if M < 0:
-        break
-    else:
+    if M <= N:
         count += 1
+        M += P
 print(count)

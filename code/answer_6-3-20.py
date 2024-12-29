@@ -1,9 +1,6 @@
 N = int(input())
-P = list(map(int, input().split()))
-x = 0
-for i in range(1, N):
-    x = max(x, P[i])
-if P[0] > x:
-    print(0)
-else:
-    print(x-P[0]+1)
+t, v = 0, 0
+for _ in range(N):
+    T, V = map(int, input().split())
+    t, v = T, max(0, v-(T-t))+V
+print(v)

@@ -1,6 +1,8 @@
 S = input()
-print(S.replace("a", "")
-      .replace("e", "")
-      .replace("i", "")
-      .replace("o", "")
-      .replace("u", ""))
+ans = ""
+for s in S[::-1]:
+    if s == ".":
+        break
+    else:
+        ans += s
+print(ans[::-1])

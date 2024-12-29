@@ -1,3 +1,2 @@
-K = int(input())
-letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-print(letters[:K])
+N = input()
+print(N[1:])

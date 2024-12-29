@@ -1,3 +1,2 @@
-S = input()
-dot = S.rfind(".")
-print(S[dot+1:])
+L, R = map(int, input().split())
+print("atcoder"[L-1:R])

@@ -1,2 +1,2 @@
-S = input()
-print(S.replace(".", ""))
+s = input()
+print(s[::2])
