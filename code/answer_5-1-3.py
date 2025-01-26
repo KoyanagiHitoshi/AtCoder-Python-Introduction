@@ -1,5 +1,7 @@
 A, op, B = input().split()
+A = int(A)
+B = int(B)
 if op == "+":
-    print(int(A)+int(B))
+    print(A+B)
 if op == "-":
-    print(int(A)-int(B))
+    print(A-B)

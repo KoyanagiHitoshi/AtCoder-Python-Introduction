@@ -1,2 +1,3 @@
-X, A, B = [int(input()) for i in range(3)]
-print((X-A) % B)
+import math
+A, B = map(int, input().split())
+print(math.ceil(B/A))

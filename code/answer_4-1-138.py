@@ -1,5 +1,5 @@
-a, b, c = input()
-if a == b == c:
-    print("Won")
+n = int(input())
+if 2 <= n <= 4:
+    print("No")
 else:
-    print("Lost")
+    print("Yes")

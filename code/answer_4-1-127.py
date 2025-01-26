@@ -1,5 +1,5 @@
-N, X, Y, Z = map(int, input().split())
-if X < Z < Y or X > Z > Y:
+a, b, c = map(int, input().split())
+if a <= b <= c or c <= b <= a:
     print("Yes")
 else:
     print("No")

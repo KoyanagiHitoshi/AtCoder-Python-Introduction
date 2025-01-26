@@ -1,3 +1,2 @@
-N = int(input())
-A = int(input())
-print(N*N-A)
+R = int(input())
+print(2*3.14*R)

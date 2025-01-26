@@ -1,8 +1,5 @@
-S = input()
-ans = ""
-for s in S[::-1]:
-    if s == ".":
-        break
-    else:
-        ans += s
-print(ans[::-1])
+N = input()
+if N == N[::-1]:
+    print("Yes")
+else:
+    print("No")

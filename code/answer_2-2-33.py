@@ -1,2 +1,2 @@
-D = int(input())
-print(D/100)
+N = int(input())
+print(N**3)

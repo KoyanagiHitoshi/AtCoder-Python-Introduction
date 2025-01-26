@@ -1,2 +1,2 @@
-n, m = map(int, input().split())
-print((n-1)*(m-1))
+A, B, C = map(int, input().split())
+print(2*(A*B+B*C+C*A))

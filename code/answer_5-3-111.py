@@ -1,5 +1,5 @@
 N = int(input())
 if N < 42:
-    print(f"AGC{N:03}")
+    print("AGC"+str(N).zfill(3))
 else:
-    print(f"AGC{N+1:03}")
+    print("AGC"+str(N+1).zfill(3))

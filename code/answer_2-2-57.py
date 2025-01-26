@@ -1,2 +1,2 @@
-R = int(input())
-print(100-(R % 100))
+A, B = map(int, input().split())
+print((A+B) % 24)

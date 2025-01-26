@@ -1,2 +1,3 @@
-A, B, C = map(int, input().split())
-print(2*(A*B+B*C+C*A))
+a, b, c, d = map(int, input().split())
+print((a+b)*(c-d))
+print("Takahashi")

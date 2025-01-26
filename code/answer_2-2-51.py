@@ -1,3 +1,2 @@
-import math
-N = int(input())
-print(math.ceil(N/2))
+X = int(input())
+print(X//10)

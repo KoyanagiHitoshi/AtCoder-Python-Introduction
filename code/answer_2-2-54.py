@@ -1,2 +1,3 @@
-A, B = map(int, input().split())
-print((A+B) % 24)
+import math
+N = int(input())
+print(math.ceil(N/2))

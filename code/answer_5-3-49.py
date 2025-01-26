@@ -1,3 +1,7 @@
+N = int(input())
 S = input()
-N = int(input())-1
-print(S[N//5]+S[N % 5])
+count = 0
+for i in range(1, N-1):
+    if S[i-1] == "#" and S[i] == "." and S[i+1] == "#":
+        count += 1
+print(count)

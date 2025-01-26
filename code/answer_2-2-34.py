@@ -1,2 +1,2 @@
-A, B = map(int, input().split())
-print((A-B)/3+B)
+H = int(input())
+print((H*(12800000+H))**(1/2))

@@ -1,3 +1,2 @@
-H, W = map(int, input().split())
-h, w = map(int, input().split())
-print((H-h)*(W-w))
+n, m = map(int, input().split())
+print((n-1)*(m-1))

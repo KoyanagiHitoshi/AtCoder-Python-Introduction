@@ -1,2 +1,2 @@
-N, K, A = map(int, input().split())
-print(((A+K-2) % N)+1)
+X, A, B = [int(input()) for i in range(3)]
+print((X-A) % B)

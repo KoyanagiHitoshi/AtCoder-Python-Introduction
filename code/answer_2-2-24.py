@@ -1,2 +1,3 @@
-A, B = map(int, input().split())
-print(A**B)
+import math
+N = int(input())
+print(math.factorial(N))

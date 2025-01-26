@@ -1,3 +1,2 @@
-N, D = map(int, input().split())
 S = input()
-print(N-S.count("@")+D)
+print(700+100*S.count("o"))

@@ -1,2 +1,3 @@
-R = int(input())
-print(2*3.14*R)
+a, b = map(int, input().split())
+c, d = map(int, input().split())
+print(a*d-b*c)

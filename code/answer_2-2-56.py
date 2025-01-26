@@ -1,2 +1,2 @@
-X = int(input())
-print(100-(X % 100))
+N = int(input())
+print((N % 12)+1)

@@ -1,3 +1,2 @@
-import math
-N = int(input())
-print(math.ceil(N/2))
+A, P = map(int, input().split())
+print((3*A+P)//2)

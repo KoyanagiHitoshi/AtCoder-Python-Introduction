@@ -1,2 +1,2 @@
-a, b, h = [int(input()) for i in range(3)]
-print((a+b)*h//2)
+A, B = map(int, input().split())
+print(A*B/100)

@@ -1,2 +1,2 @@
-N = int(input())
-print(N % 998244353)
+R = int(input())
+print(100-(R % 100))

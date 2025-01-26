@@ -1,3 +1,3 @@
-import math
-N = int(input())
-print(math.factorial(N))
+R = int(input())
+G = int(input())
+print(2*G-R)

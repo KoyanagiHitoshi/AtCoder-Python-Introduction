@@ -1,2 +1,2 @@
-X, Y = map(int, input().split())
-print(X+Y//2)
+A, B = map(int, input().split())
+print((1-B/A)*100)

@@ -1,7 +1,5 @@
 S = input()
-if S.count("R") != 2:
-    print(S.count("R"))
-elif S[1] == "R":
-    print(2)
+if S.count("A") == 1 and S.count("B") == 1 and S.count("C") == 1:
+    print("Yes")
 else:
-    print(1)
+    print("No")

@@ -1,3 +1,2 @@
-R = int(input())
-G = int(input())
-print(2*G-R)
+A, B = map(int, input().split())
+print(A*B-(A+B-1))

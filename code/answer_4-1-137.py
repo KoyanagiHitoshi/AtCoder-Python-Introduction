@@ -1,5 +1,11 @@
-n = int(input())
-if 2 <= n <= 4:
-    print("No")
+S, T, X = map(int, input().split())
+if S < T:
+    if S <= X < T:
+        print("Yes")
+    else:
+        print("No")
 else:
-    print("Yes")
+    if X < T or S <= X:
+        print("Yes")
+    else:
+        print("No")

@@ -1,2 +1,2 @@
-A, B = map(int, input().split())
-print(A**B+B**A)
+N = int(input())
+print(2**N)

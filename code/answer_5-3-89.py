@@ -1,5 +1,3 @@
-S = input()
-if S[-3:] == "san":
-    print("Yes")
-else:
-    print("No")
+N = int(input())
+S = "oox"*34
+print(S[:N])

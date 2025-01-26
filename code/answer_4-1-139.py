@@ -1,5 +1,5 @@
-a, b, c, d = input()
-if a == b == c or b == c == d:
-    print("Yes")
+a, b, c = input()
+if a == b == c:
+    print("Won")
 else:
-    print("No")
+    print("Lost")
