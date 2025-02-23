@@ -1,5 +1,7 @@
-N, T, A = map(int, input().split())
-if T > N/2 or A > N/2:
-    print("Yes")
+A, B, C, D = map(int, input().split())
+if B/A > D/C:
+    print("TAKAHASHI")
+elif B/A < D/C:
+    print("AOKI")
 else:
-    print("No")
+    print("DRAW")

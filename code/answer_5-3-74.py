@@ -1,6 +1,7 @@
-N = int(input())
 S = input()
-if S.count("o") >= 1 and S.count("x") == 0:
-    print("Yes")
+if S.count("R") != 2:
+    print(S.count("R"))
+elif S[1] == "R":
+    print(2)
 else:
-    print("No")
+    print(1)

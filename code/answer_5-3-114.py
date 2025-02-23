@@ -1,2 +1,5 @@
-A, B = map(int, input().split())
-print(f"{B/A:.3f}")
+N = int(input())
+if N < 42:
+    print(f"AGC{N:03}")
+else:
+    print(f"AGC{N+1:03}")

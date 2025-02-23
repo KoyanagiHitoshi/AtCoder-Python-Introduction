@@ -1,5 +1,13 @@
+N = int(input())
 S = input()
-if S[0] == "<" and S.count("<") == 1 and S[-1] == ">" and S.count(">") == 1:
-    print("Yes")
+T = S.count("T")
+A = S.count("A")
+if T > A:
+    print("T")
+elif T < A:
+    print("A")
 else:
-    print("No")
+    if S[-1] == "A":
+        print("T")
+    else:
+        print("A")

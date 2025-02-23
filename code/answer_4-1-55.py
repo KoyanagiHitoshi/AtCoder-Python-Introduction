@@ -1,6 +1,5 @@
-A, B, C = map(int, input().split())
-water = C-(A-B)
-if water > 0:
-    print(water)
+X, t = map(int, input().split())
+if X-t > 0:
+    print(X-t)
 else:
     print(0)

@@ -1,5 +1,6 @@
 S = input()
-if S[-3:] == "san":
+T = input()
+if S == T[:-1]:
     print("Yes")
 else:
     print("No")

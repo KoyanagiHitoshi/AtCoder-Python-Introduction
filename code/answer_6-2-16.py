@@ -1,6 +1,7 @@
-S = input()
-d = sorted(S)
-if d[0] != d[1]:
-    print(S.index(d[0])+1)
+a, b, c = sorted(input())
+if a != b:
+    print(a)
+elif b != c:
+    print(c)
 else:
-    print(S.index(d[-1])+1)
+    print(-1)

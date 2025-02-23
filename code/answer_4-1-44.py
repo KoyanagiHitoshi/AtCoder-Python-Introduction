@@ -1,7 +1,7 @@
-A, B = map(int, input().split())
-if A == B:
-    print(1)
-elif (A-B) % 2 == 1:
-    print(2)
+L, R = map(int, input().split())
+if L == 1 and R == 0:
+    print("Yes")
+elif L == 0 and R == 1:
+    print("No")
 else:
-    print(3)
+    print("Invalid")

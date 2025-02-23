@@ -1,7 +1,7 @@
-AB, AC, BC = input().split()
-if (AB == ">" and AC == "<") or (AC == ">" and AB == "<"):
-    print("A")
-elif (AB == "<" and BC == "<") or (BC == ">" and AB == ">"):
-    print("B")
+S, T = input().split()
+A, B = map(int, input().split())
+U = input()
+if S == U:
+    print(A-1, B)
 else:
-    print("C")
+    print(A, B-1)

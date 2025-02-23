@@ -1,7 +1,5 @@
-A, B, C, D = map(int, input().split())
-if A+B > C+D:
-    print("Left")
-elif A+B == C+D:
-    print("Balanced")
+N, T, A = map(int, input().split())
+if T > N/2 or A > N/2:
+    print("Yes")
 else:
-    print("Right")
+    print("No")

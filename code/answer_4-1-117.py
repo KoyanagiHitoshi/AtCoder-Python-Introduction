@@ -1,5 +1,6 @@
+N = int(input())
 S = input()
-if S in ["ACE", "BDF", "CEG", "DFA", "EGB", "FAC", "GBD"]:
-    print("Yes")
-else:
+if "MM" in S or "FF" in S:
     print("No")
+else:
+    print("Yes")

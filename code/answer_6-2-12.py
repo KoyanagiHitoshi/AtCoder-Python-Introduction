@@ -1,5 +1,5 @@
-N = input()
-if sorted(N) == list("122333"):
+S = input()
+if sorted(S) == list("ABC"):
     print("Yes")
 else:
     print("No")

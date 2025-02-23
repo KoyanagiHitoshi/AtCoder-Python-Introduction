@@ -1,5 +1,5 @@
-S, T = input().split()
-if S == "AtCoder" and T == "Land":
-    print("Yes")
+S = input()
+if S == "ARC":
+    print("ABC")
 else:
-    print("No")
+    print("ARC")

@@ -1,2 +1,3 @@
 S = input()
-print((S*6)[:6])
+dot = S.rfind(".")
+print(S[dot+1:])

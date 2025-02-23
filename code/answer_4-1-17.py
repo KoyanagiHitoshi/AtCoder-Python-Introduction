@@ -1,7 +1,6 @@
-N = int(input())
-if N == 1:
-    print("Hello World")
+a = int(input())
+s = input()
+if a >= 3200:
+    print(s)
 else:
-    A = int(input())
-    B = int(input())
-    print(A+B)
+    print("red")

@@ -1,6 +1,6 @@
-a = int(input())
-b = int(input())
-if a % b != 0:
-    print(b-(a % b))
+A, B, C = map(int, input().split())
+mod = B-(B % C)
+if A <= mod:
+    print(mod)
 else:
-    print(0)
+    print(-1)

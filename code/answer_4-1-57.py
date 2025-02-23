@@ -1,5 +1,6 @@
-N, R = map(int, input().split())
-if N >= 10:
-    print(R)
+A, B, C = map(int, input().split())
+water = C-(A-B)
+if water > 0:
+    print(water)
 else:
-    print(R+100*(10-N))
+    print(0)

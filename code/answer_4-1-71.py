@@ -1,5 +1,5 @@
-M, H = map(int, input().split())
-if H % M == 0:
-    print("Yes")
+N = int(input())
+if N % 2 == 0:
+    print("White")
 else:
-    print("No")
+    print("Black")

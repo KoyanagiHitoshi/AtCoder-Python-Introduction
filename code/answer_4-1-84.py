@@ -1,5 +1,9 @@
-X = int(input())
-if X % 100 == 0 and X != 0:
-    print("Yes")
-else:
-    print("No")
+Y = int(input())
+if Y % 4 != 0:
+    print(365)
+elif Y % 4 == 0 and Y % 100 != 0:
+    print(366)
+elif Y % 100 == 0 and Y % 400 != 0:
+    print(365)
+elif Y % 400 == 0:
+    print(366)

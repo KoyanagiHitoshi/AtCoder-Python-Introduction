@@ -1,6 +1,5 @@
-N = int(input())
-S = input()
-if "MM" in S or "FF" in S:
-    print("No")
+a = input()
+if a in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
+    print("A")
 else:
-    print("Yes")
+    print("a")

@@ -1,5 +1,5 @@
-N = input()
-if N.count("1") == 1 and N.count("2") == 2 and N.count("3") == 3:
+S = input()
+if S.count("A") == 1 and S.count("B") == 1 and S.count("C") == 1:
     print("Yes")
 else:
     print("No")

@@ -1,7 +1,7 @@
-a, b = map(int, input().split())
-if 12 < a:
-    print(b)
-elif 5 < a:
-    print(b//2)
+R = int(input())
+if R < 100:
+    print(100-R)
+elif R < 200:
+    print(200-R)
 else:
-    print(0)
+    print(300-R)

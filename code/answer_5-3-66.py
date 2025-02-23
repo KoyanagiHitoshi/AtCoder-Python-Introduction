@@ -1,2 +1,2 @@
 S = input()
-print(S.count("+")-S.count("-"))
+print("2"*S.count("2"))

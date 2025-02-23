@@ -1,5 +1,5 @@
-A, B, C = sorted(map(int, input().split()))
-if A == B == C or A+B == C:
+a, b, c = sorted(map(int, input().split()))
+if a+b == c:
     print("Yes")
 else:
     print("No")

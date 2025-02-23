@@ -1,6 +1,6 @@
-A, B, C, K = map(int, input().split())
-S, T = map(int, input().split())
-if S+T < K:
-    print(A*S+B*T)
+import math
+X, Y = map(int, input().split())
+if Y-X > 0:
+    print(math.ceil((Y-X)/10))
 else:
-    print(A*S+B*T-(S+T)*C)
+    print(0)

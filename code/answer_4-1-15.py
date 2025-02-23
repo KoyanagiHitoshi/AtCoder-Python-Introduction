@@ -1,5 +1,5 @@
-X = int(input())
-if X >= 30:
-    print("Yes")
+N = int(input())
+if N < 1000:
+    print("ABC")
 else:
-    print("No")
+    print("ABD")

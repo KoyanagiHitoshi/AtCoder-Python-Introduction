@@ -1,9 +1,5 @@
-b = input()
-if b == "A":
-    print("T")
-elif b == "T":
-    print("A")
-elif b == "C":
-    print("G")
+S = input()
+if S == "Hello,World!":
+    print("AC")
 else:
-    print("C")
+    print("WA")

@@ -1,5 +1,5 @@
-X, Y, N = map(int, input().split())
-if X < Y/3:
-    print(X*N)
+X = int(input())
+if X % 100 == 0 and X != 0:
+    print("Yes")
 else:
-    print(Y*(N//3)+X*(N % 3))
+    print("No")

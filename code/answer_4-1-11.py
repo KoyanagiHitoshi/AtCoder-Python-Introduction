@@ -1,5 +1,9 @@
-Q = int(input())
-if Q == 1:
-    print("ABC")
-else:
-    print("chokudai")
+a, b = input().split()
+if a == "H" and b == "H":
+    print("H")
+if a == "H" and b == "D":
+    print("D")
+if a == "D" and b == "H":
+    print("D")
+if a == "D" and b == "D":
+    print("H")

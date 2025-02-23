@@ -1,7 +1,5 @@
-X, Y = input().split()
-if X < Y:
-    print("<")
-elif X == Y:
-    print("=")
+S, T = input().split()
+if S == "AtCoder" and T == "Land":
+    print("Yes")
 else:
-    print(">")
+    print("No")

@@ -1,5 +1,5 @@
-a, b, c = input()
-if a == b == c:
-    print("Won")
+A, B, X = map(int, input().split())
+if 0 <= X-A <= B:
+    print("YES")
 else:
-    print("Lost")
+    print("NO")

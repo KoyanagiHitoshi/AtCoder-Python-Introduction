@@ -1,4 +1,2 @@
-ABC = [int(input()) for i in range(3)]
-sorted_ABC = sorted(ABC)[::-1]
-for idx in ABC:
-    print(sorted_ABC.index(idx)+1)
+A, B, C = sorted(input().split())[::-1]
+print(int(A+B)+int(C))

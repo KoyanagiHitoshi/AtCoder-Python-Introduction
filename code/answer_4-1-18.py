@@ -1,5 +1,7 @@
-B, G = map(int, input().split())
-if B > G:
-    print("Bat")
+N = int(input())
+if N == 1:
+    print("Hello World")
 else:
-    print("Glove")
+    A = int(input())
+    B = int(input())
+    print(A+B)
