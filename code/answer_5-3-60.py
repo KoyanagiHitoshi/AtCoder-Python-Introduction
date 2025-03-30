@@ -1,5 +1,3 @@
-S = input()
-if S.find("R") < S.find("M"):
-    print("Yes")
-else:
-    print("No")
+C = input()
+letters = "abcdefghijklmnopqrstuvwxyz"
+print(letters[letters.find(C)+1])

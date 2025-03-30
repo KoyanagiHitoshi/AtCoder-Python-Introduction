@@ -1,3 +1,2 @@
-C = input()
-letters = "abcdefghijklmnopqrstuvwxyz"
-print(letters[letters.find(C)+1])
+X = input()
+print("0ABCDE".find(X))

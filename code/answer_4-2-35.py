@@ -1,6 +1,9 @@
-N = input()
-for i in range(len(N)-1):
-    if N[i] <= N[i+1]:
+N = int(input())
+A = list(map(int, input().split()))
+for i in range(N-1):
+    if A[i] < A[i+1]:
+        continue
+    else:
         print("No")
         break
 else:

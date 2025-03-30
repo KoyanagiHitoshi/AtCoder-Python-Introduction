@@ -1,6 +1,3 @@
-S = input()
-T = input()
-if S == T[:-1]:
-    print("Yes")
-else:
-    print("No")
+N = int(input())
+S = "oox"*34
+print(S[:N])

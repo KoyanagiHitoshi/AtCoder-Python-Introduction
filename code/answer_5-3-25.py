@@ -1,6 +1,5 @@
 N = int(input())
-S = input()
-if S == "1"*(N//2)+"/"+"2"*(N//2):
-    print("Yes")
+if N % 2 == 0:
+    print("-"*(N//2-1)+"=="+"-"*(N//2-1))
 else:
-    print("No")
+    print("-"*(N//2)+"="+"-"*(N//2))

@@ -1,3 +1,2 @@
-N = int(input())
-S = "oox"*34
-print(S[:N])
+S = input()
+print((S*6)[:6])

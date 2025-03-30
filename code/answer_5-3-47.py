@@ -1,5 +1,5 @@
-a, b = input().split(".")
-if int(b[0]) < 5:
-    print(int(a))
+N = input()
+if N[0] == N[2]:
+    print("Yes")
 else:
-    print(int(a)+1)
+    print("No")

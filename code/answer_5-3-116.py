@@ -1,2 +1,2 @@
-N = int(input())
-print(f"{N:02X}")
+A, B = map(int, input().split())
+print(f"{B/A:.3f}")

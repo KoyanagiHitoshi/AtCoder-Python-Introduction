@@ -1,3 +1,3 @@
-N = int(input())
-S = [input() for i in range(N)]
-print(S.count("Takahashi"))
+D = input()
+d = ["N", "NE", "E", "SE", "S", "SW", "W", "NW"]
+print(d[d.index(D)-4])

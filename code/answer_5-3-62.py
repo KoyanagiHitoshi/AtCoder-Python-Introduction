@@ -1,6 +1,6 @@
+N = int(input())
 S = input()
-idx = S.rfind("a")
-if idx != -1:
-    print(idx+1)
+if "ABC" in S:
+    print(S.find("ABC")+1)
 else:
     print(-1)

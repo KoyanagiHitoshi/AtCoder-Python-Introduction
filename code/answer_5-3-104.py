@@ -1,7 +1,6 @@
 N = int(input())
-S = input().replace("1", "l").replace("0", "o")
-T = input().replace("1", "l").replace("0", "o")
-if S == T:
-    print("Yes")
+S = input()
+if S.replace(".", "") == "|*|":
+    print("in")
 else:
-    print("No")
+    print("out")

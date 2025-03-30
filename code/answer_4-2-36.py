@@ -1,8 +1,7 @@
-S = input()
-for i in range(1, 16, 2):
-    if S[i] == "0":
-        continue
-    else:
+N = int(input())
+A = list(map(int, input().split()))
+for i in range(N-1):
+    if A[i] >= A[i+1]:
         print("No")
         break
 else:

@@ -1,8 +1,8 @@
 N = int(input())
-S = [input() for i in range(N)]
-for i in range(N-2):
-    if S[i] == "sweet" and S[i+1] == "sweet":
-        print("No")
+H = list(map(int, input().split()))
+for i in range(1, N):
+    if H[0] < H[i]:
+        print(i+1)
         break
 else:
-    print("Yes")
+    print(-1)

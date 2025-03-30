@@ -1,7 +1,10 @@
-N = int(input())
 S = input()
+T = input()
 count = 0
-for i in range(1, N-1):
-    if S[i-1] == "#" and S[i] == "." and S[i+1] == "#":
-        count += 1
+if S[0] == T[0]:
+    count += 1
+if S[1] == T[1]:
+    count += 1
+if S[2] == T[2]:
+    count += 1
 print(count)

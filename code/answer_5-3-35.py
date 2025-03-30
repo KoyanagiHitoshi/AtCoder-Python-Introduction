@@ -1,3 +1,6 @@
 N = int(input())
 S = input()
-print(S[N-1])
+if S[N-1] == "o":
+    print("Yes")
+else:
+    print("No")

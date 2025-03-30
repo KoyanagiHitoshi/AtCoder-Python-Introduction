@@ -1,6 +1,6 @@
-N = int(input())
 S = input()
-if S.find("|") < S.find("*") < S.rfind("|"):
-    print("in")
+idx = S.rfind("a")
+if idx != -1:
+    print(idx+1)
 else:
-    print("out")
+    print(-1)
