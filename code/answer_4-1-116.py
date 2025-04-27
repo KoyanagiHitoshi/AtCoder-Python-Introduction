@@ -1,6 +1,6 @@
 N = int(input())
 S = input()
-if "o" in S and "x" not in S:
+if "ab" in S or "ba" in S:
     print("Yes")
 else:
     print("No")

@@ -1,9 +1,5 @@
-Y = int(input())
-if Y % 4 == 0:
-    print(Y+2)
-elif Y % 4 == 1:
-    print(Y+1)
-elif Y % 4 == 2:
-    print(Y)
+A, B = map(int, input().split())
+if A % 3 == 0 or B % 3 == 0 or (A+B) % 3 == 0:
+    print("Possible")
 else:
-    print(Y+3)
+    print("Impossible")

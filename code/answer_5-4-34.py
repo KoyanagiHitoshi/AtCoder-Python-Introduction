@@ -1,3 +1,7 @@
-D = input()
-d = ["N", "NE", "E", "SE", "S", "SW", "W", "NW"]
-print(d[d.index(D)-4])
+N = int(input())
+H = list(map(int, input().split()))
+bridge = 0
+for h in H:
+    if h > bridge:
+        bridge = h
+print(H.index(bridge)+1)

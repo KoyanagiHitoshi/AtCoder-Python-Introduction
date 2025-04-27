@@ -1,5 +1,5 @@
-X, Y = map(int, input().split())
-if -3 <= Y-X <= 2:
+A, B, C = map(int, input().split())
+if A <= C <= B:
     print("Yes")
 else:
     print("No")

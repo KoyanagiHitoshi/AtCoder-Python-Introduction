@@ -1,5 +1,5 @@
-n = int(input())
-if 2 <= n <= 4:
-    print("No")
+A, B, X = map(int, input().split())
+if 0 <= X-A <= B:
+    print("YES")
 else:
-    print("Yes")
+    print("NO")

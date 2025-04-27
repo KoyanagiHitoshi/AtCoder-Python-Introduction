@@ -1,7 +1,3 @@
-N = int(input())
-H = list(map(int, input().split()))
-bridge = 0
-for h in H:
-    if h > bridge:
-        bridge = h
-print(H.index(bridge)+1)
+S = input()
+weather = ["Sunny", "Cloudy", "Rainy"]
+print(weather[(weather.index(S)+1) % 3])

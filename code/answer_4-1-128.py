@@ -1,5 +1,5 @@
-N = int(input())
-if -2**31 <= N < 2**31:
-    print("Yes")
+S = int(input())
+if 200 <= S <= 299:
+    print("Success")
 else:
-    print("No")
+    print("Failure")

@@ -1,7 +1,5 @@
-AB, AC, BC = input().split()
-if (AB == ">" and AC == "<") or (AC == ">" and AB == "<"):
-    print("A")
-elif (AB == "<" and BC == "<") or (BC == ">" and AB == ">"):
-    print("B")
+a, b, c = input()
+if a == c:
+    print("Yes")
 else:
-    print("C")
+    print("No")

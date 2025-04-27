@@ -1,9 +1,7 @@
-a, b = input().split()
-if a == "H" and b == "H":
-    print("H")
-elif a == "H" and b == "D":
-    print("D")
-elif a == "D" and b == "H":
-    print("D")
+AB, AC, BC = input().split()
+if (AB == ">" and AC == "<") or (AC == ">" and AB == "<"):
+    print("A")
+elif (AB == "<" and BC == "<") or (BC == ">" and AB == ">"):
+    print("B")
 else:
-    print("H")
+    print("C")

@@ -1,6 +1,5 @@
-N = int(input())
 S = input()
-if "o" in S and "x" not in S:
+if "ABC001" <= S <= "ABC349" and S != "ABC316":
     print("Yes")
 else:
     print("No")

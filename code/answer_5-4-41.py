@@ -1,3 +1,6 @@
-N = int(input())
-S = [input() for i in range(N)]
-print(*S[::-1], sep="\n")
+N, K = map(int, input().split())
+A = list(map(int, input().split()))
+for i in range(K):
+    A.pop(0)
+    A.append(0)
+print(*A)

@@ -1,5 +1,6 @@
-A = list(map(int, input().split()))
-if A in [[2, 1, 3, 4, 5], [1, 3, 2, 4, 5], [1, 2, 4, 3, 5], [1, 2, 3, 5, 4]]:
+A, B = map(int, input().split())
+X = [[1, 2], [2, 3], [4, 5], [5, 6], [7, 8], [8, 9]]
+if [A, B] in X:
     print("Yes")
 else:
     print("No")

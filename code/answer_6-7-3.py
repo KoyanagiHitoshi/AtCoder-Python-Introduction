@@ -1,5 +1,6 @@
-K = int(input())
-s = ""
-for i in range(K):
-    s += chr(ord("A")+i)
-print(s)
+S = input()
+ans = ""
+for s in S:
+    if ord("A") <= ord(s) <= ord("Z"):
+        ans += s
+print(ans)

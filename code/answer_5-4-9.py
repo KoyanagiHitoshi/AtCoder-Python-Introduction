@@ -1,8 +1,7 @@
 N = int(input())
-H = list(map(int, input().split()))
-for i in range(1, N):
-    if H[0] < H[i]:
-        print(i+1)
-        break
-else:
-    print(-1)
+A = list(map(int, input().split()))
+ans = 0
+for i in range(N):
+    if i % 2 == 0:
+        ans += A[i]
+print(ans)

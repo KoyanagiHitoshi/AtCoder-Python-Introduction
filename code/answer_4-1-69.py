@@ -1,5 +1,5 @@
-N = int(input())
-if N % 2 == 0:
-    print(N)
+A = int(input())
+if 400 % A == 0:
+    print(400//A)
 else:
-    print(N*2)
+    print(-1)

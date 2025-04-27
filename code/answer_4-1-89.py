@@ -1,5 +1,5 @@
-A, B, C = map(int, input().split())
-if (B < C and not B < A < C) or (C < B and C < A < B):
-    print("Yes")
+X, Y, N = map(int, input().split())
+if X < Y/3:
+    print(X*N)
 else:
-    print("No")
+    print(Y*(N//3)+X*(N % 3))

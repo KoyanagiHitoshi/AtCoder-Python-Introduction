@@ -1,8 +1,6 @@
 S = input()
-idx = 1
+ans = ""
 for s in S:
     if s.isupper():
-        break
-    else:
-        idx += 1
-print(idx)
+        ans += s
+print(ans)

@@ -1,6 +1,5 @@
 A, B, C = map(int, input().split())
-mod = B-(B % C)
-if A <= mod:
-    print(mod)
+if (B < C and not B < A < C) or (C < B and C < A < B):
+    print("Yes")
 else:
-    print(-1)
+    print("No")

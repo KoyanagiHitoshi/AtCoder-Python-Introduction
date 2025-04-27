@@ -1,9 +1,8 @@
-N, C = map(int, input().split())
-T = list(map(int, input().split()))
-count = 1
-before = T[0]
-for t in T:
-    if t-before >= C:
-        count += 1
-        before = t
-print(count)
+N = int(input())
+S = [input() for i in range(N)]
+for i in range(N-2):
+    if S[i] == "sweet" and S[i+1] == "sweet":
+        print("No")
+        break
+else:
+    print("Yes")
