@@ -1,5 +1,5 @@
-A, B, C = map(int, input().split())
-if A <= C <= B:
-    print("Yes")
+S = int(input())
+if 200 <= S <= 299:
+    print("Success")
 else:
-    print("No")
+    print("Failure")

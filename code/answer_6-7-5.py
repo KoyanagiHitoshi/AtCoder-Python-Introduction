@@ -1,2 +1,5 @@
-N, X = map(int, input().split())
-print(chr(ord("A")+(X-1)//N))
+S = input()
+for i in range(26):
+    if chr(i+ord("a")) not in S:
+        print(chr(i+ord("a")))
+        break

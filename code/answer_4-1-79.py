@@ -1,5 +1,5 @@
-N = int(input())
-if N % 2 == 0:
-    print(0.5)
+N, K = map(int, input().split())
+if N % K == 0:
+    print(0)
 else:
-    print(((N//2)+1)/N)
+    print(1)

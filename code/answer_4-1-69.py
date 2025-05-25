@@ -1,5 +1,5 @@
-A = int(input())
-if 400 % A == 0:
-    print(400//A)
+a, b = map(int, input().split())
+if a*b % 2 == 0:
+    print("Even")
 else:
-    print(-1)
+    print("Odd")

@@ -1,2 +1,2 @@
-R = int(input())
-print(100-(R % 100))
+X = int(input())
+print(100-(X % 100))
