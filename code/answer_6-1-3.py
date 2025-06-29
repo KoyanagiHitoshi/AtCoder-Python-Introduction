@@ -1,2 +1,2 @@
-N = input()
-print("0"*(4-len(N))+N)
+S = input()
+print(S[len(S)//2])

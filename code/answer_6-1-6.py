@@ -1,5 +1,5 @@
-S = input()
-if len(set(S)) == 3:
-    print("Yes")
+C = input()
+if len(set(C)) == 1:
+    print("Won")
 else:
-    print("No")
+    print("Lost")

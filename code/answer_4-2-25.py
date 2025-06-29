@@ -1,10 +1,7 @@
-N, M = map(int, input().split())
-H = list(map(int, input().split()))
-count = 0
+N = int(input())
+ans = 0
 for i in range(N):
-    M -= H[i]
-    if M < 0:
-        break
-    else:
-        count += 1
-print(count)
+    A, B = map(int, input().split())
+    if A < B:
+        ans += 1
+print(ans)

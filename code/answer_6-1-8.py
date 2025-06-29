@@ -1,8 +1,5 @@
 S = input()
-kind = len(set(S))
-if kind == 1:
-    print(1)
-elif kind == 2:
-    print(3)
+if len(set(S)) != 1:
+    print("Yes")
 else:
-    print(6)
+    print("No")

@@ -1,9 +1,7 @@
-N = int(input())
-W = input().split()
-S = {"and", "not", "that", "the", "you"}
-for w in W:
-    if w in S:
-        print("Yes")
+A, B, C = map(int, input().split())
+for i in range(A, B+1):
+    if i % C == 0:
+        print(i)
         break
 else:
-    print("No")
+    print(-1)

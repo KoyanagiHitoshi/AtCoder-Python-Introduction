@@ -1,5 +1,5 @@
-C = input()
-if len(set(C)) == 1:
-    print("Won")
+N = input()
+if len(set(N)) == 1:
+    print("SAME")
 else:
-    print("Lost")
+    print("DIFFERENT")

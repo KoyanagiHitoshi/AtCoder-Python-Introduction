@@ -1,8 +1,7 @@
+N, D = map(int, input().split())
 S = input()
-count = 0
+a = 0
 for s in S:
-    if s == "v":
-        count += 1
-    if s == "w":
-        count += 2
-print(count)
+    if s == "@":
+        a += 1
+print(N-a+D)

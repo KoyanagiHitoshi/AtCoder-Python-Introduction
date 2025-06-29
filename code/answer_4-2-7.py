@@ -1,5 +1,8 @@
-N = int(input())
-A = list(map(int, input().split()))
-for a in A:
-    if a % 2 == 0:
-        print(a, end=" ")
+N, A, B = map(int, input().split())
+C = list(map(int, input().split()))
+idx = 1
+for c in C:
+    if A+B == c:
+        print(idx)
+    else:
+        idx += 1

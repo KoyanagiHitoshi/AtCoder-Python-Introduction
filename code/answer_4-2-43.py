@@ -1,6 +1,9 @@
-N, M, P = map(int, input().split())
-count = 0
-while M <= N:
-    count += 1
-    M += P
-print(count)
+N = int(input())
+T = input()
+A = input()
+for i in range(N):
+    if T[i] == A[i] == "o":
+        print("Yes")
+        break
+else:
+    print("No")

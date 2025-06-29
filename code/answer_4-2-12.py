@@ -1,4 +1,8 @@
-N = int(input())
-for i in range(N):
-    A, B = map(int, input().split())
-    print(A+B)
+S = input()
+count = 0
+for s in S:
+    if s == "v":
+        count += 1
+    if s == "w":
+        count += 2
+print(count)

@@ -1,5 +1,5 @@
-N, K = map(int, input().split())
+N = int(input())
 A = list(map(int, input().split()))
 for a in A:
-    if a % K == 0:
-        print(a//K, end=" ")
+    if a % 2 == 0:
+        print(a, end=" ")

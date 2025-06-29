@@ -1,5 +1,2 @@
 N = input()
-if len(set(N)) == 1:
-    print("SAME")
-else:
-    print("DIFFERENT")
+print("0"*(4-len(N))+N)

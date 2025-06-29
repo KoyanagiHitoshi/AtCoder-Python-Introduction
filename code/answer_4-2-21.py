@@ -1,5 +1,12 @@
-N, A, B = map(int, input().split())
-C = list(map(int, input().split()))
+N = int(input())
+takahashi, aoki = 0, 0
 for i in range(N):
-    if A+B == C[i]:
-        print(i+1)
+    X, Y = map(int, input().split())
+    takahashi += X
+    aoki += Y
+if takahashi > aoki:
+    print("Takahashi")
+elif takahashi < aoki:
+    print("Aoki")
+else:
+    print("Draw")

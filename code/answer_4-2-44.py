@@ -1,7 +1,10 @@
-H = int(input())
-now = 0
-day = 0
-while now <= H:
-    now += 2**day
-    day += 1
-print(day)
+N, S = map(int, input().split())
+T = list(map(int, input().split()))
+p = 0
+for t in T:
+    if t-p > S:
+        print("No")
+        break
+    p = t
+else:
+    print("Yes")
